@@ -3,9 +3,9 @@
   "repository": "git@github.com:AviVahl/monorepo-test.git",
   "workspaces": [],
   "scripts": {
-    "clean": "lerna run clean",
-    "build": "lerna run build",
-    "test": "lerna run test"
+    "clean": "lerna run clean --stream",
+    "build": "lerna run build --stream",
+    "test": "lerna run test --stream"
   },
   "devDependencies": {
     "@types/chai": "^4.1.3",
