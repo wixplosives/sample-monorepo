@@ -7,7 +7,7 @@
   "scripts": {
     "clean": "lerna run clean --stream",
     "build": "lerna run build --stream",
-    "test": "lerna run test --stream"
+    "test": "lerna run test --stream -- --colors"
   },
   "devDependencies": {
     "@types/chai": "^4.1.3",
