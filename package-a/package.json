@@ -1,0 +1,21 @@
+{
+  "name": "package-a",
+  "version": "1.0.0",
+  "main": "cjs/index.js",
+  "module": "esm/index.js",
+  "types": "esm/index.d.ts",
+  "scripts": {
+    "clean": "rimraf ./cjs ./esm",
+    "prebuild": "run-p clean",
+    "build": "run-p build:cjs build:esm",
+    "build:cjs": "tsc --project src --outDir cjs --module commonjs",
+    "build:esm": "tsc --project src --outDir esm --module esnext",
+    "test": "mocha -r ts-node/register/type-check \"test/**/*.spec.ts\""
+  },
+  "files": [
+    "cjs",
+    "esm"
+  ],
+  "license": "MIT",
+  "private": true
+}

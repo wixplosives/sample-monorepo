@@ -1,7 +1,9 @@
 {
   "name": "monorepo-test",
   "repository": "git@github.com:AviVahl/monorepo-test.git",
-  "workspaces": [],
+  "workspaces": [
+    "package-a"
+  ],
   "scripts": {
     "clean": "lerna run clean --stream",
     "build": "lerna run build --stream",
