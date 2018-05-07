@@ -2,6 +2,11 @@
   "name": "monorepo-test",
   "repository": "git@github.com:AviVahl/monorepo-test.git",
   "workspaces": [],
+  "scripts": {
+    "clean": "lerna run clean",
+    "build": "lerna run build",
+    "test": "lerna run test"
+  },
   "devDependencies": {
     "@types/chai": "^4.1.3",
     "@types/mocha": "^5.2.0",
