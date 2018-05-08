@@ -31,3 +31,4 @@ Monorepo root has:
 
 Each package has:
   - `src` and `test` folders
+  - TODO
