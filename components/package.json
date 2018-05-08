@@ -9,7 +9,7 @@
     "build": "run-p build:cjs build:esm",
     "build:cjs": "tsc --project src --outDir cjs --module commonjs",
     "build:esm": "tsc --project src --outDir esm --module esnext",
-    "test": "#mocha -r ts-node/register \"test/**/*.spec.ts\""
+    "test": "mocha -r ts-node/register \"test/**/*.spec.ts\""
   },
   "dependencies": {
     "react": "^16.3.2"
