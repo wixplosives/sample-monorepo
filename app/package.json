@@ -1,0 +1,24 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "main": "cjs/index.js",
+  "types": "cjs/index.d.ts",
+  "scripts": {
+    "clean": "rimraf ./cjs ./dist",
+    "build": "run-p build:cjs bundle",
+    "build:cjs": "tsc --project src --outDir cjs --module commonjs",
+    "bundle": "webpack --config webpack.config.js --mode production",
+    "test": "mocha -r ts-node/register/type-check \"test/**/*.spec.ts\""
+  },
+  "dependencies": {
+    "components": "*",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2"
+  },
+  "files": [
+    "cjs",
+    "dist"
+  ],
+  "license": "MIT",
+  "private": true
+}
