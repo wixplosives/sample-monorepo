@@ -1,6 +1,6 @@
 {
   "name": "monorepo-test",
-  "repository": "git@github.com:AviVahl/monorepo-test.git",
+  "repository": "git@github.com:wixplosives/monorepo-test.git",
   "workspaces": [
     "app",
     "components",
