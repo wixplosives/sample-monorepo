@@ -7,7 +7,7 @@
     "clean": "rimraf ./cjs ",
     "build": "run-p build:cjs",
     "build:cjs": "tsc --project src --outDir cjs --module commonjs",
-    "test": "mocha -r ts-node/register/type-check \"test/**/*.spec.ts\""
+    "test": "# mocha -r ts-node/register/type-check \"test/**/*.spec.ts\""
   },
   "dependencies": {
     "app": "*",
