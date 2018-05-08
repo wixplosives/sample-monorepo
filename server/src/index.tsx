@@ -11,6 +11,7 @@ const appRootDirectory = dirname(require.resolve('app/package.json'))
 const appDistDirectory = join(appRootDirectory, 'dist')
 
 app.use(express.static(appDistDirectory))
+
 app.get('/server', (_req, res) => {
   res.send(`
 <!DOCTYPE html>
