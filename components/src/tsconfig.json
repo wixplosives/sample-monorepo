@@ -4,6 +4,11 @@
     "lib": [
       "es2017",
       "dom"
+    ],
+    "jsx": "react",
+    "types": [
+      "react",
+      "react-dom"
     ]
   }
 }
