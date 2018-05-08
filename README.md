@@ -1,5 +1,5 @@
 # monorepo-test
-[![Build Status](https://travis-ci.com/AviVahl/monorepo-test.svg?branch=master)](https://travis-ci.com/AviVahl/monorepo-test)
+[![Build Status](https://travis-ci.com/wixplosives/monorepo-test.svg?branch=master)](https://travis-ci.com/wixplosives/monorepo-test)
 
 Test monorepo setups with Travis
 
