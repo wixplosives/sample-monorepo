@@ -1,0 +1,26 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "cjs/index.js",
+  "types": "cjs/index.d.ts",
+  "scripts": {
+    "clean": "rimraf ./cjs ",
+    "build": "run-p build:cjs",
+    "build:cjs": "tsc --project src --outDir cjs --module commonjs",
+    "test": "mocha -r ts-node/register/type-check \"test/**/*.spec.ts\""
+  },
+  "dependencies": {
+    "app": "*",
+    "compression": "^1.7.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2"
+  },
+  "files": [
+    "cjs",
+    "dist"
+  ],
+  "license": "MIT",
+  "private": true
+}
