@@ -12,7 +12,6 @@
   "dependencies": {
     "app": "*",
     "compression": "^1.7.2",
-    "cors": "^2.8.4",
     "express": "^4.16.3",
     "react": "^16.3.2",
     "react-dom": "^16.3.2"
