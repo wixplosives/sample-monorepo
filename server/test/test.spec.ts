@@ -1,6 +1,6 @@
 import { expect } from 'chai'
 
-describe('package-b', () => {
+describe('server', () => {
     it('works', () => {
         expect(true).to.equals(true)
     })
