@@ -1,12 +1,14 @@
-import * as React from 'react';
-import { App } from 'app';
-import * as ReactDOMServer from 'react-dom/server';
-import express = require('express');
-import compression from 'compression';
-import { dirname, join } from 'path';
+/* tslint:disable:no-console */
 
-const app = express();
-const port = 3000;
+import * as React from 'react'
+import { App } from 'app'
+import * as ReactDOMServer from 'react-dom/server'
+import express = require('express')
+import compression from 'compression'
+import { dirname, join } from 'path'
+
+const app = express()
+const port = 3000
 
 const appRootDirectory = dirname(require.resolve('app/package.json'))
 const appDistDirectory = join(appRootDirectory, 'dist')
@@ -34,8 +36,8 @@ app.get('/server', (_req, res) => {
 
 app.listen(port, (err: Error) => {
   if (err) {
-    console.log(err);
+    console.log(err)
   }
 
   console.log(`Listening to port ${port}`)
-});
+})

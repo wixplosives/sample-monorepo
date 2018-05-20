@@ -1,7 +1,7 @@
 import * as React from 'react'
 
-export interface MainProps {
+export interface IMainProps {
     text: string
 }
 
-export const Main: React.SFC<MainProps> = ({text}) => <main>{text}</main>
+export const Main: React.SFC<IMainProps> = ({text}) => <main>{text}</main>
