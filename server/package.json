@@ -4,7 +4,7 @@
   "main": "cjs/index.js",
   "types": "cjs/index.d.ts",
   "scripts": {
-    "clean": "rimraf ./cjs ",
+    "clean": "rimraf ./cjs",
     "build": "tsc --project src --outDir cjs --module commonjs",
     "lint": "run-p lint:src lint:test",
     "lint:src": "tslint --project src",
