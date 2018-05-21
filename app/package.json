@@ -11,7 +11,7 @@
     "lint": "run-p lint:src lint:test",
     "lint:src": "tslint --project src",
     "lint:test": "tslint --project test",
-    "test": "# mocha -r ts-node/register/type-check \"test/**/*.spec.ts\""
+    "test": "mocha -r ts-node/register \"test/**/*.spec.ts\""
   },
   "dependencies": {
     "components": "*",
