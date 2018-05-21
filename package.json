@@ -9,6 +9,8 @@
   "scripts": {
     "clean": "lerna run clean --stream",
     "build": "lerna run build --stream",
+    "pretest": "run-s lint",
+    "lint": "lerna run lint --stream",
     "test": "lerna run test --stream -- --colors",
     "start": "node server"
   },

@@ -8,6 +8,9 @@
     "build": "run-p build:cjs bundle",
     "build:cjs": "tsc --project src --outDir cjs --module commonjs",
     "bundle": "webpack --config webpack.config.js --mode production",
+    "lint": "run-p lint:src lint:test",
+    "lint:src": "tslint --project src",
+    "lint:test": "tslint --project test",
     "test": "# mocha -r ts-node/register/type-check \"test/**/*.spec.ts\""
   },
   "dependencies": {
