@@ -21,7 +21,8 @@
             true,
             "allow-leading-underscore",
             "allow-pascal-case"
-        ]
+        ],
+        "object-literal-sort-keys": false
     },
     "rulesDirectory": []
 }
