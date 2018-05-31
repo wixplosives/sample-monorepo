@@ -16,5 +16,5 @@ cache:
 # We install 1.6.0 to be able to run bins from root node_modules
 # in child projects (without having to specify them as dev deps in each project)
 before_install:
-  - curl -o- -L https://yarnpkg.com/install.sh | bash -s -- --version 1.6.0
+  - curl -o- -L https://yarnpkg.com/install.sh | bash -s -- --version 1.7.0
   - export PATH=$HOME/.yarn/bin:$PATH
