@@ -18,7 +18,7 @@ Sample monorepo setup with yarn workspaces, typescript, and lerna
   - `lerna updated` shows changed packages.
   - Easier multi-pacakge publishing, using `lerna publish`.
 
-- Source and tests are written in strict [TypeScript](https://github.com/Microsoft/TypeScript).
+- Sources and tests are written in strict [TypeScript](https://github.com/Microsoft/TypeScript).
   - We use a single, common, `tsconfig.base.json`, from which all other `tsconfig.json` files inherit (using `"extends"`).
   - Each project has two folders, `src` and `test`, each with their own `tsconfig.json`. This allows us to define which `@types` packages are accessible on a per-folder basis (`src` should not have access to `test` globals).
   - We use [node-typescript-support](https://github.com/AviVahl/node-typescript-support) to run tests directly from sources.
@@ -29,20 +29,20 @@ Sample monorepo setup with yarn workspaces, typescript, and lerna
 
 ### Included sample packages
 
-- **app**
-  - Sample [react](https://github.com/facebook/react) application.
-  - Uses the `components` package (also inside monorepo).
-  - Build as `cjs` (Node consumption) and `umd` (browser consumption).
+- **components**
+  - [React](https://github.com/facebook/react) components library.
+  - Built as `cjs` (Node consumption) and `esm` (bundler consumption).
 
-- **component**
-  - Sample [react](https://github.com/facebook/react) components library.
-  - Build as `cjs` (Node consumption) and `esm` (bundler consumption).
+- **app**
+  - [React](https://github.com/facebook/react) application.
+  - Uses the `components` package (also inside monorepo).
+  - Built as `cjs` (Node consumption) and `umd` (browser consumption).
 
 - **server**
-  - Sample [express](https://github.com/expressjs/express) node application.
-  - Listens on http://localhost:3000 (client only render) http://localhost:3000/server (SSR rendering).
+  - [Express](https://github.com/expressjs/express) application.
   - Uses the `app` package (also inside monorepo).
-  - Build as `cjs` (Node consumption).
+  - Listens on http://localhost:3000 (client only rendering) http://localhost:3000/server (SSR rendering).
+  - Built as `cjs` (Node consumption).
 
 ### Basic structure and configurations
 ```
