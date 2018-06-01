@@ -1,22 +1,23 @@
-# monorepo-test
-[![Build Status](https://travis-ci.com/wixplosives/monorepo-test.svg?branch=master)](https://travis-ci.com/wixplosives/monorepo-test)
+# sample-monorepo
+[![Build Status](https://travis-ci.com/wixplosives/sample-monorepo.svg?branch=master)](https://travis-ci.com/wixplosives/sample-monorepo)
 
-Test monorepo setups with Travis
+Sample monorepo setup with yarn workspaces, typescript, and lerna
 
 ## Current setup explained
 
 Tooling used:
-  - workspace management: lerna
-  - building: typescript, node-typescript-support
-  - testing: mocha, chai
-  - running scripts: npm-run-all.
-  - cleaning: rimraf
-  - bundling: webpack, webpack-cli, webpack-dev-server, html-webpack-plugin, ts-loader
+  - monorepo linked setup: `yarn` workspace
+  - script running and publishing: `lerna`
+  - building: `typescript`, `node-typescript-support`
+  - testing: `mocha`, `chai`
+  - running scripts: `npm-run-all`
+  - cleaning: `rimraf`
+  - bundling: `webpack`, `webpack-cli`, `webpack-dev-server`, `html-webpack-plugin`, `ts-loader`
 
 This monorepo has 3 packages:
-  - `app` - Sample react app.
-  - `components` - Sample react components library.
-  - `server` - Sample react ssr express app.
+  - `app` - Sample react app
+  - `components` - Sample react components library
+  - `server` - Sample react ssr express app
 
 `components` is imported by `app`, while `app` iteself is imported by `server`.
 
