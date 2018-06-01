@@ -11,10 +11,10 @@ const app = express()
 const port = 3000
 
 const appRootDirectory = dirname(require.resolve('app/package.json'))
-const appDistDirectory = join(appRootDirectory, 'dist')
+const appBundleDirectory = join(appRootDirectory, 'umd')
 
 app.use(compression())
-app.use(express.static(appDistDirectory))
+app.use(express.static(appBundleDirectory))
 
 app.get('/server', (_req, res) => {
   res.send(`

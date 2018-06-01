@@ -1,6 +1,11 @@
+const {join} = require('path')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 
 exports.entry = './src/client-bootstrap'
+
+exports.output = {
+    path: join(__dirname, 'umd')
+}
 
 exports.module = {
     rules: [
