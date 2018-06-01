@@ -55,14 +55,14 @@ packages
       test.spec.ts
       tsconfig.json
 
-    README.md         // shown in `npmjs.com`. included in npm artifact.
-    LICENSE           // package-specific license. included in npm artifact.
+    README.md         // shown in npmjs.com. included in npm artifact.
+    LICENSE           // package-specific license. included in npm artifact
 
 README.md             // workspace-wide information. shown in GitHub
 tsconfig.base.json    // common typescript configuration
-LICENSE               // root license file. picked by Github.
-package.json          // defs for common dev deps and workspace scripts
-yarn.lock             // the only lock file in the repo. all packages combined.
+LICENSE               // root license file. picked up by Github
+package.json          // common dev deps and workspace-wide scripts
+yarn.lock             // the only lock file in the repo. all packages combined
 tslint.json           // monorepo wide linting configuration
 lerna.json            // lerna configuration
 .travis.yml           // Travis configuration
