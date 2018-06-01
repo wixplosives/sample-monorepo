@@ -15,6 +15,7 @@ exports.module = {
             options: {
                 compilerOptions: {
                     declaration: false,
+                    declarationMap: false,
                     module: 'esnext'
                 }
             }
