@@ -3,33 +3,68 @@
 
 Sample monorepo setup with yarn workspaces, typescript, and lerna
 
-## Current setup explained
+## Setup explained
 
-Tooling used:
-  - monorepo linked setup: `yarn` workspace
-  - script running and publishing: `lerna`
-  - building: `typescript`, `node-typescript-support`
-  - testing: `mocha`, `chai`
-  - running scripts: `npm-run-all`
-  - cleaning: `rimraf`
-  - bundling: `webpack`, `webpack-cli`, `webpack-dev-server`, `html-webpack-plugin`, `ts-loader`
+### Tooling
 
-This monorepo has 3 packages:
-  - `app` - Sample react app
-  - `components` - Sample react components library
-  - `server` - Sample react ssr express app
+- Monorepo is installed using [yarn](https://github.com/yarnpkg/yarn).
+  - Packages are automatically linked together, meaning you can do cross-package work within the repo.
+  - devDependencies are common, and only appear in the root `package.json`.
+  - Each package has its own `scripts` and `dependecies`. They are being installed in the root `node_modules`, using the same deduping mechanism `yarn` uses for single packages.
+  - Adding new packages is as simple as dropping an existing package in the `packages` folder.
 
-`components` is imported by `app`, while `app` iteself is imported by `server`.
+- Monorepo scripts are being executed using `lerna`.
+  - Automatically ensures order when using `lerna run [script]`, meaning that if `package-a` depends on `package-b`, it will run `package-b`'s scripts first.
+  - `lerna updated` shows changed packages.
+  - Easier multi-pacakge publishing, using `lerna publish`.
 
-Monorepo root has:
-  - `README.md`
-  - `LICENSE`
-  - `package.json` - defs for common dev deps and workspace projects
-  - `yarn.lock` - the only one in the repo
-  - `lerna.json` - lerna configuration
-  - `.travis.yml` - Travis configuration
-  - `.gitignore` - GitHub's default Node gitignore with customizations
+- Source and tests are written in strict [TypeScript](https://github.com/Microsoft/TypeScript).
+  - We use a single, common, `tsconfig.base.json`, from which all other `tsconfig.json` files inherit (using `"extends"`).
+  - Each project has two folders, `src` and `test`, each with their own `tsconfig.json`. This allows us to define which `@types` packages are accessible on a per-folder basis (`src` should not have access to `test` globals).
+  - We use [node-typescript-support](https://github.com/AviVahl/node-typescript-support) to run tests directly from sources.
 
-Each package has:
-  - `src` and `test` folders
-  - TODO
+- Testing is done using [mocha](https://github.com/mochajs/mocha) and [chai](https://github.com/chaijs/chai).
+  - Light, battle-tested, projects with few dependencies.
+  - Can be bundled and used in the browser.
+
+### Included sample packages
+
+- `app`
+  - Sample `react` app.
+  - Uses the `components` package (also inside monorepo).
+  - Build as `cjs` (Node consumption) and `umd` (browser consumption).
+
+- `components`
+  - Sample `react` components library.
+  - Build as `cjs` (Node consumption) and `esm` (bundler consumption).
+
+- `server`
+  - Sample express app.
+  - Listens on `http://localhost:3000` (client only render) `http://localhost:3000/server` (SSR rendering).
+  - Uses the `app` package (also inside monorepo).
+  - Build as `cjs` (Node consumption).
+
+### Basic structure and configurations
+```
+packages
+  some-package
+    src
+      index.ts
+      tsconfig.json
+    test
+      test.spec.ts
+      tsconfig.json
+
+    README.md         // shown in `npmjs.com`. included in npm artifact.
+    LICENSE           // package-specific license. included in npm artifact.
+
+README.md             // workspace-wide information. shown in GitHub
+tsconfig.base.json    // common typescript configuration
+LICENSE               // root license file. picked by Github.
+package.json          // defs for common dev deps and workspace scripts
+yarn.lock             // the only lock file in the repo. all packages combined.
+tslint.json           // monorepo wide linting configuration
+lerna.json            // lerna configuration
+.travis.yml           // Travis configuration
+.gitignore            // GitHub's default Node gitignore with customizations
+```
