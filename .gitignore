@@ -2,6 +2,7 @@
 dist
 cjs
 esm
+umd
 
 # IDEs
 .vscode
