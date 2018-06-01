@@ -10,7 +10,7 @@
     "clean": "lerna run clean --stream",
     "build": "lerna run build --stream",
     "lint": "lerna run lint --stream",
-    "pretest": "yarn lint",
+    "pretest": "run-p lint build",
     "test": "lerna run test --stream -- --colors",
     "start": "node server"
   },
