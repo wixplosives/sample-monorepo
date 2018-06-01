@@ -1,7 +1,7 @@
 # sample-monorepo
 [![Build Status](https://travis-ci.com/wixplosives/sample-monorepo.svg?branch=master)](https://travis-ci.com/wixplosives/sample-monorepo)
 
-Sample monorepo setup with yarn workspaces, typescript, and lerna
+Sample monorepo setup with yarn workspaces, typescript, and lerna.
 
 ## Setup explained
 
@@ -13,7 +13,7 @@ Sample monorepo setup with yarn workspaces, typescript, and lerna
   - Each package has its own `scripts` and `dependecies`. They are being installed in the root `node_modules`, using the same deduping mechanism `yarn` uses for single packages.
   - Adding new packages is as simple as dropping an existing package in the `packages` folder.
 
-- Monorepo scripts are being executed using `lerna`.
+- Monorepo scripts are being executed using [lerna](https://github.com/lerna/lerna).
   - Automatically ensures order when using `lerna run [script]`, meaning that if `package-a` depends on `package-b`, it will run `package-b`'s scripts first.
   - `lerna updated` shows changed packages.
   - Easier multi-pacakge publishing, using `lerna publish`.
