@@ -1,14 +1,14 @@
 {
-  "extends": "../../tsconfig.base.json",
+  "extends": "../../../tsconfig.base.json",
   "compilerOptions": {
     "lib": [
       "es2017",
       "dom"
     ],
+    "jsx": "react",
     "types": [
       "react",
       "react-dom"
-    ],
-    "jsx": "react"
+    ]
   }
 }
