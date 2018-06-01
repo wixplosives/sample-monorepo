@@ -7,7 +7,7 @@ Test monorepo setups with Travis
 
 Tooling used:
   - workspace management: lerna
-  - building: typescript, ts-node
+  - building: typescript, node-typescript-support
   - testing: mocha, chai
   - running scripts: npm-run-all.
   - cleaning: rimraf
