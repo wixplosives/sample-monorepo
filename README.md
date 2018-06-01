@@ -40,7 +40,7 @@ Sample monorepo setup with yarn workspaces, typescript, and lerna
 
 - `server`
   - Sample express app.
-  - Listens on `http://localhost:3000` (client only render) `http://localhost:3000/server` (SSR rendering).
+  - Listens on http://localhost:3000 (client only render) http://localhost:3000/server (SSR rendering).
   - Uses the `app` package (also inside monorepo).
   - Build as `cjs` (Node consumption).
 
