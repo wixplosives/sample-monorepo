@@ -11,7 +11,7 @@ Sample monorepo setup with yarn workspaces, typescript, and lerna.
   - Packages are automatically linked together, meaning you can do cross-package work within the repo.
   - devDependencies are common, and only appear in the root `package.json`.
   - Each package has its own `scripts` and `dependecies`. They are being installed in the root `node_modules`, using the same deduping mechanism `yarn` uses for single packages.
-  - Adding new packages is as simple as dropping an existing package in the `packages` folder.
+  - Adding new packages is as simple as dropping an existing package in the `packages` folder, and re-running `yarn`.
 
 - Monorepo scripts are being executed using [lerna](https://github.com/lerna/lerna).
   - Automatically ensures order when using `lerna run [script]`, meaning that if `package-a` depends on `package-b`, it will run `package-b`'s scripts first.
