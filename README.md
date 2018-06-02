@@ -46,14 +46,14 @@ Sample monorepo setup with yarn workspaces, typescript, and lerna.
 
 ### Basic structure and configurations
 ```
-packages
-  some-package
-    src
+packages/
+  some-package/
+    src/
       index.ts
-      tsconfig.json
-    test
+      tsconfig.json   // extends tsconfig.base.json
+    test/
       test.spec.ts
-      tsconfig.json
+      tsconfig.json   // extends tsconfig.base.json
 
     LICENSE           // package-specific license. included in npm artifact
     package.json      // package-specific deps and scripts
