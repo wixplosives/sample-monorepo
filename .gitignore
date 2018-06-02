@@ -5,7 +5,6 @@ esm
 umd
 
 # IDEs
-.vscode
 .idea
 
 # Below is a copy of https://github.com/github/gitignore/blob/master/Node.gitignore
