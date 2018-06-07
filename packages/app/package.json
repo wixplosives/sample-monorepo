@@ -23,7 +23,7 @@
   },
   "files": [
     "cjs",
-    "dist"
+    "umd"
   ],
   "license": "MIT",
   "private": true
