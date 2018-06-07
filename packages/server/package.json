@@ -21,8 +21,7 @@
     "react-dom": "^16.4.0"
   },
   "files": [
-    "cjs",
-    "dist"
+    "cjs"
   ],
   "license": "MIT",
   "private": true
