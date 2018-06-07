@@ -1,5 +1,4 @@
 {
-    "typescript.tsdk": "node_modules/typescript/lib",
     "files.associations": {
         "tsconfig.*.json": "jsonc"
     }
