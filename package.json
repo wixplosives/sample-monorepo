@@ -7,7 +7,7 @@
   "scripts": {
     "clean": "lerna run clean --stream",
     "build": "lerna run build --stream",
-    "lint": "lerna run lint --stream",
+    "lint": "lerna run lint --stream --parallel",
     "pretest": "run-p lint build",
     "test": "lerna run test --stream -- --colors",
     "start": "node -r server"
