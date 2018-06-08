@@ -9,7 +9,7 @@
     "build": "lerna run build --stream",
     "lint": "lerna run lint --stream --parallel",
     "pretest": "run-p lint build",
-    "test": "lerna run test --stream -- --colors",
+    "test": "lerna run test --stream --parallel -- --colors",
     "start": "node -r server"
   },
   "devDependencies": {
