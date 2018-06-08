@@ -1,6 +1,5 @@
 {
   "name": "sample-monorepo",
-  "repository": "git@github.com:wixplosives/sample-monorepo.git",
   "workspaces": [
     "packages/*"
   ],
