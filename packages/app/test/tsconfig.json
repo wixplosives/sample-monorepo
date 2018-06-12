@@ -6,10 +6,7 @@
       "dom"
     ],
     "types": [
-      "react",
-      "react-dom",
       "mocha",
-      "chai",
       "node"
     ],
     "jsx": "react"
