@@ -11,14 +11,14 @@
     "lint": "run-p lint:src lint:test",
     "lint:src": "tslint --project src",
     "lint:test": "tslint --project test",
-    "test": "mocha -r node-typescript-support/register \"test/**/*.spec.ts?(x)\" --watch-extensions ts,tsx"
+    "test": "mocha -r typescript-support \"test/**/*.spec.ts?(x)\" --watch-extensions ts,tsx"
   },
   "dependencies": {
     "app": "*",
     "compression": "^1.7.2",
     "express": "^4.16.3",
-    "react": "^16.4.0",
-    "react-dom": "^16.4.0"
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1"
   },
   "files": [
     "cjs"

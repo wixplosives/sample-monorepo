@@ -21,7 +21,7 @@ Sample monorepo setup with yarn workspaces, typescript, and lerna.
 - Sources and tests are written in strict [TypeScript](https://github.com/Microsoft/TypeScript).
   - We use a single, common, `tsconfig.base.json`, from which all other `tsconfig.json` files inherit (using `"extends"`).
   - Each project has two folders, `src` and `test`, each with their own `tsconfig.json`. This allows us to define which `@types` packages are accessible on a per-folder basis (`src` should not have access to `test` globals).
-  - We use [node-typescript-support](https://github.com/AviVahl/node-typescript-support) to run tests directly from sources.
+  - We use [typescript-support](https://github.com/AviVahl/node-typescript-support) to run tests directly from sources.
 
 - Testing is done using [mocha](https://github.com/mochajs/mocha) and [chai](https://github.com/chaijs/chai).
   - Light, battle-tested, projects with few dependencies.
