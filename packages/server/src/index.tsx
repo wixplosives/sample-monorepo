@@ -43,5 +43,7 @@ app.listen(port, (err: Error) => {
     console.log(err)
   }
 
-  console.log(`Listening to port ${port}`)
+  console.log(`Listening on:`)
+  console.log(`  http://localhost:${port}/ - client only rendering`)
+  console.log(`  http://localhost:${port}/server - ssr with hydration`)
 })
