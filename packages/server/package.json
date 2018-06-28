@@ -14,7 +14,7 @@
     "test": "mocha -r typescript-support \"test/**/*.spec.ts?(x)\" --watch-extensions ts,tsx"
   },
   "dependencies": {
-    "app": "*",
+    "app": "^1.0.0",
     "compression": "^1.7.2",
     "express": "^4.16.3",
     "react": "^16.4.1",
