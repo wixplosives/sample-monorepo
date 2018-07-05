@@ -21,7 +21,7 @@ Sample monorepo setup with yarn workspaces, typescript, and lerna.
 - Sources and tests are written in strict [TypeScript](https://github.com/Microsoft/TypeScript).
   - We use a single, common, `tsconfig.base.json`, from which all other `tsconfig.json` files inherit (using `"extends"`).
   - Each project has two folders, `src` and `test`, each with their own `tsconfig.json`. This allows us to define which `@types` packages are accessible on a per-folder basis (`src` should not have access to `test` globals).
-  - We use [typescript-support](https://github.com/AviVahl/node-typescript-support) to run tests directly from sources.
+  - We use [typescript-support](https://github.com/AviVahl/typescript-tools) to run tests directly from sources.
 
 - Testing is done using [mocha](https://github.com/mochajs/mocha) and [chai](https://github.com/chaijs/chai).
   - Light, battle-tested, projects with few dependencies.
@@ -79,7 +79,7 @@ Monorepos simplify this, because `devDependencies` are shared between all packag
 Taking this into account, we use the following dependency structure:
 
 - `devDependencies` are placed in the root `package.json`
-- `dependencies` and `peerDependencies` are placed the `package.json` of the relevant package requiring them, as each package is published seperately
+- `dependencies` and `peerDependencies` are placed in the `package.json` of the relevant package requiring them, as each package is published seperately
 
 New `devDependencies` can be added to the root `package.json` using yarn:
 
