@@ -69,3 +69,28 @@ tsconfig.base.json    // common typescript configuration
 tslint.json           // monorepo wide linting configuration
 yarn.lock             // the only lock file in the repo. all packages combined
 ```
+
+### Dependency management
+
+Traditionally, working with projects in seperate repositories makes it difficult to keep versions of `devDependencies` aligned, as each project can specify `devDependencies`.
+
+Monorepos simplify this, because `devDependencies` are shared between all packages within the monorepo.
+
+Taking this into account, we use the following dependency structure:
+
+- `devDependencies` are placed in the root `package.json`
+- `dependencies` and `peerDependencies` are placed the `package.json` of the relevant package requiring them, as each package is published seperately
+
+New `devDependencies` can be added to the root `package.json` using yarn:
+
+```sh
+yarn add <package name> --dev -W
+```
+
+Some packages depend on sibling packages within the monorepo. For example, in this repo, `app` depends on `components`. This relationship is just a normal dependency, and can be described in the `package.json` of `app` like so:
+
+```json
+  "dependencies": {
+    "components": "<package version>"
+  }
+```
