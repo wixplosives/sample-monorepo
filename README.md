@@ -72,7 +72,7 @@ yarn.lock             // the only lock file in the repo. all packages combined
 
 ### Dependency management
 
-Traditionally, working with projects in seperate repositories makes it difficult to keep versions of `devDependencies` aligned, as each project can specify `devDependencies`.
+Traditionally, working with projects in seperate repositories makes it difficult to keep versions of `devDependencies` aligned, as each project can specify its own `devDependency` versions.
 
 Monorepos simplify this, because `devDependencies` are shared between all packages within the monorepo.
 
