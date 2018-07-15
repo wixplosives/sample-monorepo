@@ -3904,9 +3904,9 @@ node-pre-gyp@^0.10.0:
     semver "^5.3.0"
     tar "^4"
 
-node-typescript-service@^0.4.1:
-  version "0.4.1"
-  resolved "https://registry.yarnpkg.com/node-typescript-service/-/node-typescript-service-0.4.1.tgz#cf91c385fc69d000b93b2ffa69840340a1b4c75a"
+node-typescript-service@^0.4.2:
+  version "0.4.2"
+  resolved "https://registry.yarnpkg.com/node-typescript-service/-/node-typescript-service-0.4.2.tgz#a254437341cc41f17d4afcd38ef447ec82d4e8a6"
 
 "nopt@2 || 3":
   version "3.0.6"
@@ -5512,11 +5512,11 @@ typedarray@^0.0.6:
   version "0.0.6"
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
 
-typescript-support@^0.5.0:
-  version "0.5.0"
-  resolved "https://registry.yarnpkg.com/typescript-support/-/typescript-support-0.5.0.tgz#29ec34cf86452dff0841bcbe3977c18c1a8b6302"
+typescript-support@^0.5.1:
+  version "0.5.1"
+  resolved "https://registry.yarnpkg.com/typescript-support/-/typescript-support-0.5.1.tgz#39da5442de01e36579ec1ac7ab989b619420c5b9"
   dependencies:
-    node-typescript-service "^0.4.1"
+    node-typescript-service "^0.4.2"
     source-map-support "^0.5.6"
 
 typescript@~2.9.2:
