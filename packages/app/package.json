@@ -18,8 +18,8 @@
   },
   "dependencies": {
     "components": "^1.0.0",
-    "react": "^16.4.1",
-    "react-dom": "^16.4.1"
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2"
   },
   "files": [
     "cjs",

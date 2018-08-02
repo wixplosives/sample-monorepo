@@ -16,7 +16,7 @@
     "test": "mocha -r typescript-support \"test/**/*.spec.ts?(x)\" --watch-extensions ts,tsx"
   },
   "dependencies": {
-    "react": "^16.4.1"
+    "react": "^16.4.2"
   },
   "files": [
     "cjs",
