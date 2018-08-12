@@ -23,7 +23,8 @@
   },
   "files": [
     "cjs",
-    "umd"
+    "umd",
+    "src"
   ],
   "license": "MIT",
   "repository": "git@github.com:wixplosives/sample-monorepo.git",

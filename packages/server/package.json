@@ -21,7 +21,8 @@
     "react-dom": "^16.4.2"
   },
   "files": [
-    "cjs"
+    "cjs",
+    "src"
   ],
   "license": "MIT",
   "repository": "git@github.com:wixplosives/sample-monorepo.git",

@@ -20,7 +20,8 @@
   },
   "files": [
     "cjs",
-    "esm"
+    "esm",
+    "src"
   ],
   "license": "MIT",
   "repository": "git@github.com:wixplosives/sample-monorepo.git",
