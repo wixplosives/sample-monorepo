@@ -7,10 +7,10 @@
     "clean": "rimraf ./cjs",
     "prebuild": "yarn clean",
     "build": "yarn build:cjs",
-    "build:cjs": "tsc --project src --outDir cjs --module commonjs",
+    "build:cjs": "tsc -p src --outDir cjs --module commonjs",
     "lint": "run-p lint:src lint:test",
-    "lint:src": "tslint --project src",
-    "lint:test": "tslint --project test",
+    "lint:src": "tslint -p src",
+    "lint:test": "tslint -p test",
     "test": "mocha -r typescript-support \"test/**/*.spec.ts?(x)\" --watch-extensions ts,tsx"
   },
   "dependencies": {
