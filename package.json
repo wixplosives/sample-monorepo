@@ -30,7 +30,7 @@
     "tslint": "^5.11.0",
     "tslint-react": "^3.6.0",
     "typescript": "~3.0.1",
-    "typescript-support": "^0.5.3",
+    "typescript-support": "^0.5.4",
     "webpack": "^4.17.1",
     "webpack-cli": "^3.1.0",
     "webpack-dev-server": "^3.1.5"
