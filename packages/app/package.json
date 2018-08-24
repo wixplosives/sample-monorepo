@@ -5,7 +5,6 @@
   "types": "cjs/index.d.ts",
   "scripts": {
     "clean": "rimraf ./cjs ./umd",
-    "prebuild": "yarn clean",
     "build": "run-p build:cjs build:umd",
     "build:cjs": "tsc -p src --outDir cjs --module commonjs",
     "build:umd": "yarn bundle:prod",
