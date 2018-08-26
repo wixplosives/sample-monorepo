@@ -28,5 +28,5 @@ exports.resolve = {
 }
 
 exports.plugins = [
-    new HtmlWebpackPlugin()
+    new HtmlWebpackPlugin({title: 'Sample Monorepo App'})
 ]
