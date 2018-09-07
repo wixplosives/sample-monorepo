@@ -1,5 +1,5 @@
 language: node_js
-sudo: required # needed for headless chrome's sandbox
+sudo: required # needed for headless chrome (puppeteer)
 
 os:
   - linux
@@ -8,10 +8,6 @@ os:
 node_js:
   - 10 # current
   - 8  # lts
-
-addons:
-  firefox: latest
-  chrome: stable
 
 cache:
   yarn: true
