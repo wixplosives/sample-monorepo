@@ -1,5 +1,6 @@
 # sample-monorepo
 [![Build Status](https://travis-ci.com/wixplosives/sample-monorepo.svg?branch=master)](https://travis-ci.com/wixplosives/sample-monorepo)
+[![Build status](https://ci.appveyor.com/api/projects/status/8io7j2caxjwkwi9g/branch/master?svg=true)](https://ci.appveyor.com/project/AlexShemeshWix/sample-monorepo/branch/master)
 
 Sample monorepo setup with yarn workspaces, typescript, and lerna.
 
