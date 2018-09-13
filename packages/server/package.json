@@ -16,8 +16,8 @@
     "app": "^1.0.0",
     "compression": "^1.7.3",
     "express": "^4.16.3",
-    "react": "^16.5.0",
-    "react-dom": "^16.5.0"
+    "react": "^16.5.1",
+    "react-dom": "^16.5.1"
   },
   "files": [
     "cjs",
