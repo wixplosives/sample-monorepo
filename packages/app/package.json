@@ -1,8 +1,7 @@
 {
   "name": "@sample-monorepo/app",
   "version": "1.0.0",
-  "main": "cjs/index.js",
-  "types": "cjs/index.d.ts",
+  "main": "src/index.ts",
   "scripts": {
     "clean": "rimraf ./cjs ./umd",
     "build": "run-p build:cjs build:umd",

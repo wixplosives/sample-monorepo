@@ -1,9 +1,7 @@
 {
   "name": "@sample-monorepo/components",
   "version": "1.0.0",
-  "main": "cjs/index.js",
-  "module": "esm/index.js",
-  "types": "esm/index.d.ts",
+  "main": "src/index.ts",
   "scripts": {
     "clean": "rimraf ./cjs ./esm",
     "build": "run-p build:cjs build:esm",

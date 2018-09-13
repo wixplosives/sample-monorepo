@@ -6,11 +6,12 @@
   "scripts": {
     "clean": "lerna run clean --stream --parallel",
     "prebuild": "yarn clean",
-    "build": "lerna run build --stream",
+    "build": "lerna run build --stream --parallel",
     "lint": "lerna run lint --stream --parallel",
-    "pretest": "run-p lint build",
+    "pretest": "yarn lint",
     "test": "lerna run test --stream --parallel -- --colors",
-    "start": "node -r @sample-monorepo/server"
+    "prestart": "yarn workspace app build:umd",
+    "start": "node -r typescript-support -r @sample-monorepo/server"
   },
   "devDependencies": {
     "@ts-tools/node": "^0.7.0",
