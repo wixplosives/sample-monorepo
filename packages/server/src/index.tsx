@@ -1,11 +1,11 @@
 /* tslint:disable:no-console */
 
-import * as React from 'react'
-import { App } from 'app'
-import * as ReactDOMServer from 'react-dom/server'
-import express = require('express')
-import compression from 'compression'
 import { dirname, join } from 'path'
+import express from 'express'
+import compression from 'compression'
+import React from 'react'
+import ReactDOMServer from 'react-dom/server'
+import { App } from 'app'
 
 const app = express()
 const port = 3000
