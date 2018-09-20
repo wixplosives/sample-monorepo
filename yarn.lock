@@ -525,6 +525,17 @@
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/@nodelib/fs.stat/-/fs.stat-1.1.2.tgz#54c5a964462be3d4d78af631363c18d6fa91ac26"
 
+"@ts-tools/node@^0.6.1":
+  version "0.6.1"
+  resolved "https://registry.yarnpkg.com/@ts-tools/node/-/node-0.6.1.tgz#7ab9cc9a7c0d7be60a688c51239b2777a72e2a2a"
+  dependencies:
+    "@ts-tools/typescript-service" "^0.5.1"
+    source-map-support "^0.5.9"
+
+"@ts-tools/typescript-service@^0.5.1":
+  version "0.5.1"
+  resolved "https://registry.yarnpkg.com/@ts-tools/typescript-service/-/typescript-service-0.5.1.tgz#5e53736815efa693baf9ebae0bafba6d8d29fe3f"
+
 "@types/body-parser@*":
   version "1.17.0"
   resolved "https://registry.yarnpkg.com/@types/body-parser/-/body-parser-1.17.0.tgz#9f5c9d9bd04bb54be32d5eb9fc0d8c974e6cf58c"
@@ -3966,10 +3977,6 @@ node-pre-gyp@^0.10.0:
     semver "^5.3.0"
     tar "^4"
 
-node-typescript-service@^0.4.5:
-  version "0.4.5"
-  resolved "https://registry.yarnpkg.com/node-typescript-service/-/node-typescript-service-0.4.5.tgz#c0960ac0724fff0d7572339efe72e3b4cfff369a"
-
 "nopt@2 || 3":
   version "3.0.6"
   resolved "https://registry.yarnpkg.com/nopt/-/nopt-3.0.6.tgz#c6465dbf08abcd4db359317f79ac68a646b28ff9"
@@ -5646,13 +5653,6 @@ type-is@~1.6.15, type-is@~1.6.16:
 typedarray@^0.0.6:
   version "0.0.6"
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
-
-typescript-support@^0.5.5:
-  version "0.5.5"
-  resolved "https://registry.yarnpkg.com/typescript-support/-/typescript-support-0.5.5.tgz#0793aa52bca186e3401aca487808e72dd19b038b"
-  dependencies:
-    node-typescript-service "^0.4.5"
-    source-map-support "^0.5.9"
 
 typescript@~3.0.3:
   version "3.0.3"
