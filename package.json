@@ -10,8 +10,7 @@
     "lint": "lerna run lint --stream --parallel",
     "pretest": "yarn lint",
     "test": "lerna run test --stream --parallel -- --colors",
-    "prestart": "yarn workspace app build:umd",
-    "start": "node -r typescript-support -r @sample-monorepo/server"
+    "start": "yarn workspace @sample-monorepo/app start"
   },
   "devDependencies": {
     "@ts-tools/node": "^0.7.0",

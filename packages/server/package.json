@@ -9,7 +9,9 @@
     "lint": "run-p lint:src lint:test",
     "lint:src": "tslint -p src",
     "lint:test": "tslint -p test",
-    "test": "mocha -r @ts-tools/node \"test/**/*.spec.ts?(x)\" --watch-extensions ts,tsx"
+    "test": "mocha -r @ts-tools/node \"test/**/*.spec.ts?(x)\" --watch-extensions ts,tsx",
+    "prestart": "yarn workspace app build:umd",
+    "start": "node -r @ts-tools/node -r server"
   },
   "dependencies": {
     "@sample-monorepo/app": "^1.0.0",
