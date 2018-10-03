@@ -11,14 +11,7 @@ exports.module = {
     rules: [
         {
             test: /\.tsx?$/,
-            loader: 'ts-loader',
-            options: {
-                compilerOptions: {
-                    declaration: false,
-                    declarationMap: false,
-                    module: 'esnext'
-                }
-            }
+            loader: '@ts-tools/webpack-loader'
         }
     ]
 }
