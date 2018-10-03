@@ -1,7 +1,13 @@
 const {join} = require('path')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 
-exports.entry = './src/client-bootstrap'
+// works great. with the default 'eval', imports are not mapped. inline-source-map also works.
+exports.devtool = 'source-map'
+
+// root of the monorepo, so that paths in output will be clickable
+exports.context = join(__dirname, '..', '..')
+
+exports.entry = join(__dirname, 'src', 'client-bootstrap')
 
 exports.output = {
     path: join(__dirname, 'umd')
