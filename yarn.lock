@@ -574,25 +574,25 @@
   resolved "https://registry.yarnpkg.com/@nodelib/fs.stat/-/fs.stat-1.1.2.tgz#54c5a964462be3d4d78af631363c18d6fa91ac26"
   integrity sha512-yprFYuno9FtNsSHVlSWd+nRlmGoAbqbeCwOryP6sC/zoCjhpArcRMYp19EvpSUSizJAlsXEwJv+wcWS9XaXdMw==
 
-"@ts-tools/node@^0.6.3":
-  version "0.6.3"
-  resolved "https://registry.yarnpkg.com/@ts-tools/node/-/node-0.6.3.tgz#401ef1e37f19162597aaa0d577a9b0bf3217dfce"
-  integrity sha512-W+tYRtcAJGvpOtrpku4C7Dc9+DM6Ifjxc66sNS0wyNvGmNluXD6yjaF82D0di0Sh/s8OlzpD5kuHthUsL7vCNQ==
+"@ts-tools/node@^0.6.4":
+  version "0.6.4"
+  resolved "https://registry.yarnpkg.com/@ts-tools/node/-/node-0.6.4.tgz#35d9ec58b068222915b9fd8aa75fff064222693e"
+  integrity sha512-9NWrwZfyLekYVcEc1G+C/b0rxEXQiURFIeIraHjGpKFhvkV6FsGiq1WSMnigM5QT8wwm36mSctN7cS9X5aHCkQ==
   dependencies:
-    "@ts-tools/typescript-service" "^0.6.0"
+    "@ts-tools/typescript-service" "^0.7.0"
     source-map-support "^0.5.9"
 
-"@ts-tools/typescript-service@^0.6.0":
-  version "0.6.0"
-  resolved "https://registry.yarnpkg.com/@ts-tools/typescript-service/-/typescript-service-0.6.0.tgz#bb51dc181f992a8f562315b217439bc46a9df380"
-  integrity sha512-+5ILYZegU/an0weRHxje3k2XwaeVUi/iFc9+o295lDrfSLp9AFy5gYN7RJu88bJgXRwvDJm5OK48E8dVwmjWGg==
+"@ts-tools/typescript-service@^0.7.0":
+  version "0.7.0"
+  resolved "https://registry.yarnpkg.com/@ts-tools/typescript-service/-/typescript-service-0.7.0.tgz#6a369693697d380048285a68999dba5eeae9bc59"
+  integrity sha512-xu0bMnFRA3edNhheZNPsQ0cirtGQlk7ZPjpHYowLEkp66veamvd14dhACnxq+1ktAaDv+6QlWebpbyXjeNZ11w==
 
-"@ts-tools/webpack-loader@^0.2.0":
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/@ts-tools/webpack-loader/-/webpack-loader-0.2.0.tgz#105763bd538bd3606f8034daca9f35f6bd73d149"
-  integrity sha512-K360MSz7hFW4PL/BAH0b9KQcYGMO2J4uk4ZIzV05v7hvVJDUtzZpgYUK0Jd/5wmjkvNVX1NEKeHXzdn1/QgSPg==
+"@ts-tools/webpack-loader@^0.3.0":
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/@ts-tools/webpack-loader/-/webpack-loader-0.3.0.tgz#f69d180902c9f1cb6c4985a89dcf929fb1e4fe75"
+  integrity sha512-0gFfG8B57rK8H8Fhx9sXB6g3ea0W4VXZ0keWItU6OMVm+xIySWj5+0yAnVM8/B8qwsPbRpgXlpBkr/YEq6GA1g==
   dependencies:
-    "@ts-tools/typescript-service" "^0.6.0"
+    "@ts-tools/typescript-service" "^0.7.0"
     loader-utils "^1.1.0"
 
 "@types/body-parser@*":
@@ -2791,9 +2791,9 @@ find-up@^3.0.0:
     locate-path "^3.0.0"
 
 flatmap-stream@^0.1.0:
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/flatmap-stream/-/flatmap-stream-0.1.0.tgz#ed54e01422cd29281800914fcb968d58b685d5f1"
-  integrity sha512-Nlic4ZRYxikqnK5rj3YoxDVKGGtUjcNDUtvQ7XsdGLZmMwdUYnXf10o1zcXtzEZTBgc6GxeRpQxV/Wu3WPIIHA==
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/flatmap-stream/-/flatmap-stream-0.1.1.tgz#d34f39ef3b9aa5a2fc225016bd3adf28ac5ae6ea"
+  integrity sha512-lAq4tLbm3sidmdCN8G3ExaxH7cUCtP5mgDvrYowsx84dcYkJJ4I28N7gkxA6+YlSXzaGLJYIDEi9WGfXzMiXdw==
 
 flush-write-stream@^1.0.0:
   version "1.0.3"
@@ -6022,9 +6022,9 @@ source-map@^0.6.0, source-map@^0.6.1, source-map@~0.6.0, source-map@~0.6.1:
   integrity sha512-UjgapumWlbMhkBgzT7Ykc5YXUT46F0iKu8SGXq0bcwP5dz/h0Plj6enJqjz1Zbq2l5WaqYnrVbwWOWMyF3F47g==
 
 spdx-correct@^3.0.0:
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/spdx-correct/-/spdx-correct-3.0.1.tgz#434434ff9d1726b4d9f4219d1004813d80639e30"
-  integrity sha512-hxSPZbRZvSDuOvADntOElzJpenIR7wXJkuoUcUtS0erbgt2fgeaoPIYretfKpslMhfFDY4k0MZ2F5CUzhBsSvQ==
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/spdx-correct/-/spdx-correct-3.0.2.tgz#19bb409e91b47b1ad54159243f7312a858db3c2e"
+  integrity sha512-q9hedtzyXHr5S0A1vEPoK/7l8NpfkFYTq6iCY+Pno2ZbdZR6WexZFtqeVGkGxW3TEJMN914Z55EnAGMmenlIQQ==
   dependencies:
     spdx-expression-parse "^3.0.0"
     spdx-license-ids "^3.0.0"
