@@ -4,6 +4,7 @@ sudo: required # needed for headless chrome (puppeteer)
 os:
   - linux
   - osx
+  - windows
 
 node_js:
   - 10 # current
