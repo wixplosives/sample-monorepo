@@ -574,25 +574,25 @@
   resolved "https://registry.yarnpkg.com/@nodelib/fs.stat/-/fs.stat-1.1.2.tgz#54c5a964462be3d4d78af631363c18d6fa91ac26"
   integrity sha512-yprFYuno9FtNsSHVlSWd+nRlmGoAbqbeCwOryP6sC/zoCjhpArcRMYp19EvpSUSizJAlsXEwJv+wcWS9XaXdMw==
 
-"@ts-tools/node@^0.6.6":
-  version "0.6.6"
-  resolved "https://registry.yarnpkg.com/@ts-tools/node/-/node-0.6.6.tgz#bb4bf53de659de2dbaebe66d6cd39286c3ae5678"
-  integrity sha512-H7d7JOtroUi+aaQiSdk5M2z2zV6ZQnMY0TOURDUf2wtDRdRABYFWItDbWbniJ2TrbtUXWEMpwKzGIf9it9k1hg==
+"@ts-tools/node@^0.6.7":
+  version "0.6.7"
+  resolved "https://registry.yarnpkg.com/@ts-tools/node/-/node-0.6.7.tgz#a623fb0f2a40b5987505bace5d64aab9044de0a7"
+  integrity sha512-/wY6nTWTl9gMd154bvlNOkZDMLZv93HBn55hELNwDQg4YQRXaX2rjjvpnSQzKoox1ua6d5NofDpajaET/2Wc+g==
   dependencies:
-    "@ts-tools/typescript-service" "^0.8.0"
+    "@ts-tools/typescript-service" "^0.8.1"
     source-map-support "^0.5.9"
 
-"@ts-tools/typescript-service@^0.8.0":
-  version "0.8.0"
-  resolved "https://registry.yarnpkg.com/@ts-tools/typescript-service/-/typescript-service-0.8.0.tgz#7288dcad505988ba544e6f234bfca6044511a3da"
-  integrity sha512-khgWu+rdnzPacVG0QvMbCXaAHBBxuToeA/mbIdWXp5MapbEsCiiZApdMfeb8VmNLmIrOKgnS3w/C4YwbtGQdMQ==
+"@ts-tools/typescript-service@^0.8.1":
+  version "0.8.1"
+  resolved "https://registry.yarnpkg.com/@ts-tools/typescript-service/-/typescript-service-0.8.1.tgz#044093a69c7412af4b68e28b6b5de9eeca49ebe8"
+  integrity sha512-/aKyvqRVqs6Sh7s9bISfiEJ201KgxR9B+wlFn0apXFM22SFQZ9yV4MIwRArkNhGC9FZpFXtfHnd/zZYBH6mBVA==
 
-"@ts-tools/webpack-loader@^0.3.2":
-  version "0.3.2"
-  resolved "https://registry.yarnpkg.com/@ts-tools/webpack-loader/-/webpack-loader-0.3.2.tgz#7955c4c3da371341ea66869244c6980bba3f6b4d"
-  integrity sha512-NGF3Vu0XCf5UEdV9DNXBYCAVv689qCk8GjC6eFBjqiiWf4lfAS8Iu5FEbaFMJhg2L4VZVFO3k6p1RYOwnTcosA==
+"@ts-tools/webpack-loader@^0.3.3":
+  version "0.3.3"
+  resolved "https://registry.yarnpkg.com/@ts-tools/webpack-loader/-/webpack-loader-0.3.3.tgz#3400ad6f306f676837f979f7bce98b4363ad6b71"
+  integrity sha512-MlXIdj9MpojZQFjnGefukxjuNyawhe7hyx11fgkS0CYPrPJv0te9PbXN0cvJ4rPJoq2e06ubammZQQrnFsm1Gg==
   dependencies:
-    "@ts-tools/typescript-service" "^0.8.0"
+    "@ts-tools/typescript-service" "^0.8.1"
     loader-utils "^1.1.0"
 
 "@types/body-parser@*":
