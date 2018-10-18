@@ -574,25 +574,25 @@
   resolved "https://registry.yarnpkg.com/@nodelib/fs.stat/-/fs.stat-1.1.2.tgz#54c5a964462be3d4d78af631363c18d6fa91ac26"
   integrity sha512-yprFYuno9FtNsSHVlSWd+nRlmGoAbqbeCwOryP6sC/zoCjhpArcRMYp19EvpSUSizJAlsXEwJv+wcWS9XaXdMw==
 
-"@ts-tools/node@^0.6.5":
-  version "0.6.5"
-  resolved "https://registry.yarnpkg.com/@ts-tools/node/-/node-0.6.5.tgz#2796a491ba5116f4e8b42cea1b1ece1faa4ac6c5"
-  integrity sha512-ZFNqq/7xZaVs0a+ROFidmbkoZvE7MqbNATQqGET1TVwrHJ/ODQoFafM3USdhQmb7Sf/82ylqgVyNed6jCJIDLA==
+"@ts-tools/node@^0.6.6":
+  version "0.6.6"
+  resolved "https://registry.yarnpkg.com/@ts-tools/node/-/node-0.6.6.tgz#bb4bf53de659de2dbaebe66d6cd39286c3ae5678"
+  integrity sha512-H7d7JOtroUi+aaQiSdk5M2z2zV6ZQnMY0TOURDUf2wtDRdRABYFWItDbWbniJ2TrbtUXWEMpwKzGIf9it9k1hg==
   dependencies:
-    "@ts-tools/typescript-service" "^0.7.1"
+    "@ts-tools/typescript-service" "^0.8.0"
     source-map-support "^0.5.9"
 
-"@ts-tools/typescript-service@^0.7.1":
-  version "0.7.1"
-  resolved "https://registry.yarnpkg.com/@ts-tools/typescript-service/-/typescript-service-0.7.1.tgz#d0d52e62cd5f4697293a1b62c2ef437f78ba270c"
-  integrity sha512-WTePj5zgXrntNMdpdnMFls5Jy+3f2Y7TFAKjShSjz548tMs3ZHZIZLCt8reiax2T3obMQ6ab1ILC/PIsf7PtDA==
+"@ts-tools/typescript-service@^0.8.0":
+  version "0.8.0"
+  resolved "https://registry.yarnpkg.com/@ts-tools/typescript-service/-/typescript-service-0.8.0.tgz#7288dcad505988ba544e6f234bfca6044511a3da"
+  integrity sha512-khgWu+rdnzPacVG0QvMbCXaAHBBxuToeA/mbIdWXp5MapbEsCiiZApdMfeb8VmNLmIrOKgnS3w/C4YwbtGQdMQ==
 
-"@ts-tools/webpack-loader@^0.3.1":
-  version "0.3.1"
-  resolved "https://registry.yarnpkg.com/@ts-tools/webpack-loader/-/webpack-loader-0.3.1.tgz#973f9d00fc9a4aada12b14b42abe7bbce44f79c3"
-  integrity sha512-lI2og6I9m/LGbtJHrnyEOewZbht89SCNZt6G7BVO6MesMhJMWz7HhL9h2eI3/4HZ4Bgqk3M6SAJYkPgdr/vnJA==
+"@ts-tools/webpack-loader@^0.3.2":
+  version "0.3.2"
+  resolved "https://registry.yarnpkg.com/@ts-tools/webpack-loader/-/webpack-loader-0.3.2.tgz#7955c4c3da371341ea66869244c6980bba3f6b4d"
+  integrity sha512-NGF3Vu0XCf5UEdV9DNXBYCAVv689qCk8GjC6eFBjqiiWf4lfAS8Iu5FEbaFMJhg2L4VZVFO3k6p1RYOwnTcosA==
   dependencies:
-    "@ts-tools/typescript-service" "^0.7.1"
+    "@ts-tools/typescript-service" "^0.8.0"
     loader-utils "^1.1.0"
 
 "@types/body-parser@*":
@@ -893,9 +893,9 @@ agent-base@4, agent-base@^4.1.0, agent-base@~4.2.0:
     es6-promisify "^5.0.0"
 
 agentkeepalive@^3.4.1:
-  version "3.5.1"
-  resolved "https://registry.yarnpkg.com/agentkeepalive/-/agentkeepalive-3.5.1.tgz#4eba75cf2ad258fc09efd506cdb8d8c2971d35a4"
-  integrity sha512-Cte/sTY9/XcygXjJ0q58v//SnEQ7ViWExKyJpLJlLqomDbQyMLh6Is4KuWJ/wmxzhiwkGRple7Gqv1zf6Syz5w==
+  version "3.5.2"
+  resolved "https://registry.yarnpkg.com/agentkeepalive/-/agentkeepalive-3.5.2.tgz#a113924dd3fa24a0bc3b78108c450c2abee00f67"
+  integrity sha512-e0L/HNe6qkQ7H19kTlRRqUibEAwDK5AFk6y3PtMsuut2VAH6+Q4xZml1tNDJD7kSAyqmbG/K08K5WEJYtUrSlQ==
   dependencies:
     humanize-ms "^1.2.1"
 
@@ -1398,9 +1398,9 @@ byline@^5.0.0:
   integrity sha1-dBxSFkaOrcRXsDQQEYrXfejB3bE=
 
 byte-size@^4.0.3:
-  version "4.0.3"
-  resolved "https://registry.yarnpkg.com/byte-size/-/byte-size-4.0.3.tgz#b7c095efc68eadf82985fccd9a2df43a74fa2ccd"
-  integrity sha512-JGC3EV2bCzJH/ENSh3afyJrH4vwxbHTuO5ljLoI5+2iJOcEpMgP8T782jH9b5qGxf2mSUIp1lfGnfKNrRHpvVg==
+  version "4.0.4"
+  resolved "https://registry.yarnpkg.com/byte-size/-/byte-size-4.0.4.tgz#29d381709f41aae0d89c631f1c81aec88cd40b23"
+  integrity sha512-82RPeneC6nqCdSwCX2hZUz3JPOvN5at/nTEw/CMf05Smu3Hrpo9Psb7LjN+k+XndNArG1EY8L4+BM3aTM4BCvw==
 
 bytes@3.0.0:
   version "3.0.0"
@@ -5132,9 +5132,9 @@ pkg-dir@^3.0.0:
     find-up "^3.0.0"
 
 portfinder@^1.0.9:
-  version "1.0.17"
-  resolved "https://registry.yarnpkg.com/portfinder/-/portfinder-1.0.17.tgz#a8a1691143e46c4735edefcf4fbcccedad26456a"
-  integrity sha512-syFcRIRzVI1BoEFOCaAiizwDolh1S1YXSodsVhncbhjzjZQulhczNRbqnUl9N31Q4dKGOXsNDqxC2BWBgSMqeQ==
+  version "1.0.18"
+  resolved "https://registry.yarnpkg.com/portfinder/-/portfinder-1.0.18.tgz#cf1106ff336fd4329b7ce32fda7d17d62c6bcf37"
+  integrity sha512-KanzLOERzKoX3En5yTiV8K/arnU1ykYVokmtEn0PgCzqKZG9489tqW8ifp9+v3/VJZ5YDjvDt/PAP5WaPgk7FA==
   dependencies:
     async "^1.5.2"
     debug "^2.2.0"
