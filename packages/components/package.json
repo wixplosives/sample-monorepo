@@ -15,7 +15,7 @@
     "test": "mocha -r @ts-tools/node \"test/**/*.spec.ts?(x)\" --watch-extensions ts,tsx"
   },
   "dependencies": {
-    "react": "^16.5.2"
+    "react": "^16.6.0"
   },
   "files": [
     "cjs",
