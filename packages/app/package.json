@@ -1,5 +1,5 @@
 {
-  "name": "app",
+  "name": "@sample-monorepo/app",
   "version": "1.0.0",
   "main": "cjs/index.js",
   "types": "cjs/index.d.ts",
@@ -17,7 +17,7 @@
     "start": "webpack-dev-server --mode development --progress --open"
   },
   "dependencies": {
-    "components": "^1.0.0",
+    "@sample-monorepo/components": "^1.0.0",
     "react": "^16.6.0",
     "react-dom": "^16.6.0"
   },

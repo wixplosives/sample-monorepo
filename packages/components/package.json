@@ -1,5 +1,5 @@
 {
-  "name": "components",
+  "name": "@sample-monorepo/components",
   "version": "1.0.0",
   "main": "cjs/index.js",
   "module": "esm/index.js",

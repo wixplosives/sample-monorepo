@@ -5,12 +5,12 @@ import express from 'express'
 import compression from 'compression'
 import React from 'react'
 import ReactDOMServer from 'react-dom/server'
-import { App } from 'app'
+import { App } from '@sample-monorepo/app'
 
 const app = express()
 const port = 3000
 
-const appRootDirectory = dirname(require.resolve('app/package.json'))
+const appRootDirectory = dirname(require.resolve('@sample-monorepo/app/package.json'))
 const appBundleDirectory = join(appRootDirectory, 'umd')
 
 app.use(compression())

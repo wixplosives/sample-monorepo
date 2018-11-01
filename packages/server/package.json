@@ -1,5 +1,5 @@
 {
-  "name": "server",
+  "name": "@sample-monorepo/server",
   "version": "1.0.0",
   "main": "cjs/index.js",
   "types": "cjs/index.d.ts",
@@ -13,7 +13,7 @@
     "test": "mocha -r @ts-tools/node \"test/**/*.spec.ts?(x)\" --watch-extensions ts,tsx"
   },
   "dependencies": {
-    "app": "^1.0.0",
+    "@sample-monorepo/app": "^1.0.0",
     "compression": "^1.7.3",
     "express": "^4.16.4",
     "react": "^16.6.0",
