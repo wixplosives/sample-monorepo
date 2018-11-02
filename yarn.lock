@@ -574,25 +574,32 @@
   resolved "https://registry.yarnpkg.com/@nodelib/fs.stat/-/fs.stat-1.1.2.tgz#54c5a964462be3d4d78af631363c18d6fa91ac26"
   integrity sha512-yprFYuno9FtNsSHVlSWd+nRlmGoAbqbeCwOryP6sC/zoCjhpArcRMYp19EvpSUSizJAlsXEwJv+wcWS9XaXdMw==
 
-"@ts-tools/node@^0.6.8":
-  version "0.6.8"
-  resolved "https://registry.yarnpkg.com/@ts-tools/node/-/node-0.6.8.tgz#bf52d9f10dbe9cfec37185d92789f5a613bba7f7"
-  integrity sha512-8oQNKyiYi6SHc2D44RHPJWTesglNLQS7+6RvRRESD81MShd6vv1fScHIX/SLyQVqW0612mqImzeq3kfNvyQhug==
+"@ts-tools/node@^0.7.0":
+  version "0.7.0"
+  resolved "https://registry.yarnpkg.com/@ts-tools/node/-/node-0.7.0.tgz#f557269f7a6aa8e92bffad678494ec63c98fe083"
+  integrity sha512-02FWt8+HXYcuIbh+zrpDifHhac7RzIca5RPZXb3CidmcA+6dIlLcTl9kAZwM4dQ6jdSDYUyaDLl3s+myG98KbQ==
   dependencies:
-    "@ts-tools/typescript-service" "^0.9.0"
+    "@ts-tools/robotrix" "^0.7.0"
+    "@ts-tools/typescript-service" "^0.9.1"
     source-map-support "^0.5.9"
 
-"@ts-tools/typescript-service@^0.9.0":
-  version "0.9.0"
-  resolved "https://registry.yarnpkg.com/@ts-tools/typescript-service/-/typescript-service-0.9.0.tgz#5d2f21196dda7caf5a805b00226934b80d7dfe6f"
-  integrity sha512-7DyZmhlKCEcfgPutFHRWY1rFKqyD8mBFykXJ6cnxmzUOte62zetLAw66i5f1kedYLfm9nJDAq2+o2CZ6XRBsnw==
+"@ts-tools/robotrix@^0.7.0":
+  version "0.7.0"
+  resolved "https://registry.yarnpkg.com/@ts-tools/robotrix/-/robotrix-0.7.0.tgz#5a240ff57b9c7dba970b3ec8a6142e4e22f03bc7"
+  integrity sha512-57ow8Iql0qE7HCI92Hyio6xlnOZ4DvXFzE3oxAzJcYztdLFkuZHyNdELkGFSl262psNur2w/uOszMAojZwjNiw==
 
-"@ts-tools/webpack-loader@^0.4.0":
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/@ts-tools/webpack-loader/-/webpack-loader-0.4.0.tgz#166ad44f3615e42f6e811808a4b032986857dce7"
-  integrity sha512-mRFOXFLm8ovyJjmhSpM0SzExgUU/2dlUGGhq7Bn9m7m/QtprrVL0Ty5VB1vEA8X1cYxhzXVqUmpyQfA76+S9hQ==
+"@ts-tools/typescript-service@^0.9.1":
+  version "0.9.1"
+  resolved "https://registry.yarnpkg.com/@ts-tools/typescript-service/-/typescript-service-0.9.1.tgz#d02a9411231d3281d08256195a3bdd63c357850c"
+  integrity sha512-jNHxvaZn+t/Rn0jiDav5bWqrooGvSL9Lrnlbxop6gJk0odGuE6AWm3+iMLWYA/Yj4DQhg1MEnoduqj/+vJ3TnA==
+
+"@ts-tools/webpack-loader@^0.7.0":
+  version "0.7.0"
+  resolved "https://registry.yarnpkg.com/@ts-tools/webpack-loader/-/webpack-loader-0.7.0.tgz#d27a346aa42de8123bd63126386152f7fb50617a"
+  integrity sha512-AsnnhONAC/cfMJzj61zEeTkhAarAfd/MkrfI0Gp6kLG9WnaYw7DJQYp4DXaevh4RNNXTdosGagEEtwl1dAK+Xg==
   dependencies:
-    "@ts-tools/typescript-service" "^0.9.0"
+    "@ts-tools/robotrix" "^0.7.0"
+    "@ts-tools/typescript-service" "^0.9.1"
     loader-utils "^1.1.0"
 
 "@types/body-parser@*":
