@@ -29,5 +29,8 @@
   ],
   "license": "MIT",
   "repository": "git@github.com:wixplosives/sample-monorepo.git",
-  "private": true
+  "private": true,
+  "publishConfig": {
+    "access": "public"
+  }
 }
