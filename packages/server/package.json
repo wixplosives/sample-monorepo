@@ -5,6 +5,7 @@
   "types": "cjs/index.d.ts",
   "scripts": {
     "clean": "rimraf ./cjs",
+    "prebuild": "yarn clean",
     "build": "yarn build:cjs",
     "build:cjs": "tsc -p src --outDir cjs --module commonjs",
     "lint": "run-p lint:src lint:test",
@@ -12,7 +13,8 @@
     "lint:test": "tslint -p test",
     "test": "mocha -r @ts-tools/node \"test/**/*.spec.ts?(x)\" --watch-extensions ts,tsx",
     "prestart": "yarn workspace @sample-monorepo/app build:umd",
-    "start": "nodemon -r @ts-tools/node -r ./src/index.tsx"
+    "start": "nodemon -r @ts-tools/node -r ./src/index.tsx",
+    "prepack": "yarn build"
   },
   "dependencies": {
     "@sample-monorepo/app": "^1.0.0",

@@ -5,6 +5,7 @@
   "types": "cjs/index.d.ts",
   "scripts": {
     "clean": "rimraf ./cjs ./umd",
+    "prebuild": "yarn clean",
     "build": "run-p build:cjs build:umd",
     "build:cjs": "tsc -p src --outDir cjs --module commonjs",
     "build:umd": "yarn bundle:prod",
@@ -14,7 +15,8 @@
     "lint:src": "tslint -p src",
     "lint:test": "tslint -p test",
     "test": "mocha -r @ts-tools/node \"test/**/*.spec.ts?(x)\" --watch-extensions ts,tsx",
-    "start": "webpack-dev-server --mode development --progress --open"
+    "start": "webpack-dev-server --mode development --progress --open",
+    "prepack": "yarn build"
   },
   "dependencies": {
     "@sample-monorepo/components": "^1.0.0",

@@ -5,7 +5,6 @@
   ],
   "scripts": {
     "clean": "lerna run clean --stream --parallel",
-    "prebuild": "yarn clean",
     "build": "lerna run build --stream --parallel",
     "lint": "lerna run lint --stream --parallel",
     "pretest": "yarn lint",
