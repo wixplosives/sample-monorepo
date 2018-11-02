@@ -1,7 +1,8 @@
 {
   "name": "@sample-monorepo/server",
   "version": "1.0.0",
-  "main": "src/index.tsx",
+  "main": "cjs/index.js",
+  "types": "cjs/index.d.ts",
   "scripts": {
     "clean": "rimraf ./cjs",
     "build": "yarn build:cjs",
