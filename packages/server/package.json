@@ -10,7 +10,7 @@
     "lint:src": "tslint -p src",
     "lint:test": "tslint -p test",
     "test": "mocha -r @ts-tools/node \"test/**/*.spec.ts?(x)\" --watch-extensions ts,tsx",
-    "prestart": "yarn workspace app build:umd",
+    "prestart": "yarn workspace @sample-monorepo/app build:umd",
     "start": "nodemon -r @ts-tools/node -r server"
   },
   "dependencies": {
