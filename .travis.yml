@@ -1,5 +1,4 @@
 language: node_js
-sudo: required # needed for headless chrome (puppeteer)
 
 os:
   - linux
