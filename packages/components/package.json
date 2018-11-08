@@ -17,7 +17,7 @@
     "prepack": "yarn build"
   },
   "dependencies": {
-    "react": "^16.6.0"
+    "react": "^16.6.1"
   },
   "files": [
     "cjs",
