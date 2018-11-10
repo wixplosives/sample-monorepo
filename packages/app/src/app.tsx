@@ -5,4 +5,4 @@ export interface IAppProps {
     text: string
 }
 
-export const App: React.SFC<IAppProps> = ({text}) => <Main text={text} />
+export const App: React.FunctionComponent<IAppProps> = ({text}) => <Main text={text} />
