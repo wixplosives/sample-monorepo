@@ -4356,9 +4356,9 @@ mime@1.4.1:
   integrity sha512-KI1+qOZu5DcW6wayYHSzR/tXKCDC5Om4s1z2QJjDULzLcmf3DvzS7oluY4HCTrc+9FiKmWUgeNLg7W3uIQvxtQ==
 
 mime@^2.3.1:
-  version "2.3.1"
-  resolved "https://registry.yarnpkg.com/mime/-/mime-2.3.1.tgz#b1621c54d63b97c47d3cfe7f7215f7d64517c369"
-  integrity sha512-OEUllcVoydBHGN1z84yfQDimn58pZNNNXgZlHXSboxMlFvgI6MXSWpWKpFRra7H1HxpVhHTkrghfRW49k6yjeg==
+  version "2.4.0"
+  resolved "https://registry.yarnpkg.com/mime/-/mime-2.4.0.tgz#e051fd881358585f3279df333fe694da0bcffdd6"
+  integrity sha512-ikBcWwyqXQSHKtciCcctu9YfPbFYZ4+gbHEmE0Q8jzcTYQg5dHCr3g2wwAZjPoJfQVXZq6KXAjpXOTf5/cjT7w==
 
 mimic-fn@^1.0.0:
   version "1.2.0"
@@ -4653,16 +4653,16 @@ node-pre-gyp@^0.10.0:
     semver "^5.3.0"
     tar "^4"
 
-nodemon@^1.18.6:
-  version "1.18.6"
-  resolved "https://registry.yarnpkg.com/nodemon/-/nodemon-1.18.6.tgz#89b1136634d6c0afc7de24cc932a760e999e2c76"
-  integrity sha512-4pHQNYEZun+IkIC2jCaXEhkZnfA7rQe73i8RkdRyDJls/K+WxR7IpI5uNUsAvQ0zWvYcCDNGD+XVtw2ZG86/uQ==
+nodemon@^1.18.7:
+  version "1.18.7"
+  resolved "https://registry.yarnpkg.com/nodemon/-/nodemon-1.18.7.tgz#716b66bf3e89ac4fcfb38a9e61887a03fc82efbb"
+  integrity sha512-xuC1V0F5EcEyKQ1VhHYD13owznQbUw29JKvZ8bVH7TmuvVNHvvbp9pLgE4PjTMRJVe0pJ8fGRvwR2nMiosIsPQ==
   dependencies:
     chokidar "^2.0.4"
     debug "^3.1.0"
     ignore-by-default "^1.0.1"
     minimatch "^3.0.4"
-    pstree.remy "^1.1.0"
+    pstree.remy "^1.1.2"
     semver "^5.5.0"
     supports-color "^5.2.0"
     touch "^3.1.0"
@@ -5353,7 +5353,7 @@ psl@^1.1.24:
   resolved "https://registry.yarnpkg.com/psl/-/psl-1.1.29.tgz#60f580d360170bb722a797cc704411e6da850c67"
   integrity sha512-AeUmQ0oLN02flVHXWh9sSJF7mcdFq0ppid/JkErufc3hGIV/AMa8Fo9VgDo/cT2jFdOWoFvHp90qqBH54W+gjQ==
 
-pstree.remy@^1.1.0:
+pstree.remy@^1.1.2:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/pstree.remy/-/pstree.remy-1.1.2.tgz#4448bbeb4b2af1fed242afc8dc7416a6f504951a"
   integrity sha512-vL6NLxNHzkNTjGJUpMm5PLC+94/0tTlC1vkP9bdU0pOHih+EujMjgMTwfZopZvHWRFbqJ5Y73OMoau50PewDDA==
@@ -6399,9 +6399,9 @@ supports-color@^5.1.0, supports-color@^5.2.0, supports-color@^5.3.0, supports-co
     has-flag "^3.0.0"
 
 tapable@^1.0.0, tapable@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/tapable/-/tapable-1.1.0.tgz#0d076a172e3d9ba088fd2272b2668fb8d194b78c"
-  integrity sha512-IlqtmLVaZA2qab8epUXbVWRn3aB1imbDMJtjB3nu4X0NqPkcY/JH9ZtCBWKHWPxs8Svi9tyo8w2dBoi07qZbBA==
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/tapable/-/tapable-1.1.1.tgz#4d297923c5a72a42360de2ab52dadfaaec00018e"
+  integrity sha512-9I2ydhj8Z9veORCw5PRm4u9uebCn0mcCa6scWoNcbZ6dAtoo2618u9UUzxgmsCOreJpqDDuv61LvwofW7hLcBA==
 
 tar@^2.0.0:
   version "2.2.1"
