@@ -6,8 +6,7 @@
   "scripts": {
     "clean": "rimraf ./cjs",
     "prebuild": "yarn clean",
-    "build": "yarn build:cjs",
-    "build:cjs": "tsc -p src --outDir cjs --module commonjs",
+    "build": "ts-build ./src --cjs",
     "lint": "run-p lint:src lint:test",
     "lint:src": "tslint -p src",
     "lint:test": "tslint -p test",
