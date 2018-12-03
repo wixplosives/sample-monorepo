@@ -590,31 +590,31 @@
     commander "^2.19.0"
     proper-fs "^1.1.0"
 
-"@ts-tools/node@^0.7.3":
-  version "0.7.3"
-  resolved "https://registry.yarnpkg.com/@ts-tools/node/-/node-0.7.3.tgz#f729e247fdd67d942ab22c513dfbbd7d1d742845"
-  integrity sha512-p0xihYvgdspHVNhcEFHgnVw6iMmNKVEEiJwB9zQs31n2wE0EU0LWuVotd5Wc7n2UMVLDv0pN/iS58dND8TXquQ==
+"@ts-tools/node@^0.7.4":
+  version "0.7.4"
+  resolved "https://registry.yarnpkg.com/@ts-tools/node/-/node-0.7.4.tgz#cf0a3429656e6f293f4f60d5f1f97094e1610384"
+  integrity sha512-ZR4zg/QYPqvkcn+6dVAMaVQNhCXloKV8+pDfzFcX/MbUz1XjENvm03s7id2V7phtbWME5pR+GM2dBvzkIEFaPg==
   dependencies:
-    "@ts-tools/robotrix" "^0.7.1"
+    "@ts-tools/robotrix" "^0.7.2"
     "@ts-tools/service" "^0.9.3"
     source-map-support "^0.5.9"
 
-"@ts-tools/robotrix@^0.7.1":
-  version "0.7.1"
-  resolved "https://registry.yarnpkg.com/@ts-tools/robotrix/-/robotrix-0.7.1.tgz#91a4a2b683c89dd03ead635881ad58d5833cd9a4"
-  integrity sha512-Lha2M+PDcZFoEiOdIlAEObYjCLAdwR7en1SEsCuqOh32rScnOCiQ/FBgGdnyfPWaU8Rkh4Rrlf6unwQtmwrPow==
+"@ts-tools/robotrix@^0.7.2":
+  version "0.7.2"
+  resolved "https://registry.yarnpkg.com/@ts-tools/robotrix/-/robotrix-0.7.2.tgz#e585023053b1a4bcaa3cde574eff2be99d0d6a6f"
+  integrity sha512-VOo7thS2WRT9Pxe8GKWXv0U2flgqykaphtBO2wVOysRs4v2/AQ3g9TwtVZgHxxhCCmx4AFkYSgiU3c5EymLyDA==
 
 "@ts-tools/service@^0.9.3":
   version "0.9.3"
   resolved "https://registry.yarnpkg.com/@ts-tools/service/-/service-0.9.3.tgz#98c0c7208d1732cdb1149b0fbb88a059a2dac9f3"
   integrity sha512-4yf0zDtCTorwL3r2bQ4HLCrRe6YkxDxNhC/f3y0WVHWwpB5A/QLUkYcSt+PeSnVYRfMLUWAP0eQwajoMdJQFNg==
 
-"@ts-tools/webpack-loader@^0.7.3":
-  version "0.7.3"
-  resolved "https://registry.yarnpkg.com/@ts-tools/webpack-loader/-/webpack-loader-0.7.3.tgz#5e642990321f6fea09221524b9fa4079b57ec7fc"
-  integrity sha512-AaCR5LqixsiDe9PhzTnqZX5rIwF0XdjSh1704w7tNoLgjInP1LBLvU85eDs5jtkZYLpQChqOS7AwCahxq1+TMA==
+"@ts-tools/webpack-loader@^0.7.4":
+  version "0.7.4"
+  resolved "https://registry.yarnpkg.com/@ts-tools/webpack-loader/-/webpack-loader-0.7.4.tgz#0e356007b42e9fca175a3318d2987d24e93fe50c"
+  integrity sha512-jSgvm2OOOrsuSZKT0pbWa9BqgeEt97JUyNjFxZ3hHS+iw/I2a11k6dMViNlhHjb4EmWufgSd5fOjBYCUQwg+sA==
   dependencies:
-    "@ts-tools/robotrix" "^0.7.1"
+    "@ts-tools/robotrix" "^0.7.2"
     "@ts-tools/service" "^0.9.3"
     loader-utils "^1.1.0"
 
