@@ -608,23 +608,23 @@
   resolved "https://registry.yarnpkg.com/@nodelib/fs.stat/-/fs.stat-1.1.3.tgz#2b5a3ab3f918cca48a8c754c08168e3f03eba61b"
   integrity sha512-shAmDyaQC4H92APFoIaVDHCx5bStIocgvbwQyxPRrbUY20V1EYTbSDchWbuwlMG3V17cprZhA6+78JfB+3DTPw==
 
-"@ts-tools/build@^0.1.2":
-  version "0.1.2"
-  resolved "https://registry.yarnpkg.com/@ts-tools/build/-/build-0.1.2.tgz#4facbf69069f85b1c9c84c5a7b894bb23ef9e6e8"
-  integrity sha512-1cPFGc7g14jqOJkbP3DKLh3IusuEPuI/8SGMB+r8AHVVzvk6k+qCGA1C//r2cH4TQK1MCnLkZNaJ9e4+m1Izhw==
+"@ts-tools/build@^0.1.3":
+  version "0.1.3"
+  resolved "https://registry.yarnpkg.com/@ts-tools/build/-/build-0.1.3.tgz#9f45d7ccf475b28af7286532993bd58db1f32b2a"
+  integrity sha512-718SvMdh/JLBqw46jnWg8Lm5U8NPE6QyZkAxbfCj5TnzAORXVw7sCaUDo4mz2JjEH0wMOGiJALsqf1MjM1Zy0A==
   dependencies:
-    "@ts-tools/service" "^0.9.3"
+    "@ts-tools/service" "^1.0.0"
     chalk "^2.4.1"
     commander "^2.19.0"
     proper-fs "^1.1.0"
 
-"@ts-tools/node@^0.7.4":
-  version "0.7.4"
-  resolved "https://registry.yarnpkg.com/@ts-tools/node/-/node-0.7.4.tgz#cf0a3429656e6f293f4f60d5f1f97094e1610384"
-  integrity sha512-ZR4zg/QYPqvkcn+6dVAMaVQNhCXloKV8+pDfzFcX/MbUz1XjENvm03s7id2V7phtbWME5pR+GM2dBvzkIEFaPg==
+"@ts-tools/node@^0.8.0":
+  version "0.8.0"
+  resolved "https://registry.yarnpkg.com/@ts-tools/node/-/node-0.8.0.tgz#ae0b10102dc6b485d7270f7de064b89a5ad2f142"
+  integrity sha512-bcaxSv1B1knNSG1+Xn3Hs2nU9agB70BrF65LNvpaAkJt6wzGTZkxVTstrKqrJZDAVUaYtLmtlYwQKYp6XVHvLQ==
   dependencies:
     "@ts-tools/robotrix" "^0.7.2"
-    "@ts-tools/service" "^0.9.3"
+    "@ts-tools/service" "^1.0.0"
     source-map-support "^0.5.9"
 
 "@ts-tools/robotrix@^0.7.2":
@@ -632,18 +632,18 @@
   resolved "https://registry.yarnpkg.com/@ts-tools/robotrix/-/robotrix-0.7.2.tgz#e585023053b1a4bcaa3cde574eff2be99d0d6a6f"
   integrity sha512-VOo7thS2WRT9Pxe8GKWXv0U2flgqykaphtBO2wVOysRs4v2/AQ3g9TwtVZgHxxhCCmx4AFkYSgiU3c5EymLyDA==
 
-"@ts-tools/service@^0.9.3":
-  version "0.9.3"
-  resolved "https://registry.yarnpkg.com/@ts-tools/service/-/service-0.9.3.tgz#98c0c7208d1732cdb1149b0fbb88a059a2dac9f3"
-  integrity sha512-4yf0zDtCTorwL3r2bQ4HLCrRe6YkxDxNhC/f3y0WVHWwpB5A/QLUkYcSt+PeSnVYRfMLUWAP0eQwajoMdJQFNg==
+"@ts-tools/service@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@ts-tools/service/-/service-1.0.0.tgz#10bfc3d5242e51132893e6c113b72c797d991481"
+  integrity sha512-I0elgQ2z+fzLnhQXV+SB8Cl9iZkkSNhSxu/UGC8HEjXl6w9A941+pSDoN+YXcnSA+tNioRdyg4/quIS53oPH2w==
 
-"@ts-tools/webpack-loader@^0.7.5":
-  version "0.7.5"
-  resolved "https://registry.yarnpkg.com/@ts-tools/webpack-loader/-/webpack-loader-0.7.5.tgz#9d32f3c08e9581decba47fd3f7c36b6ec02d70f6"
-  integrity sha512-8X5QUOIqVPY50UzynUkMbPStpDiSkJoh4Tqjd/UCpjhLxeeqPm1vcAGlTyGt9Ld1pkjXSl71wE3l3/h+EtztJA==
+"@ts-tools/webpack-loader@^0.8.0":
+  version "0.8.0"
+  resolved "https://registry.yarnpkg.com/@ts-tools/webpack-loader/-/webpack-loader-0.8.0.tgz#31df7b844de88538f35dd186f9089356eaa67288"
+  integrity sha512-4pF5MHxYJTluYdffuc8mdc55IXzO6/qiOPNjZXImFwXfmjUPJJpdEhI/uTsJBNAO+WnCP84jj0RMyoEWJ1BZ8g==
   dependencies:
     "@ts-tools/robotrix" "^0.7.2"
-    "@ts-tools/service" "^0.9.3"
+    "@ts-tools/service" "^1.0.0"
     loader-utils "^1.1.0"
 
 "@types/body-parser@*":
@@ -5817,9 +5817,9 @@ readable-stream@1.0:
     string_decoder "~0.10.x"
 
 readable-stream@^3.0.6:
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/readable-stream/-/readable-stream-3.1.0.tgz#19c2e9c1ce43507c53f6eefbcf1ee3d4aaa786f5"
-  integrity sha512-vpydAvIJvPODZNagCPuHG87O9JNPtvFEtjHHRVwNVsVVRBqemvPJkc2SYbxJsiZXawJdtZNmkmnsPuE3IgsG0A==
+  version "3.1.1"
+  resolved "https://registry.yarnpkg.com/readable-stream/-/readable-stream-3.1.1.tgz#ed6bbc6c5ba58b090039ff18ce670515795aeb06"
+  integrity sha512-DkN66hPyqDhnIQ6Jcsvx9bFjhw214O4poMBcIMgPVpQvNy9a0e0Uhg5SqySyDKAmUlwt8LonTBz1ezOnM8pUdA==
   dependencies:
     inherits "^2.0.3"
     string_decoder "^1.1.1"
@@ -6141,9 +6141,9 @@ send@0.16.2:
     statuses "~1.4.0"
 
 serialize-javascript@^1.4.0:
-  version "1.5.0"
-  resolved "https://registry.yarnpkg.com/serialize-javascript/-/serialize-javascript-1.5.0.tgz#1aa336162c88a890ddad5384baebc93a655161fe"
-  integrity sha512-Ga8c8NjAAp46Br4+0oZ2WxJCwIzwP60Gq1YPgU+39PiTVxyed/iKE/zyZI6+UlVYH5Q4PaQdHhcegIFPZTUfoQ==
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/serialize-javascript/-/serialize-javascript-1.6.0.tgz#b30ce5ddd6517f2c445e129ff5834a399fb5861e"
+  integrity sha512-AQxrNqu4EXWt03dJdgKXI+Au9+pvEuM5+Nk5g6+TmuxMCkEL03VhZ31HM+VKeaaZbFpDHaoSruiHq4PW9AIrOQ==
 
 serve-index@^1.7.2:
   version "1.9.1"
@@ -7187,10 +7187,10 @@ webpack-dev-middleware@3.4.0:
     range-parser "^1.0.3"
     webpack-log "^2.0.0"
 
-webpack-dev-server@^3.1.13:
-  version "3.1.13"
-  resolved "https://registry.yarnpkg.com/webpack-dev-server/-/webpack-dev-server-3.1.13.tgz#72ebc8dab4551f8a8e1fdf6357da97571aee6a23"
-  integrity sha512-o+crjlyTDCAnkZe1CGlP2XLGCgnMN6oSotYdB+r5OGbnf52Dl9T/fCOdKObvanl1jEnMuLBVDnjTXEmCMMksww==
+webpack-dev-server@^3.1.14:
+  version "3.1.14"
+  resolved "https://registry.yarnpkg.com/webpack-dev-server/-/webpack-dev-server-3.1.14.tgz#60fb229b997fc5a0a1fc6237421030180959d469"
+  integrity sha512-mGXDgz5SlTxcF3hUpfC8hrQ11yhAttuUQWf1Wmb+6zo3x6rb7b9mIfuQvAPLdfDRCGRGvakBWHdHOa0I9p/EVQ==
   dependencies:
     ansi-html "0.0.7"
     bonjour "^3.5.0"
