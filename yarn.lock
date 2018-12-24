@@ -608,42 +608,42 @@
   resolved "https://registry.yarnpkg.com/@nodelib/fs.stat/-/fs.stat-1.1.3.tgz#2b5a3ab3f918cca48a8c754c08168e3f03eba61b"
   integrity sha512-shAmDyaQC4H92APFoIaVDHCx5bStIocgvbwQyxPRrbUY20V1EYTbSDchWbuwlMG3V17cprZhA6+78JfB+3DTPw==
 
-"@ts-tools/build@^0.1.3":
-  version "0.1.3"
-  resolved "https://registry.yarnpkg.com/@ts-tools/build/-/build-0.1.3.tgz#9f45d7ccf475b28af7286532993bd58db1f32b2a"
-  integrity sha512-718SvMdh/JLBqw46jnWg8Lm5U8NPE6QyZkAxbfCj5TnzAORXVw7sCaUDo4mz2JjEH0wMOGiJALsqf1MjM1Zy0A==
+"@ts-tools/build@^0.1.5":
+  version "0.1.5"
+  resolved "https://registry.yarnpkg.com/@ts-tools/build/-/build-0.1.5.tgz#06643325318330b893706c27a7829699189e66be"
+  integrity sha512-DVYznbosgnO9YmU1IUaZx7WX8GchNRCOJIVjI1CAPlVd996zZXzxtwZbeSr4jzlOmO3J074ktGwUrKi6BVXh9Q==
   dependencies:
-    "@ts-tools/service" "^1.0.0"
+    "@ts-tools/service" "^1.0.2"
     chalk "^2.4.1"
     commander "^2.19.0"
     proper-fs "^1.1.0"
 
-"@ts-tools/node@^0.8.0":
-  version "0.8.0"
-  resolved "https://registry.yarnpkg.com/@ts-tools/node/-/node-0.8.0.tgz#ae0b10102dc6b485d7270f7de064b89a5ad2f142"
-  integrity sha512-bcaxSv1B1knNSG1+Xn3Hs2nU9agB70BrF65LNvpaAkJt6wzGTZkxVTstrKqrJZDAVUaYtLmtlYwQKYp6XVHvLQ==
+"@ts-tools/node@^0.8.2":
+  version "0.8.2"
+  resolved "https://registry.yarnpkg.com/@ts-tools/node/-/node-0.8.2.tgz#dcf5f3fc3025e650736f097c61b3e8c3e1c5cc53"
+  integrity sha512-O/tFHLXt85MZ7EqOfIr286oKWfEj0Fn+ojmp3KuGnui9qLVO1mep4uJQaGRiTXuacX69cFvckwrf53ezBLAnKg==
   dependencies:
-    "@ts-tools/robotrix" "^0.7.2"
-    "@ts-tools/service" "^1.0.0"
+    "@ts-tools/robotrix" "^0.7.3"
+    "@ts-tools/service" "^1.0.2"
     source-map-support "^0.5.9"
 
-"@ts-tools/robotrix@^0.7.2":
-  version "0.7.2"
-  resolved "https://registry.yarnpkg.com/@ts-tools/robotrix/-/robotrix-0.7.2.tgz#e585023053b1a4bcaa3cde574eff2be99d0d6a6f"
-  integrity sha512-VOo7thS2WRT9Pxe8GKWXv0U2flgqykaphtBO2wVOysRs4v2/AQ3g9TwtVZgHxxhCCmx4AFkYSgiU3c5EymLyDA==
+"@ts-tools/robotrix@^0.7.3":
+  version "0.7.3"
+  resolved "https://registry.yarnpkg.com/@ts-tools/robotrix/-/robotrix-0.7.3.tgz#73f5409fb4e304c3ff946158ca184a2efffcb257"
+  integrity sha512-AHNzOv0a4LWEhmCGZZGJJLHrfr1R5uKzTRk6Grw6Su/G/5tT2g1ttcp1bs13jAEJWmFEC4NAuKUg7UbuCaFRtQ==
 
-"@ts-tools/service@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@ts-tools/service/-/service-1.0.0.tgz#10bfc3d5242e51132893e6c113b72c797d991481"
-  integrity sha512-I0elgQ2z+fzLnhQXV+SB8Cl9iZkkSNhSxu/UGC8HEjXl6w9A941+pSDoN+YXcnSA+tNioRdyg4/quIS53oPH2w==
+"@ts-tools/service@^1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@ts-tools/service/-/service-1.0.2.tgz#20ea61608da6fff25077c36101cdeed121126272"
+  integrity sha512-hR1Os6lTQocVxOj3W0lJ2VTZGGpEPSjKoQp21qTe0kinXMVZE6sgIQDwW62r5WE2kJSv63zZW/IDXOryLvIqfQ==
 
-"@ts-tools/webpack-loader@^0.8.0":
-  version "0.8.0"
-  resolved "https://registry.yarnpkg.com/@ts-tools/webpack-loader/-/webpack-loader-0.8.0.tgz#31df7b844de88538f35dd186f9089356eaa67288"
-  integrity sha512-4pF5MHxYJTluYdffuc8mdc55IXzO6/qiOPNjZXImFwXfmjUPJJpdEhI/uTsJBNAO+WnCP84jj0RMyoEWJ1BZ8g==
+"@ts-tools/webpack-loader@^0.8.2":
+  version "0.8.2"
+  resolved "https://registry.yarnpkg.com/@ts-tools/webpack-loader/-/webpack-loader-0.8.2.tgz#d52ae628f813261c0c8651e172dc257a1dab6bf0"
+  integrity sha512-J7/qsKIsqvVYZzgSj70LCmvxTm0fgwULVFzLy6iSeLobkH5vldMT8C2NKCgyWSnebyEuQObw/W8xq2/D0ARSUw==
   dependencies:
-    "@ts-tools/robotrix" "^0.7.2"
-    "@ts-tools/service" "^1.0.0"
+    "@ts-tools/robotrix" "^0.7.3"
+    "@ts-tools/service" "^1.0.2"
     loader-utils "^1.1.0"
 
 "@types/body-parser@*":
