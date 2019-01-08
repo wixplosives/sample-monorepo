@@ -24,7 +24,7 @@
     "@types/react-dom": "^16.0.11",
     "chai": "^4.2.0",
     "html-webpack-plugin": "next",
-    "lerna": "^3.8.5",
+    "lerna": "^3.9.0",
     "mocha": "^5.2.0",
     "nodemon": "^1.18.9",
     "npm-run-all": "^4.1.5",
@@ -33,7 +33,7 @@
     "tslint-react": "^3.6.0",
     "typescript": "~3.2.2",
     "webpack": "^4.28.3",
-    "webpack-cli": "^3.2.0",
+    "webpack-cli": "^3.2.1",
     "webpack-dev-server": "^3.1.14"
   },
   "license": "MIT",
