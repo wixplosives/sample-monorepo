@@ -18,10 +18,12 @@
     "start": "webpack-dev-server --mode development --progress --open",
     "prepack": "yarn build"
   },
+  "peerDependencies": {
+    "react": ">=16",
+    "react-dom": ">=16"
+  },
   "dependencies": {
-    "@sample-monorepo/components": "^1.0.0",
-    "react": "^16.7.0",
-    "react-dom": "^16.7.0"
+    "@sample-monorepo/components": "^1.0.0"
   },
   "files": [
     "cjs",

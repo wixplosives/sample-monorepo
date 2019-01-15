@@ -14,8 +14,8 @@
     "test": "mocha -r @ts-tools/node \"test/**/*.spec.ts?(x)\" --watch-extensions ts,tsx --colors",
     "prepack": "yarn build"
   },
-  "dependencies": {
-    "react": "^16.7.0"
+  "peerDependencies": {
+    "react": ">=16"
   },
   "files": [
     "cjs",
