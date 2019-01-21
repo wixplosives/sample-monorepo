@@ -1,9 +1,9 @@
 {
-  "extends": "../../../tsconfig.base.json",
+  "extends": "../../../tsconfig.test.json",
   "compilerOptions": {
-    "types": [
-      "mocha",
-      "node"
+    "lib": [
+      // no "dom" for server package.
+      "es2017"
     ]
   }
 }

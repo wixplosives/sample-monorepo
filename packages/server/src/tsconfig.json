@@ -1,11 +1,12 @@
 {
   "extends": "../../../tsconfig.base.json",
   "compilerOptions": {
-    "module": "commonjs",
     "lib": [
-      "es2017",
-      "dom"
+      // no "dom" for server package.
+      "es2017"
     ],
-    "jsx": "react"
+    "types": [
+      "node"
+    ]
   }
 }
