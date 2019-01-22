@@ -607,41 +607,42 @@
   resolved "https://registry.yarnpkg.com/@nodelib/fs.stat/-/fs.stat-1.1.3.tgz#2b5a3ab3f918cca48a8c754c08168e3f03eba61b"
   integrity sha512-shAmDyaQC4H92APFoIaVDHCx5bStIocgvbwQyxPRrbUY20V1EYTbSDchWbuwlMG3V17cprZhA6+78JfB+3DTPw==
 
-"@ts-tools/build@^0.1.6":
-  version "0.1.6"
-  resolved "https://registry.yarnpkg.com/@ts-tools/build/-/build-0.1.6.tgz#0d9332e7371a287cdd910857e8c47598cdcdc27f"
-  integrity sha512-htJuuSrFZcrieHB6aE9phF6nz0mZxMHxGbSHXU0B52BkYx2utL1orzXzzps+q+jJ9+3RN6/Wx4I80XQhz8CRAw==
+"@ts-tools/build@^0.1.7":
+  version "0.1.7"
+  resolved "https://registry.yarnpkg.com/@ts-tools/build/-/build-0.1.7.tgz#f7e858b41c4622a917f2dfda393c0d6b375d058a"
+  integrity sha512-/MQnDI5IJLnKkb85j0DP4EHTBaA5B+Z+rPPjtIdOPyXJGN54J3CE5KxxjhWnFu/RJFYKEnpsQb1h9+EpkgAOmA==
   dependencies:
     "@ts-tools/service" "^1.0.3"
-    chalk "^2.4.1"
+    chalk "^2.4.2"
     commander "^2.19.0"
-    proper-fs "^1.1.0"
+    proper-fs "^1.1.1"
 
-"@ts-tools/node@^0.8.3":
-  version "0.8.3"
-  resolved "https://registry.yarnpkg.com/@ts-tools/node/-/node-0.8.3.tgz#580a67f5907959ea2980907797a80fa066ae6108"
-  integrity sha512-TWTWfB1WBtwz2MVeddl1xGLWrpzo1Z/2LZhIe5nY6G377AfCCQDDfz2+AS2jAylKw+qIrcvpcRhkbNKsto/VRw==
+"@ts-tools/node@^0.9.0":
+  version "0.9.0"
+  resolved "https://registry.yarnpkg.com/@ts-tools/node/-/node-0.9.0.tgz#0325f142a1d59303bf939080e2f48d26faf5853b"
+  integrity sha512-WOcQzwzUJR7hw2hI8ptSN0PtaRfgUCsWeB6q8jI1+jjvXxgNiDvajm9CUoHop1452/LKfYBGRmq+W/0gCm6N/A==
   dependencies:
-    "@ts-tools/robotrix" "^0.7.3"
+    "@ts-tools/robotrix" "^0.7.4"
     "@ts-tools/service" "^1.0.3"
-    source-map-support "^0.5.9"
+    is-ci "^2.0.0"
+    source-map-support "^0.5.10"
 
-"@ts-tools/robotrix@^0.7.3":
-  version "0.7.3"
-  resolved "https://registry.yarnpkg.com/@ts-tools/robotrix/-/robotrix-0.7.3.tgz#73f5409fb4e304c3ff946158ca184a2efffcb257"
-  integrity sha512-AHNzOv0a4LWEhmCGZZGJJLHrfr1R5uKzTRk6Grw6Su/G/5tT2g1ttcp1bs13jAEJWmFEC4NAuKUg7UbuCaFRtQ==
+"@ts-tools/robotrix@^0.7.4":
+  version "0.7.4"
+  resolved "https://registry.yarnpkg.com/@ts-tools/robotrix/-/robotrix-0.7.4.tgz#eaef5dd73d261f23915eeaebdeb63277705aec0c"
+  integrity sha512-vZdskXKBISTyZuHBseGBc+oM9F5qJ8cd8Bx/rNBt5R9oSJj7v23zSlE+5SRvmVA6c2eKQpicVALrTNAVcAl8fQ==
 
 "@ts-tools/service@^1.0.3":
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/@ts-tools/service/-/service-1.0.3.tgz#f18715c846f66beff5056ed9db9d923729efe8d8"
   integrity sha512-zQ2T+prTFAkLNMolo5C55+r4tIi5BRDq8RjbnsmEIYvFY4xvv2spA88iee6tmxApq4vIDqxyvecbghXJvInu9g==
 
-"@ts-tools/webpack-loader@^0.8.3":
-  version "0.8.3"
-  resolved "https://registry.yarnpkg.com/@ts-tools/webpack-loader/-/webpack-loader-0.8.3.tgz#d1cda02cc48409b5de0540fd3eab5b383b5e3ef3"
-  integrity sha512-+Ekpq8MA6sDaqpxwE/f/QEUkkUfWSeb8aNKk6VSPfWEsA1g1IeRlbo/D8k3S4GkOlXhc7PMKg0436Oe4q+tolA==
+"@ts-tools/webpack-loader@^0.8.4":
+  version "0.8.4"
+  resolved "https://registry.yarnpkg.com/@ts-tools/webpack-loader/-/webpack-loader-0.8.4.tgz#67ebdd9c4c3bcb61dbcd01a37d7c9af635510697"
+  integrity sha512-h4wBawPscoSqyk8tgMXwPWcYx8Re/SpFVry/6nEQnYeUG92bXEN1hD4UcJt/G9IOybS9PSdns8Cn3Gcng48Agg==
   dependencies:
-    "@ts-tools/robotrix" "^0.7.3"
+    "@ts-tools/robotrix" "^0.7.4"
     "@ts-tools/service" "^1.0.3"
     loader-utils "^1.2.3"
 
@@ -1607,7 +1608,7 @@ chalk@^1.1.3:
     strip-ansi "^3.0.0"
     supports-color "^2.0.0"
 
-chalk@^2.0.0, chalk@^2.0.1, chalk@^2.3.0, chalk@^2.3.1, chalk@^2.4.1:
+chalk@^2.0.0, chalk@^2.0.1, chalk@^2.3.0, chalk@^2.3.1, chalk@^2.4.1, chalk@^2.4.2:
   version "2.4.2"
   resolved "https://registry.yarnpkg.com/chalk/-/chalk-2.4.2.tgz#cd42541677a54333cf541a49108c1432b44c9424"
   integrity sha512-Mti+f9lpJNcwF4tWV8/OrTTtF1gZi+f8FqlyAdouralcFWFQWF2+NgCHShjkCb+IFBLq9buZwE1xckQU4peSuQ==
@@ -1662,6 +1663,11 @@ ci-info@^1.5.0:
   version "1.6.0"
   resolved "https://registry.yarnpkg.com/ci-info/-/ci-info-1.6.0.tgz#2ca20dbb9ceb32d4524a683303313f0304b1e497"
   integrity sha512-vsGdkwSCDpWmP80ncATX7iea5DWQemg1UgCW5J8tqjU3lYw4FBYuj89J0CTVomA7BEfvSZd84GmHko+MxFQU2A==
+
+ci-info@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/ci-info/-/ci-info-2.0.0.tgz#67a9e964be31a51e15e5010d58e6f12834002f46"
+  integrity sha512-5tK7EtrZ0N+OLFMthtqOj4fI2Jeb88C4CAZPu25LDVUgXJ0A3Js4PMGqrn0JU1W0Mh1/Z8wZzYPxqUrXeBboCQ==
 
 cipher-base@^1.0.0, cipher-base@^1.0.1, cipher-base@^1.0.3:
   version "1.0.4"
@@ -3786,6 +3792,13 @@ is-ci@^1.0.10:
   dependencies:
     ci-info "^1.5.0"
 
+is-ci@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/is-ci/-/is-ci-2.0.0.tgz#6bc6334181810e04b5c22b3d589fdca55026404c"
+  integrity sha512-YfJT7rkpQB0updsdHLGWrvhBJfcfzNNawYDNIyQXJz0IViGf75O8EBPKSdvw2rF+LGCsX4FZ8tcr3b19LcZq4w==
+  dependencies:
+    ci-info "^2.0.0"
+
 is-data-descriptor@^0.1.4:
   version "0.1.4"
   resolved "https://registry.yarnpkg.com/is-data-descriptor/-/is-data-descriptor-0.1.4.tgz#0b5ee648388e2c860282e793f1856fec3f301b56"
@@ -5595,7 +5608,7 @@ prop-types@^15.6.2:
     loose-envify "^1.3.1"
     object-assign "^4.1.1"
 
-proper-fs@^1.1.0:
+proper-fs@^1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/proper-fs/-/proper-fs-1.1.1.tgz#f713f173d1917c37a4940eea46731c5486923b35"
   integrity sha512-7kZv/tOTF6C8Zls/LcY+T4mGsve6rz23C0H8iPnqE1rLyowGL75lacTP5YtYCB/5TgI+rUHB4x3GYOXUv3UmDA==
@@ -6053,9 +6066,9 @@ resolve-url@^0.2.1:
   integrity sha1-LGN/53yJOv0qZj/iGqkIAGjiBSo=
 
 resolve@^1.3.2:
-  version "1.9.0"
-  resolved "https://registry.yarnpkg.com/resolve/-/resolve-1.9.0.tgz#a14c6fdfa8f92a7df1d996cb7105fa744658ea06"
-  integrity sha512-TZNye00tI67lwYvzxCxHGjwTNlUV70io54/Ed4j6PscB8xVfuBJpRenI/o6dVk0cY0PYTY27AgCoGGxRnYuItQ==
+  version "1.10.0"
+  resolved "https://registry.yarnpkg.com/resolve/-/resolve-1.10.0.tgz#3bdaaeaf45cc07f375656dfd2e54ed0810b101ba"
+  integrity sha512-3sUr9aq5OfSg2S9pNtPA9hL1FVEAjvfOC4leW0SNf/mpnaakz2a9femSd6LqAww2RaFctwyf1lCqnTHuF1rxDg==
   dependencies:
     path-parse "^1.0.6"
 
@@ -6410,7 +6423,7 @@ source-map-resolve@^0.5.0:
     source-map-url "^0.4.0"
     urix "^0.1.0"
 
-source-map-support@^0.5.9, source-map-support@~0.5.6:
+source-map-support@^0.5.10, source-map-support@~0.5.6:
   version "0.5.10"
   resolved "https://registry.yarnpkg.com/source-map-support/-/source-map-support-0.5.10.tgz#2214080bc9d51832511ee2bab96e3c2f9353120c"
   integrity sha512-YfQ3tQFTK/yzlGJuX8pTwa4tifQj4QS2Mj7UegOu8jAz59MqIiMGPXxQhVQiIMNzayuUSF/jEuVnfFF5JqybmQ==

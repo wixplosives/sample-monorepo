@@ -14,7 +14,7 @@
     "lint": "run-p lint:src lint:test",
     "lint:src": "tslint -p src",
     "lint:test": "tslint -p test",
-    "test": "mocha -r @ts-tools/node \"test/**/*.spec.ts?(x)\" --watch-extensions ts,tsx  --colors",
+    "test": "mocha -r @ts-tools/node/r \"test/**/*.spec.ts?(x)\" --watch-extensions ts,tsx  --colors",
     "start": "webpack-dev-server --mode development --progress --open",
     "prepack": "yarn build"
   },
