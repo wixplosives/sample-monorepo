@@ -20,7 +20,8 @@
   "files": [
     "cjs",
     "esm",
-    "src"
+    "src",
+    "!src/tsconfig.json"
   ],
   "license": "MIT",
   "repository": "git@github.com:wixplosives/sample-monorepo.git",

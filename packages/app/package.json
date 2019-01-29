@@ -28,7 +28,8 @@
   "files": [
     "cjs",
     "umd",
-    "src"
+    "src",
+    "!src/tsconfig.json"
   ],
   "license": "MIT",
   "repository": "git@github.com:wixplosives/sample-monorepo.git",
