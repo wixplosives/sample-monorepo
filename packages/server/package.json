@@ -12,7 +12,7 @@
     "lint:test": "tslint -p test",
     "test": "mocha -r @ts-tools/node/r \"test/**/*.spec.ts?(x)\" --watch-extensions ts,tsx --colors",
     "prestart": "yarn workspace @sample-monorepo/app build:umd",
-    "start": "nodemon -r @ts-tools/node/r -r ./src/index.tsx",
+    "start": "nodemon -r @ts-tools/node/r ./src/index.tsx",
     "prepack": "yarn build"
   },
   "peerDependencies": {
