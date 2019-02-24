@@ -14,7 +14,7 @@
   "devDependencies": {
     "@ts-tools/build": "^0.1.10",
     "@ts-tools/node": "^0.9.3",
-    "@ts-tools/webpack-loader": "^0.8.7",
+    "@ts-tools/webpack-loader": "^0.8.8",
     "@types/chai": "^4.1.7",
     "@types/compression": "^0.0.36",
     "@types/express": "^4.16.1",
