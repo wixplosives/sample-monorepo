@@ -1,7 +1,7 @@
-import React from 'react'
+import React from 'react';
 
 export interface IMainProps {
-    text: string
+    text: string;
 }
 
-export const Main: React.FunctionComponent<IMainProps> = ({text}) => <main>{text}</main>
+export const Main: React.FunctionComponent<IMainProps> = ({text}) => <main>{text}</main>;

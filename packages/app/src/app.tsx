@@ -1,8 +1,8 @@
-import React from 'react'
-import { Main } from '@sample-monorepo/components'
+import React from 'react';
+import { Main } from '@sample-monorepo/components';
 
 export interface IAppProps {
-    text: string
+    text: string;
 }
 
-export const App: React.FunctionComponent<IAppProps> = ({text}) => <Main text={text} />
+export const App: React.FunctionComponent<IAppProps> = ({text}) => <Main text={text} />;
