@@ -11,9 +11,6 @@
     "build:umd": "yarn bundle:prod",
     "bundle:prod": "webpack --mode production",
     "bundle:dev": "webpack --mode development --devtool source-map",
-    "lint": "run-p lint:src lint:test",
-    "lint:src": "tslint -p src",
-    "lint:test": "tslint -p test",
     "test": "mocha -r @ts-tools/node/r \"test/**/*.spec.ts?(x)\" --watch-extensions ts,tsx  --colors",
     "start": "webpack-dev-server --mode development --progress --open",
     "prepack": "yarn build"

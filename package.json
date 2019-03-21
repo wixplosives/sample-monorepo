@@ -6,7 +6,7 @@
   "scripts": {
     "clean": "lerna run clean --stream --parallel",
     "build": "lerna run build --stream --parallel",
-    "lint": "lerna run lint --stream --parallel",
+    "lint": "tslint -p tsconfig.test.json",
     "pretest": "yarn lint",
     "test": "lerna run test --stream --parallel",
     "start": "yarn workspace @sample-monorepo/app start"
