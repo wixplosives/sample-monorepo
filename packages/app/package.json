@@ -20,7 +20,8 @@
     "react-dom": ">=16"
   },
   "dependencies": {
-    "@sample-monorepo/components": "^1.0.0"
+    "@sample-monorepo/components": "^1.0.0",
+    "sanitize.css": "^8.0.0"
   },
   "files": [
     "cjs",

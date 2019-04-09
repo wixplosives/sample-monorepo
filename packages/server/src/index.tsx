@@ -17,8 +17,8 @@ app.use(compression());
 app.use(express.static(appBundleDirectory));
 
 app.get('/server', (_req, res) => {
-  res.send(`
-<!DOCTYPE html>
+    res.send(
+        `<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -26,6 +26,7 @@ app.get('/server', (_req, res) => {
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="Description" content="Monorepo example server-side renderer app">
     <title>Monorepo Example</title>
+    <link href="main.css" rel="stylesheet">
 </head>
 <body>
     <div id="SITE_MAIN" data-ssr>
@@ -33,17 +34,17 @@ app.get('/server', (_req, res) => {
     </div>
     <script type="text/javascript" src="main.js"></script>
 </body>
-</html>
-`.trim());
-  res.end();
+</html>`
+    );
+    res.end();
 });
 
 app.listen(port, (err: Error) => {
-  if (err) {
-    console.log(err);
-  }
+    if (err) {
+        console.log(err);
+    }
 
-  console.log(`Listening on:`);
-  console.log(`  http://localhost:${port}/ - client only rendering`);
-  console.log(`  http://localhost:${port}/server - ssr with hydration`);
+    console.log(`Listening on:`);
+    console.log(`  http://localhost:${port}/ - client only rendering`);
+    console.log(`  http://localhost:${port}/server - ssr with hydration`);
 });

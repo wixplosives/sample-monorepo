@@ -11,5 +11,4 @@ describe('<App />', () => {
     it('renders provided text', () => {
         expect(renderToString(<App text="It works" />)).to.contain('It works');
     });
-
 });
