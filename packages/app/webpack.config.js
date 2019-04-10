@@ -29,7 +29,7 @@ module.exports = {
         new HtmlWebpackPlugin({ title: 'Sample Monorepo App' }),
         new MiniCssExtractPlugin({
             filename: '[name].css',
-            chunkFilename: '[id].css'
+            chunkFilename: '[name].css'
         })
     ]
 };
