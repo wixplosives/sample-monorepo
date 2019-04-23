@@ -37,7 +37,7 @@
     "rimraf": "^2.6.3",
     "tslint": "^5.16.0",
     "tslint-react": "^4.0.0",
-    "typescript": "~3.4.4",
+    "typescript": "~3.4.5",
     "webpack": "^4.30.0",
     "webpack-cli": "^3.3.1",
     "webpack-dev-server": "^3.3.1"
