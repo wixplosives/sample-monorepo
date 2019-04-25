@@ -26,7 +26,7 @@
     "chai": "^4.2.0",
     "css-loader": "^2.1.1",
     "html-webpack-plugin": "next",
-    "lerna": "^3.13.3",
+    "lerna": "^3.13.4",
     "mini-css-extract-plugin": "^0.6.0",
     "mocha": "^6.1.4",
     "nodemon": "^1.18.11",
