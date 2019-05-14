@@ -697,23 +697,23 @@
     universal-user-agent "^2.0.0"
     url-template "^2.0.8"
 
-"@ts-tools/build@^0.1.11":
-  version "0.1.11"
-  resolved "https://registry.yarnpkg.com/@ts-tools/build/-/build-0.1.11.tgz#650d1db8353e70b5fdd4c9f568fcc32265f1dc7e"
-  integrity sha512-n8NceFzsiNVK2ALNOeMavBMuJ859XWmZwTYXaEeK88AHZLnZud5TG4Ag/zNLwmOtGysGhLY0KhH3lfguhfFv4w==
+"@ts-tools/build@^0.1.13":
+  version "0.1.13"
+  resolved "https://registry.yarnpkg.com/@ts-tools/build/-/build-0.1.13.tgz#11696468e127e26b5908ff7e5e94b41b71b280fa"
+  integrity sha512-nUF/xM0QmTug/ke3eWDunJ9hjdtjxwG2TdUdkMuQWTPnfd8UVKf7xPNjQxVq0ygIesQJ7qmncy3U/AQsMPI9ew==
   dependencies:
-    "@ts-tools/service" "^2.0.1"
+    "@ts-tools/service" "^2.0.3"
     chalk "^2.4.2"
     commander "^2.20.0"
     proper-fs "^1.1.2"
 
-"@ts-tools/node@^0.9.5":
-  version "0.9.5"
-  resolved "https://registry.yarnpkg.com/@ts-tools/node/-/node-0.9.5.tgz#c8cbda39a7655dd4435696d551e2914d6bd5500f"
-  integrity sha512-dXhtoYviC091dOvSnAhV4u6PLxetjNZdKQlmv+e7XWw7p1M4o9VgdNirHwITG1faZE1g+bScVQtEz6nDuv6GVQ==
+"@ts-tools/node@^0.9.7":
+  version "0.9.7"
+  resolved "https://registry.yarnpkg.com/@ts-tools/node/-/node-0.9.7.tgz#4440697142de110001b015e346ece08947acb175"
+  integrity sha512-xAFR3b5TFwc5JhEuZj8udv6w9jdOeE3atbSYrV1JJxz0zzkNbTgiRqBdL8Qwld+iU4FkRFmgrNgpyLqP4JaCsw==
   dependencies:
     "@ts-tools/robotrix" "^0.7.5"
-    "@ts-tools/service" "^2.0.1"
+    "@ts-tools/service" "^2.0.3"
     is-ci "^2.0.0"
     source-map-support "^0.5.12"
 
@@ -722,18 +722,18 @@
   resolved "https://registry.yarnpkg.com/@ts-tools/robotrix/-/robotrix-0.7.5.tgz#b7410643805b0f149b8106dba40472e2ea0d505e"
   integrity sha512-x8JpibobUkOYbUYEOOLK01WRa7rzQwlrb2F/qNX26GSY+CWUgVEb5TJrC9nRJnqgaDeSutIMyvUqCN3WIdu7JA==
 
-"@ts-tools/service@^2.0.1":
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/@ts-tools/service/-/service-2.0.1.tgz#6ea9d5a28ec458471c2b5096e91779a5be018b67"
-  integrity sha512-t8k2z35fcVveuTRfmyUpmBTTPgavZpOSdIjABMF95bgL1LzGtstAOOEEBNjG6sIFKMBrUQw0/TzBl0OY2ttL7Q==
+"@ts-tools/service@^2.0.3":
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/@ts-tools/service/-/service-2.0.3.tgz#9b784954e27abf658e0449726892499a96ee80d9"
+  integrity sha512-OrqLZlYHWkJmR049uB6nDgwpPBPDUC6fhrsR0W6hiN+BVoyZ/LohJZnSRYzMcLWwAyJL5Git0OVMWS+AHu+BGg==
 
-"@ts-tools/webpack-loader@^0.8.9":
-  version "0.8.9"
-  resolved "https://registry.yarnpkg.com/@ts-tools/webpack-loader/-/webpack-loader-0.8.9.tgz#7ac56ba44ff045576e287dc1a5b4cbff8a2c5653"
-  integrity sha512-5F0dK6rFRPjRvioCJ5V928kmdiluJBmtcgv/1iAJA0E5NZkKHVLTiHzZiO5ndcoCc4H0usKW73Qb/mS2LBbuvw==
+"@ts-tools/webpack-loader@^0.8.11":
+  version "0.8.11"
+  resolved "https://registry.yarnpkg.com/@ts-tools/webpack-loader/-/webpack-loader-0.8.11.tgz#76156895223414590c623569ac81715d62ce89e4"
+  integrity sha512-Uy7btiy2wb7qX/6CKgu9LpJfjqBilZUhincZbI1KQrFe3R8MDndf4EkQrc00V8raorF7SNfKJZGro4aNsF5UaQ==
   dependencies:
     "@ts-tools/robotrix" "^0.7.5"
-    "@ts-tools/service" "^2.0.1"
+    "@ts-tools/service" "^2.0.3"
     loader-utils "^1.2.3"
 
 "@types/body-parser@*":
@@ -810,9 +810,9 @@
   integrity sha512-1axi39YdtBI7z957vdqXI4Ac25e7YihYQtJa+Clnxg1zTJEaIRbndt71O3sP4GAMgiAm0pY26/b9BrY4MR/PMw==
 
 "@types/node@*":
-  version "12.0.1"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-12.0.1.tgz#3dde31f8da274dfeb90e96abf55038fef46285f0"
-  integrity sha512-7sy7DKVJrCTbaAERJZq/CU12bzdmpjRr321/Ne9QmzhB3iZ//L16Cizcni5hHNbANxDbxwMb9EFoWkM8KPkp0A==
+  version "12.0.2"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-12.0.2.tgz#3452a24edf9fea138b48fad4a0a028a683da1e40"
+  integrity sha512-5tabW/i+9mhrfEOUcLDu2xBPsHJ+X5Orqy9FKpale3SjDA17j5AEpYq5vfy3oAeAHGcvANRCO3NV3d2D6q3NiA==
 
 "@types/node@10":
   version "10.14.6"
@@ -4896,11 +4896,11 @@ nanomatch@^1.2.9:
     to-regex "^3.0.1"
 
 needle@^2.2.1:
-  version "2.3.1"
-  resolved "https://registry.yarnpkg.com/needle/-/needle-2.3.1.tgz#d272f2f4034afb9c4c9ab1379aabc17fc85c9388"
-  integrity sha512-CaLXV3W8Vnbps8ZANqDGz7j4x7Yj1LW4TWF/TQuDfj7Cfx4nAPTvw98qgTevtto1oHDrh3pQkaODbqupXlsWTg==
+  version "2.4.0"
+  resolved "https://registry.yarnpkg.com/needle/-/needle-2.4.0.tgz#6833e74975c444642590e15a750288c5f939b57c"
+  integrity sha512-4Hnwzr3mi5L97hMYeNl8wRW/Onhy4nUKR/lVemJ8gJedxxUyBLm9kkrDColJvoSfwi0jCNhD+xCdOtiGDQiRZg==
   dependencies:
-    debug "^4.1.0"
+    debug "^3.2.6"
     iconv-lite "^0.4.4"
     sax "^1.2.4"
 
