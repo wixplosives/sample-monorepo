@@ -2,6 +2,7 @@ import React from 'react';
 import { render, hydrate } from 'react-dom';
 import { App } from './app';
 import 'sanitize.css';
+import 'sanitize.css/typography.css';
 
 const container = upsertContainer();
 
