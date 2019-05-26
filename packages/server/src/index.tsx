@@ -39,11 +39,7 @@ app.get('/server', (_req, res) => {
     res.end();
 });
 
-app.listen(port, (err: Error) => {
-    if (err) {
-        console.log(err);
-    }
-
+app.listen(port, () => {
     console.log(`Listening on:`);
     console.log(`  http://localhost:${port}/ - client only rendering`);
     console.log(`  http://localhost:${port}/server - ssr with hydration`);
