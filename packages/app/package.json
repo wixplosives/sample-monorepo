@@ -21,7 +21,7 @@
   },
   "dependencies": {
     "@sample-monorepo/components": "^1.0.0",
-    "sanitize.css": "^9.0.0"
+    "sanitize.css": "^10.0.0"
   },
   "files": [
     "cjs",
