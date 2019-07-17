@@ -1,14 +1,14 @@
+import expect from 'expect';
 import React from 'react';
 import { App } from '@sample-monorepo/app';
 import { renderToString } from 'react-dom/server';
-import { expect } from 'chai';
 
 describe('<App />', () => {
     it('renders without throwing on the server', () => {
-        expect(() => renderToString(<App text="" />)).to.not.throw();
+        expect(() => renderToString(<App text="" />)).not.toThrow();
     });
 
     it('renders provided text', () => {
-        expect(renderToString(<App text="It works" />)).to.contain('It works');
+        expect(renderToString(<App text="It works" />)).toContain('It works');
     });
 });

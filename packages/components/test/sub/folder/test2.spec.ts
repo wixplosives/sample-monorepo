@@ -1,7 +1,7 @@
-import { expect } from 'chai';
+import expect from 'expect';
 
 describe('sub folder test', () => {
     it('simply works', () => {
-        expect(true).to.equals(true);
+        expect(true).toBe(true);
     });
 });

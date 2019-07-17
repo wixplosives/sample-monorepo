@@ -23,7 +23,7 @@ Sample monorepo setup with yarn workspaces, typescript, and lerna.
   - Each project has two folders, `src` and `test`, each with their own `tsconfig.json`. This allows us to define which `@types` packages are accessible on a per-folder basis (`src` should not have access to `test` globals).
   - We use [@ts-tools/node](https://github.com/AviVahl/ts-tools) to run tests directly from sources.
 
-- Testing is done using [mocha](https://github.com/mochajs/mocha) and [chai](https://github.com/chaijs/chai).
+- Testing is done using [mocha](https://github.com/mochajs/mocha) and [expect](https://github.com/facebook/jest/tree/master/packages/expect).
   - Light, battle-tested, projects with few dependencies.
   - Can be bundled and used in the browser.
 
