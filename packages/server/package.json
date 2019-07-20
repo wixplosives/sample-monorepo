@@ -7,7 +7,7 @@
     "clean": "rimraf ./cjs",
     "prebuild": "yarn clean",
     "build": "ts-build ./src --cjs",
-    "test": "mocha -r @ts-tools/node/r \"test/**/*.spec.ts?(x)\" --watch-extensions ts,tsx --colors",
+    "test": "mocha \"test/**/*.spec.ts?(x)\"",
     "prestart": "yarn workspace @sample-monorepo/app build:umd",
     "start": "nodemon -r @ts-tools/node/r ./src/index.tsx",
     "prepack": "yarn build"

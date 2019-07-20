@@ -8,7 +8,7 @@
     "clean": "rimraf ./cjs ./esm",
     "prebuild": "yarn clean",
     "build": "ts-build ./src --cjs --esm",
-    "test": "mocha -r @ts-tools/node/r \"test/**/*.spec.ts?(x)\" --watch-extensions ts,tsx --colors",
+    "test": "mocha \"test/**/*.spec.ts?(x)\"",
     "prepack": "yarn build"
   },
   "peerDependencies": {
