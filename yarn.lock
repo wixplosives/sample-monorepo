@@ -872,43 +872,43 @@
     universal-user-agent "^3.0.0"
     url-template "^2.0.8"
 
-"@ts-tools/build@^0.1.15":
-  version "0.1.15"
-  resolved "https://registry.yarnpkg.com/@ts-tools/build/-/build-0.1.15.tgz#371d270e1b99764697cc6b6ec2d7d42a2f60bada"
-  integrity sha512-vE+tCq/cbqhwHA9ef0ytCqzSTZ3OetOQj1BACPxtl2kc+LG12iUK44Nge06YhWJU5lNF2yx13jkNPImx+rP9TQ==
+"@ts-tools/build@^0.1.16":
+  version "0.1.16"
+  resolved "https://registry.yarnpkg.com/@ts-tools/build/-/build-0.1.16.tgz#84ddc3ad4c43d665fd5801889ccf93c5de872597"
+  integrity sha512-taq5b32P44tufu7lcZ0VW0DM9T7gvqlqZvvUXdzCAfcBMZZg0C+fjupn12lsRpsoyTOmztMT5h1BvIy3u08v8Q==
   dependencies:
-    "@ts-tools/service" "^2.0.4"
+    "@ts-tools/service" "^2.0.5"
     chalk "^2.4.2"
-    commander "^2.20.0"
+    commander "^3.0.0"
     proper-fs "^1.1.2"
 
-"@ts-tools/node@^0.9.9":
-  version "0.9.9"
-  resolved "https://registry.yarnpkg.com/@ts-tools/node/-/node-0.9.9.tgz#c4b03417a417c60edd9261962dd14950dec5d687"
-  integrity sha512-3DMVmtO3e+8g6HEXe5qp3H0PqbJEcEZbHGkhSWcl8nJ60qEW8zQEVvCZoeOL9KrJ3wOQKlCfjMlO0zUEjy9LmA==
+"@ts-tools/node@^0.9.10":
+  version "0.9.10"
+  resolved "https://registry.yarnpkg.com/@ts-tools/node/-/node-0.9.10.tgz#675c58d04b741662a05629493496bf60f51ce1f3"
+  integrity sha512-TTuPKlTbyKjO1XTXHDHJOwcG4oO+VE8OMvbN2xPdO3N6gsYTBR1bKxLkyGT+5gc7y8nYnzI/bclav77EPru1DQ==
   dependencies:
-    "@ts-tools/robotrix" "^0.7.6"
-    "@ts-tools/service" "^2.0.4"
+    "@ts-tools/robotrix" "^0.7.7"
+    "@ts-tools/service" "^2.0.5"
     is-ci "^2.0.0"
     source-map-support "^0.5.13"
 
-"@ts-tools/robotrix@^0.7.6":
-  version "0.7.6"
-  resolved "https://registry.yarnpkg.com/@ts-tools/robotrix/-/robotrix-0.7.6.tgz#b3ca0f3b2aa3a7f52f8efba438193a1de5d25989"
-  integrity sha512-p46pQPeOg+Fu/Lz71TjhE/twlmpF6CERlM2MrLp/+pChI6qBJQzRSsJr5RCVriVu4UiOGefhejdK6BjPK22nHQ==
+"@ts-tools/robotrix@^0.7.7":
+  version "0.7.7"
+  resolved "https://registry.yarnpkg.com/@ts-tools/robotrix/-/robotrix-0.7.7.tgz#44fde05c30fae27c72881c32b3b39b406492053b"
+  integrity sha512-pnByh8Z1kpFxR0o2DoBqaHvgo7Dz4EZ0yKzZ96q61MeWFE1oVPGZS3v79YH5TuyoF+isbtxxy6IFLbF1gWXGKA==
 
-"@ts-tools/service@^2.0.4":
-  version "2.0.4"
-  resolved "https://registry.yarnpkg.com/@ts-tools/service/-/service-2.0.4.tgz#124e50935ee6a9ee117670c325725a7e3357ad43"
-  integrity sha512-bUre2eYH8yBo8lQVzndYcYzi65n1JOkjyUpJknwIXn7H4vkTqiREFBdceLOt03w8yY9FAMcXN3f1XKDhe4mA9Q==
+"@ts-tools/service@^2.0.5":
+  version "2.0.5"
+  resolved "https://registry.yarnpkg.com/@ts-tools/service/-/service-2.0.5.tgz#6a35df0f584fce9b94d520f8243c4f9939bb7c96"
+  integrity sha512-4nJXEdW5PoyS6+YS/A977LmKEnMdFfJLQ1fcIh/mmAffS3bYK/Q5BoWF0jfQykrvMObzO4e4hhmCNexq5+zgzQ==
 
-"@ts-tools/webpack-loader@^0.8.13":
-  version "0.8.13"
-  resolved "https://registry.yarnpkg.com/@ts-tools/webpack-loader/-/webpack-loader-0.8.13.tgz#6126ef84bfa6c16cf79fdc173a8b14966dae6ad1"
-  integrity sha512-QgYaxYtD2SQEqmzN4HpMsJ2/JJBz+uR5XADIbSVbN+8VyKfHruL8za8fGYLh5MYgk9DBvLSDFOwrL21TxHwEhA==
+"@ts-tools/webpack-loader@^0.8.14":
+  version "0.8.14"
+  resolved "https://registry.yarnpkg.com/@ts-tools/webpack-loader/-/webpack-loader-0.8.14.tgz#2d6fb4d0615ee5fa446010bb23ae0a8305869878"
+  integrity sha512-XwTCyahqAvunCMfck6LzYQPAL7WW0Srg1osB6XJQbq6znx8txDaEGxMSQt7y0gPYq0J7TfYAs2CZtmRcU/X/Kw==
   dependencies:
-    "@ts-tools/robotrix" "^0.7.6"
-    "@ts-tools/service" "^2.0.4"
+    "@ts-tools/robotrix" "^0.7.7"
+    "@ts-tools/service" "^2.0.5"
     loader-utils "^1.2.3"
 
 "@types/body-parser@*":
@@ -2069,6 +2069,11 @@ commander@^2.12.1, commander@^2.19.0, commander@^2.20.0, commander@~2.20.0:
   version "2.20.0"
   resolved "https://registry.yarnpkg.com/commander/-/commander-2.20.0.tgz#d58bb2b5c1ee8f87b0d340027e9e94e222c5a422"
   integrity sha512-7j2y+40w61zy6YC2iRNpUe/NwhNyoXrYpHMrSunaMG64nRnaf96zO/KMQR4OyN/UnE5KLyEBnKHd4aG3rskjpQ==
+
+commander@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/commander/-/commander-3.0.0.tgz#0641ea00838c7a964627f04cddc336a2deddd60a"
+  integrity sha512-pl3QrGOBa9RZaslQiqnnKX2J068wcQw7j9AIaBQ9/JEp5RY6je4jKTImg0Bd+rpoONSe7GUFSgkxLeo17m3Pow==
 
 commondir@^1.0.1:
   version "1.0.1"
