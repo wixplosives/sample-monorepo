@@ -1,7 +1,7 @@
-import expect from 'expect';
+import { expect } from 'chai';
 
 describe('test', () => {
     it('works', () => {
-        expect(true).toBe(true);
+        expect(true).to.equal(true);
     });
 });
