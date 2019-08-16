@@ -10,7 +10,8 @@
     "pretest": "yarn lint",
     "test": "lerna run test --stream --parallel",
     "start": "yarn workspace @sample-monorepo/app start",
-    "prettify": "yarn prettier \"packages/**/*.{js,ts,tsx}\" --write"
+    "prettify": "yarn prettier \"packages/**/*.{js,ts,tsx}\" --write",
+    "typecheck": "tsc -p tsconfig.test.json --noEmit"
   },
   "devDependencies": {
     "@ts-tools/build": "^0.1.16",
