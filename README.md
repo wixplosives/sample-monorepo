@@ -29,18 +29,18 @@ Sample monorepo setup with yarn workspaces, typescript, and lerna.
 
 ### Included sample packages
 
-- **@sample-monorepo/components**
+- **@sample/components**
   - [React](https://github.com/facebook/react) components library.
   - Built as `cjs` (Node consumption) and `esm` (bundler consumption).
 
-- **@sample-monorepo/app**
+- **@sample/app**
   - [React](https://github.com/facebook/react) application.
-  - Uses the `@sample-monorepo/components` package (also inside monorepo).
+  - Uses the `@sample/components` package (also inside monorepo).
   - Built as `cjs` (Node consumption) and `umd` (browser consumption).
 
-- **@sample-monorepo/server**
+- **@sample/server**
   - [Express](https://github.com/expressjs/express) application.
-  - Uses the `@sample-monorepo/app` package (also inside monorepo).
+  - Uses the `@sample/app` package (also inside monorepo).
   - Listens on http://localhost:3000 (client only rendering) http://localhost:3000/server (SSR rendering).
   - Built as `cjs` (Node consumption).
 
@@ -87,10 +87,10 @@ New `devDependencies` can be added to the root `package.json` using yarn:
 yarn add <package name> --dev -W
 ```
 
-Some packages depend on sibling packages within the monorepo. For example, in this repo, `@sample-monorepo/app` depends on `@sample-monorepo/components`. This relationship is just a normal dependency, and can be described in the `package.json` of `app` like so:
+Some packages depend on sibling packages within the monorepo. For example, in this repo, `@sample/app` depends on `@sample/components`. This relationship is just a normal dependency, and can be described in the `package.json` of `app` like so:
 
 ```json
   "dependencies": {
-    "@sample-monorepo/components": "<package version>"
+    "@sample/components": "<package version>"
   }
 ```

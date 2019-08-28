@@ -1,5 +1,5 @@
 {
-  "name": "sample-monorepo",
+  "name": "sample",
   "workspaces": [
     "packages/*"
   ],
@@ -9,7 +9,7 @@
     "lint": "tslint -p tsconfig.test.json",
     "pretest": "yarn lint",
     "test": "lerna run test --stream --parallel",
-    "start": "yarn workspace @sample-monorepo/app start",
+    "start": "yarn workspace @sample/app start",
     "prettify": "yarn prettier \"packages/**/*.{js,ts,tsx}\" --write",
     "typecheck": "tsc -p tsconfig.test.json --noEmit"
   },

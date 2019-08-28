@@ -1,5 +1,5 @@
 {
-  "name": "@sample-monorepo/app",
+  "name": "@sample/app",
   "version": "1.0.0",
   "main": "cjs/index.js",
   "types": "cjs/index.d.ts",
@@ -20,7 +20,7 @@
     "react-dom": ">=16"
   },
   "dependencies": {
-    "@sample-monorepo/components": "^1.0.0",
+    "@sample/components": "^1.0.0",
     "sanitize.css": "^11.0.0"
   },
   "files": [
@@ -30,7 +30,7 @@
     "!src/tsconfig.json"
   ],
   "license": "MIT",
-  "repository": "git@github.com:wixplosives/sample-monorepo.git",
+  "repository": "git@github.com:wixplosives/sample.git",
   "private": true,
   "publishConfig": {
     "access": "public"

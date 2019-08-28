@@ -1,6 +1,6 @@
 import { expect } from 'chai';
 import React from 'react';
-import { App } from '@sample-monorepo/app';
+import { App } from '@sample/app';
 import { renderToString } from 'react-dom/server';
 
 describe('<App />', () => {

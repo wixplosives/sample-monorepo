@@ -1,5 +1,5 @@
 {
-  "name": "@sample-monorepo/server",
+  "name": "@sample/server",
   "version": "1.0.0",
   "main": "cjs/index.js",
   "types": "cjs/index.d.ts",
@@ -8,7 +8,7 @@
     "prebuild": "yarn clean",
     "build": "ts-build ./src --cjs",
     "test": "mocha \"test/**/*.spec.ts?(x)\"",
-    "prestart": "yarn workspace @sample-monorepo/app build:umd",
+    "prestart": "yarn workspace @sample/app build:umd",
     "start": "nodemon -r @ts-tools/node/r ./src/index.tsx",
     "prepack": "yarn build"
   },
@@ -17,7 +17,7 @@
     "react-dom": ">=16"
   },
   "dependencies": {
-    "@sample-monorepo/app": "^1.0.0",
+    "@sample/app": "^1.0.0",
     "compression": "^1.7.4",
     "express": "^4.17.1"
   },
@@ -27,7 +27,7 @@
     "!src/tsconfig.json"
   ],
   "license": "MIT",
-  "repository": "git@github.com:wixplosives/sample-monorepo.git",
+  "repository": "git@github.com:wixplosives/sample.git",
   "private": true,
   "publishConfig": {
     "access": "public"
