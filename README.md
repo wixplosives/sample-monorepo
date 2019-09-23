@@ -19,8 +19,7 @@ Sample monorepo setup with yarn workspaces, typescript, and lerna.
   - Easier multi-package publishing, using `lerna publish`.
 
 - Sources and tests are written in strict [TypeScript](https://github.com/Microsoft/TypeScript).
-  - We use a single, common, `tsconfig.base.json`, from which all other `tsconfig.json` files inherit (using `"extends"`).
-  - Each project has two folders, `src` and `test`, each with their own `tsconfig.json`. This allows us to define which `@types` packages are accessible on a per-folder basis (`src` should not have access to `test` globals).
+  - We use a single, common, `tsconfig.json`.
   - We use [@ts-tools/node](https://github.com/AviVahl/ts-tools) to run tests directly from sources.
 
 - Testing is done using [mocha](https://github.com/mochajs/mocha) and [expect](https://github.com/facebook/jest/tree/master/packages/expect).
@@ -50,10 +49,9 @@ packages/
   some-package/
     src/
       index.ts
-      tsconfig.json   // extends tsconfig.base.json
+      tsconfig.json   // extends <root>/tsconfig.json
     test/
       test.spec.ts
-      tsconfig.json   // extends tsconfig.base.json
 
     LICENSE           // package-specific license. included in npm artifact
     package.json      // package-specific deps and scripts
@@ -65,7 +63,7 @@ lerna.json            // lerna configuration
 LICENSE               // root license file. picked up by github
 package.json          // common dev deps and workspace-wide scripts
 README.md             // workspace-wide information. shown in github
-tsconfig.base.json    // common typescript configuration
+tsconfig.json    // common typescript configuration
 tslint.json           // monorepo wide linting configuration
 yarn.lock             // the only lock file in the repo. all packages combined
 ```
