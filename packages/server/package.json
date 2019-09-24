@@ -23,8 +23,7 @@
   },
   "files": [
     "cjs",
-    "src",
-    "!src/tsconfig.json"
+    "src"
   ],
   "license": "MIT",
   "repository": "git@github.com:wixplosives/sample.git",
