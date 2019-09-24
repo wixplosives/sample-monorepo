@@ -49,7 +49,6 @@ packages/
   some-package/
     src/
       index.ts
-      tsconfig.json   // extends <root>/tsconfig.json
     test/
       test.spec.ts
 
@@ -63,7 +62,7 @@ lerna.json            // lerna configuration
 LICENSE               // root license file. picked up by github
 package.json          // common dev deps and workspace-wide scripts
 README.md             // workspace-wide information. shown in github
-tsconfig.json    // common typescript configuration
+tsconfig.json         // common typescript configuration
 tslint.json           // monorepo wide linting configuration
 yarn.lock             // the only lock file in the repo. all packages combined
 ```
