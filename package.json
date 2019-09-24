@@ -8,7 +8,7 @@
     "build": "lerna run build --stream --parallel",
     "lint": "tslint -p tsconfig.json",
     "pretest": "yarn lint",
-    "test": "lerna run test --stream --parallel",
+    "test": "mocha \"packages/**/test/**/*.spec.ts?(x)\"",
     "start": "yarn workspace @sample/app start",
     "prettify": "yarn prettier \"packages/**/*.{js,ts,tsx}\" --write",
     "typecheck": "tsc --noEmit"
