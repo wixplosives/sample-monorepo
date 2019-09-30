@@ -1,11 +1,13 @@
 const { join } = require('path');
+const TsconfigPathsPlugin = require('tsconfig-paths-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
+const monorepoRoot = join(__dirname, '..', '..');
+
 module.exports = {
     devtool: 'source-map',
-    // root of the monorepo, so that paths in output will be clickable
-    context: join(__dirname, '..', '..'),
+    context: monorepoRoot,
     entry: join(__dirname, 'src', 'client-bootstrap'),
     output: {
         path: join(__dirname, 'umd')
@@ -23,7 +25,8 @@ module.exports = {
         ]
     },
     resolve: {
-        extensions: ['.ts', '.tsx', '.mjs', '.js', '.json']
+        extensions: ['.ts', '.tsx', '.mjs', '.js', '.json'],
+        plugins: [new TsconfigPathsPlugin({ configFile: join(monorepoRoot, 'tsconfig.json') })]
     },
     plugins: [
         new HtmlWebpackPlugin({ title: 'Sample Monorepo App' }),
