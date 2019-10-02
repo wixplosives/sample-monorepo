@@ -32,7 +32,8 @@
         "project": "./tsconfig.json"
     },
     "rules": {
-        "react/prop-types": 0,
-        "@typescript-eslint/no-use-before-define": 0
+        "@typescript-eslint/no-floating-promises": "error",
+        "react/prop-types": "off",
+        "@typescript-eslint/no-use-before-define": "off"
     }
 }
