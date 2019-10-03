@@ -56,14 +56,16 @@ packages/
     package.json      // package-specific deps and scripts
     README.md         // shown in npmjs.com. included in npm artifact
 
+.eslintrc             // eslint (linter) configuration
 .gitignore            // github's default node gitignore with customizations
-.travis.yml           // travis configuration
+.mocharc.js           // mocha (test runner) configuration
+.prettierrc.js        // prettier (formatter) configuration
+.travis.yml           // travis ci configuration
 lerna.json            // lerna configuration
 LICENSE               // root license file. picked up by github
 package.json          // common dev deps and workspace-wide scripts
 README.md             // workspace-wide information. shown in github
-tsconfig.json         // common typescript configuration
-tslint.json           // monorepo wide linting configuration
+tsconfig.json         // typescript (transpiler) configuration
 yarn.lock             // the only lock file in the repo. all packages combined
 ```
 
