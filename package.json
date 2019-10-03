@@ -6,7 +6,7 @@
   "scripts": {
     "clean": "lerna run clean --stream --parallel",
     "build": "lerna run build --stream --parallel",
-    "lint": "eslint . --ext .ts,.tsx",
+    "lint": "eslint . --ext .ts,.tsx -f codeframe",
     "pretest": "yarn typecheck && yarn lint",
     "test": "mocha \"packages/**/test/**/*.spec.ts?(x)\"",
     "start": "yarn workspace @sample/app start",
