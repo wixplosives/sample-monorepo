@@ -33,8 +33,10 @@
         "project": "./tsconfig.json"
     },
     "rules": {
+        "@typescript-eslint/explicit-function-return-type": "off",
+        "@typescript-eslint/interface-name-prefix": "off",
         "@typescript-eslint/no-floating-promises": "error",
-        "react/prop-types": "off",
-        "@typescript-eslint/no-use-before-define": "off"
+        "@typescript-eslint/no-use-before-define": "off",
+        "react/prop-types": "off"
     }
 }
