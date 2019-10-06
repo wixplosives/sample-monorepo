@@ -11,20 +11,20 @@ Sample monorepo setup with yarn workspaces, typescript, and lerna.
 -   Monorepo is installed using [yarn](https://github.com/yarnpkg/yarn).
 
     -   Packages are automatically linked together, meaning you can do cross-package work within the repo.
-    -   devDependencies are common, and only appear in the root `package.json`.
+    -   `devDependencies` are common, and only appear in the root `package.json`. Easier to manage and upgrade.
     -   Each package has its own `scripts` and `dependencies`. They are being installed in the root `node_modules`, using the same deduping mechanism `yarn` uses for single packages.
     -   Adding new packages is as simple as dropping an existing package in the `packages` folder, and re-running `yarn`.
 
 -   Monorepo scripts are being executed using [lerna](https://github.com/lerna/lerna).
 
-    -   Automatically ensures order when using `lerna run [script]`, meaning that if `package-a` depends on `package-b`, it will run `package-b`'s scripts first.
-    -   `lerna updated` shows changed packages.
-    -   Easier multi-package publishing, using `lerna publish`.
+    -   `lerna publish` - multi-package publishing.
+    -   `lerna run` - running package scripts.
+    -   `lerna updated` - shows changed packages (since last tag).
 
 -   Sources and tests are written in strict [TypeScript](https://github.com/Microsoft/TypeScript).
 
-    -   We use a single, common, `tsconfig.json`.
-    -   We use [@ts-tools/node](https://github.com/AviVahl/ts-tools) to run tests directly from sources.
+    -   Common base `tsconfig.json`.
+    -   [@ts-tools/node](https://github.com/AviVahl/ts-tools) is used to run code directly from sources.
 
 -   Testing is done using [mocha](https://github.com/mochajs/mocha) and [expect](https://github.com/facebook/jest/tree/master/packages/expect).
     -   Light, battle-tested, projects with few dependencies.
