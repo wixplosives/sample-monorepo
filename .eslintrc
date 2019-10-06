@@ -38,5 +38,13 @@
         "@typescript-eslint/no-floating-promises": "error",
         "@typescript-eslint/no-use-before-define": "off",
         "react/prop-types": "off"
-    }
+    },
+    "overrides": [
+        {
+            "files": ["*.js"],
+            "rules": {
+                "@typescript-eslint/no-var-requires": "off"
+            }
+        }
+    ]
 }
