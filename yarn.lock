@@ -835,16 +835,6 @@
     once "^1.4.0"
     universal-user-agent "^4.0.0"
 
-"@ts-tools/build@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@ts-tools/build/-/build-1.0.0.tgz#85cd136c3db70a890eb580610ab306a3202fa824"
-  integrity sha512-pGyGQqh1HkgOQsJjct/M07RD2EMXQDY9pVID7OZr+/u5/w/zIkCg7ys3C5FzE15y8qoltJc8LD/UqqNEpfNuLQ==
-  dependencies:
-    "@ts-tools/service" "^2.0.5"
-    chalk "^2.4.2"
-    commander "^3.0.2"
-    proper-fs "^1.1.2"
-
 "@ts-tools/node@^1.0.0":
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/@ts-tools/node/-/node-1.0.0.tgz#60d808e3f132a7f47b45658b71e7e2ba1fbe1735"
@@ -852,11 +842,6 @@
   dependencies:
     "@ts-tools/transpile" "^1.0.0"
     source-map-support "^0.5.13"
-
-"@ts-tools/service@^2.0.5":
-  version "2.0.5"
-  resolved "https://registry.yarnpkg.com/@ts-tools/service/-/service-2.0.5.tgz#6a35df0f584fce9b94d520f8243c4f9939bb7c96"
-  integrity sha512-4nJXEdW5PoyS6+YS/A977LmKEnMdFfJLQ1fcIh/mmAffS3bYK/Q5BoWF0jfQykrvMObzO4e4hhmCNexq5+zgzQ==
 
 "@ts-tools/transpile@^1.0.0":
   version "1.0.0"
@@ -2084,11 +2069,6 @@ commander@^2.19.0, commander@^2.20.0, commander@~2.20.0:
   version "2.20.1"
   resolved "https://registry.yarnpkg.com/commander/-/commander-2.20.1.tgz#3863ce3ca92d0831dcf2a102f5fb4b5926afd0f9"
   integrity sha512-cCuLsMhJeWQ/ZpsFTbE765kvVfoeSddc4nU3up4fV+fDBcfUXnbITJ+JzhkdjzOqhURjZgujxaioam4RM9yGUg==
-
-commander@^3.0.2:
-  version "3.0.2"
-  resolved "https://registry.yarnpkg.com/commander/-/commander-3.0.2.tgz#6837c3fb677ad9933d1cfba42dd14d5117d6b39e"
-  integrity sha512-Gar0ASD4BDyKC4hl4DwHqDrmvjoxWKZigVnAbn5H1owvm4CxCPdb0HQDehwNYMJpla5+M2tPmPARzhtYuwpHow==
 
 commondir@^1.0.1:
   version "1.0.1"
@@ -6346,11 +6326,6 @@ prop-types@^15.6.2, prop-types@^15.7.2:
     loose-envify "^1.4.0"
     object-assign "^4.1.1"
     react-is "^16.8.1"
-
-proper-fs@^1.1.2:
-  version "1.1.2"
-  resolved "https://registry.yarnpkg.com/proper-fs/-/proper-fs-1.1.2.tgz#f2e76615f16f6d12a7f4612504b091cee4196dd1"
-  integrity sha512-0XLDXc0JVz8WYtMLDy5vi0GHAFuM9rzaQWaCMJ7+CWmxOaFNfkdVWqyuxbgb70slQm3Ji12z1oHophyradDN4Q==
 
 proto-list@~1.2.1:
   version "1.2.4"

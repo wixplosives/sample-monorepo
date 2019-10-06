@@ -14,7 +14,6 @@
     "typecheck": "tsc --noEmit"
   },
   "devDependencies": {
-    "@ts-tools/build": "^1.0.0",
     "@ts-tools/node": "^1.0.0",
     "@ts-tools/webpack-loader": "^1.0.0",
     "@types/chai": "^4.2.3",
