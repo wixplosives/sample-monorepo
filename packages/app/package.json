@@ -6,7 +6,7 @@
   "scripts": {
     "clean": "rimraf ./cjs ./umd",
     "prebuild": "yarn clean",
-    "build": "run-p build:cjs build:umd",
+    "build": "yarn build:cjs && yarn build:umd",
     "build:cjs": "tsc -p tsconfig.build.json",
     "build:umd": "yarn bundle:prod",
     "bundle:prod": "webpack --mode production",
