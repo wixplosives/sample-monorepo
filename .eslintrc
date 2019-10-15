@@ -21,6 +21,7 @@
     },
     "parser": "@typescript-eslint/parser",
     "parserOptions": {
+        "noWatch": true,
         "ecmaFeatures": {
             "jsx": true
         },
