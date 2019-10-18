@@ -9,7 +9,7 @@
     "build": "tsc -p tsconfig.build.json",
     "test": "mocha \"test/**/*.spec.ts?(x)\"",
     "prestart": "yarn workspace @sample/app build:umd",
-    "start": "nodemon -r @ts-tools/node/r -r tsconfig-paths/register ./src/index.tsx",
+    "start": "nodemon -r @ts-tools/node/r -r tsconfig-paths/register --ext ts,tsx,js,json ./src/index.tsx",
     "prepack": "yarn build"
   },
   "peerDependencies": {
