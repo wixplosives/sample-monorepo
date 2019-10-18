@@ -1,5 +1,3 @@
-/* tslint:disable:no-console */
-
 import { dirname, join } from 'path';
 import express from 'express';
 import compression from 'compression';
