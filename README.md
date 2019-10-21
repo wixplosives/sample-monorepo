@@ -1,6 +1,5 @@
 # sample-monorepo
-
-[![Build Status](https://travis-ci.com/wixplosives/sample-monorepo.svg?branch=master)](https://travis-ci.com/wixplosives/sample-monorepo)
+[![Build Status](https://github.com/wixplosives/sample-monorepo/workflows/CI/badge.svg)](https://github.com/wixplosives/sample-monorepo/actions)
 
 Sample monorepo setup with yarn workspaces, typescript, and lerna.
 
@@ -52,6 +51,7 @@ Sample monorepo setup with yarn workspaces, typescript, and lerna.
 ### Basic structure and configurations
 
 ```
+.github                  // CI flow configuration (GitHub Actions)
 packages/
   some-package/
     src/
@@ -68,12 +68,11 @@ packages/
 .gitignore               // github's default node gitignore with customizations
 .mocharc.js              // mocha (test runner) configuration
 .prettierrc.js           // prettier (formatter) configuration
-.travis.yml              // travis ci configuration
 lerna.json               // lerna configuration
 LICENSE                  // root license file. picked up by github
 package.json             // common dev deps and workspace-wide scripts
 README.md                // workspace-wide information. shown in github
-tsconfig.json            // common typescript
+tsconfig.json            // common typescript configuration
 yarn.lock                // the only lock file in the repo. all packages combined
 ```
 
