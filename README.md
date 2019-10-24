@@ -25,7 +25,7 @@ Sample monorepo setup with yarn workspaces, typescript, and lerna.
     -   Common base `tsconfig.json`.
     -   [@ts-tools/node](https://github.com/AviVahl/ts-tools) is used to run code directly from sources.
 
--   Testing is done using [mocha](https://github.com/mochajs/mocha) and [expect](https://github.com/facebook/jest/tree/master/packages/expect).
+-   Testing is done using [mocha](https://github.com/mochajs/mocha) and [chai](https://github.com/chaijs/chai).
     -   Light, battle-tested, projects with few dependencies.
     -   Can be bundled and used in the browser.
 
