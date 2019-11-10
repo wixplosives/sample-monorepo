@@ -10,7 +10,7 @@
     "pretest": "yarn typecheck && yarn lint",
     "test": "mocha \"packages/**/test/**/*.spec.ts?(x)\"",
     "start": "yarn workspace @sample/app start",
-    "prettify": "yarn prettier \"packages/**/*.{js,ts,tsx}\" --write",
+    "prettify": "prettier \"packages/**/*.{js,ts,tsx}\" --write",
     "typecheck": "tsc --noEmit"
   },
   "devDependencies": {
