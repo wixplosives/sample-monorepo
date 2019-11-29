@@ -15,11 +15,6 @@
         "prettier/react"
     ],
     "plugins": ["react-hooks"],
-    "settings": {
-        "react": {
-            "version": "detect"
-        }
-    },
     "parser": "@typescript-eslint/parser",
     "parserOptions": {
         "project": "./tsconfig.json"
