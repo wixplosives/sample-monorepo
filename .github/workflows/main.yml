@@ -16,7 +16,7 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node_version: ${{ matrix.node_version }}
-    - run: npm i -g yarn
+    - run: npm i -g yarn@1
     - run: yarn
     - run: yarn test
       env:
