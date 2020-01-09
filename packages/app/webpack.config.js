@@ -1,9 +1,10 @@
-const { join } = require('path');
+const { join, dirname } = require('path');
 const TsconfigPathsPlugin = require('tsconfig-paths-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
-const monorepoRoot = join(__dirname, '..', '..');
+const rootTsconfigPath = require.resolve('../../tsconfig.json');
+const monorepoRoot = dirname(rootTsconfigPath);
 
 module.exports = {
     devtool: 'source-map',
