@@ -1,5 +1,5 @@
 # sample-monorepo
-[![Build Status](https://github.com/wixplosives/sample-monorepo/workflows/CI/badge.svg)](https://github.com/wixplosives/sample-monorepo/actions)
+[![Build Status](https://github.com/wixplosives/sample-monorepo/workflows/tests/badge.svg)](https://github.com/wixplosives/sample-monorepo/actions)
 
 Sample monorepo setup with yarn workspaces, typescript, and lerna.
 
