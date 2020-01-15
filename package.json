@@ -11,7 +11,7 @@
     "test": "yarn test:unit",
     "test:unit": "mocha \"packages/**/test/**/*.spec.ts?(x)\"",
     "start": "yarn workspace @sample/app start",
-    "prettify": "prettier \"packages/**/*.{js,ts,tsx}\" --write",
+    "prettify": "npx prettier \"packages/**/*.{js,ts,tsx}\" --write",
     "typecheck": "tsc --noEmit"
   },
   "devDependencies": {
@@ -37,7 +37,6 @@
     "mini-css-extract-plugin": "^0.9.0",
     "mocha": "^7.0.0",
     "nodemon": "^2.0.2",
-    "prettier": "^1.19.1",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "rimraf": "^3.0.0",
