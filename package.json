@@ -11,8 +11,8 @@
     "test": "yarn test:unit",
     "test:unit": "mocha \"packages/**/test/**/*.spec.ts?(x)\"",
     "start": "yarn workspace @sample/app start",
-    "prettify": "npx prettier \"packages/**/*.{js,ts,tsx}\" --write",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "prettify": "npx prettier \"packages/**/*.{js,ts,tsx}\" --write"
   },
   "devDependencies": {
     "@ts-tools/node": "^1.1.2",
