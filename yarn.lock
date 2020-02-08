@@ -917,10 +917,10 @@
   resolved "https://registry.yarnpkg.com/@types/chai/-/chai-4.2.8.tgz#c8d645506db0d15f4aafd4dfa873f443ad87ea59"
   integrity sha512-U1bQiWbln41Yo6EeHMr+34aUhvrMVyrhn9lYfPSpLTCrZlGxU4Rtn1bocX+0p2Fc/Jkd2FanCEXdw0WNfHHM0w==
 
-"@types/compression@^1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@types/compression/-/compression-1.0.1.tgz#f3682a6b3ce2dbd4aece48547153ebc592281fa7"
-  integrity sha512-GuoIYzD70h+4JUqUabsm31FGqvpCYHGKcLtor7nQ/YvUyNX0o9SJZ9boFI5HjFfbOda5Oe/XOvNK6FES8Y/79w==
+"@types/compression@^1.7.0":
+  version "1.7.0"
+  resolved "https://registry.yarnpkg.com/@types/compression/-/compression-1.7.0.tgz#8dc2a56604873cf0dd4e746d9ae4d31ae77b2390"
+  integrity sha512-3LzWUM+3k3XdWOUk/RO+uSjv7YWOatYq2QADJntK1pjkk4DfVP0KrIEPDnXRJxAAGKe0VpIPRmlINLDuCedZWw==
   dependencies:
     "@types/express" "*"
 
@@ -4128,7 +4128,7 @@ html-minifier-terser@^5.0.1:
     relateurl "^0.2.7"
     terser "^4.3.9"
 
-html-webpack-plugin@next:
+html-webpack-plugin@^4.0.0-beta.11:
   version "4.0.0-beta.11"
   resolved "https://registry.yarnpkg.com/html-webpack-plugin/-/html-webpack-plugin-4.0.0-beta.11.tgz#3059a69144b5aecef97708196ca32f9e68677715"
   integrity sha512-4Xzepf0qWxf8CGg7/WQM5qBB2Lc/NFI7MhU59eUDTkuQp3skZczH4UA1d6oQyDEIoMDgERVhRyTdtUPZ5s5HBg==
