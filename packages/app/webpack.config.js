@@ -27,7 +27,7 @@ module.exports = {
     },
     resolve: {
         extensions: ['.ts', '.tsx', '.mjs', '.js', '.json'],
-        plugins: [new TsconfigPathsPlugin({ configFile: join(monorepoRoot, 'tsconfig.json') })]
+        plugins: [new TsconfigPathsPlugin({ configFile: rootTsconfigPath })]
     },
     plugins: [
         new HtmlWebpackPlugin({ title: 'Sample Monorepo App' }),
