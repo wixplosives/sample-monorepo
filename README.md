@@ -100,3 +100,13 @@ Some packages depend on sibling packages within the monorepo. For example, in th
     "@sample/components": "<package version>"
   }
 ```
+
+### Deployment
+
+`yarn lerna publish` will publish new versions of the packages to npm.
+
+Lerna asks for new version numbers for packages that changed since last release and their dependencies. Every package has a `prepack` script which automatically runs `build` prior to packing.
+
+`yarn lerna publish --force-publish` will force a release of *all* packages, regardless of which ones actually changed. 
+
+Deployment of app/server assets to any actual production servers is not shown.
