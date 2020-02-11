@@ -18,7 +18,7 @@
         "prettier/@typescript-eslint",
         "prettier/react"
     ],
-    "plugins": ["react-hooks"],
+    "plugins": ["react-hooks", "no-only-tests"],
     "rules": {
         "@typescript-eslint/explicit-function-return-type": "off",
         "@typescript-eslint/interface-name-prefix": "off",
@@ -27,7 +27,9 @@
         "@typescript-eslint/no-unused-vars": "off",
         "react/prop-types": "off",
         "react-hooks/rules-of-hooks": "error",
-        "react-hooks/exhaustive-deps": "warn"
+        "react-hooks/exhaustive-deps": "warn",
+        "no-only-tests/no-only-tests": "error",
+        "no-console": "error"
     },
     "overrides": [
         {

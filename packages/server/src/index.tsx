@@ -38,7 +38,9 @@ app.get('/server', (_req, res) => {
 });
 
 app.listen(port, () => {
+    /* eslint-disable no-console */
     console.log(`Listening on:`);
     console.log(`  http://localhost:${port}/ - client only rendering`);
     console.log(`  http://localhost:${port}/server - ssr with hydration`);
+    /* eslint-enable no-console */
 });
