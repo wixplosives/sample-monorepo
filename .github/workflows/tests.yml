@@ -4,18 +4,18 @@ on: [push]
 
 jobs:
   tests:
-    name: node ${{ matrix.node_version }} / ${{ matrix.os }}
+    name: node ${{ matrix.node-version }} / ${{ matrix.os }}
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
-        node_version: [13, 12]
+        node-version: [13, 12]
         os: [ubuntu-latest, windows-latest, macOS-latest]
     steps:
     - uses: actions/checkout@v2
-    - name: Use Node.js ${{ matrix.node_version }}
+    - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v1
       with:
-        node_version: ${{ matrix.node_version }}
+        node-version: ${{ matrix.node-version }}
     - run: npm i -g yarn@1
     - run: yarn
     - run: yarn test
