@@ -9,7 +9,7 @@ const monorepoRoot = dirname(rootTsconfigPath);
 module.exports = {
     devtool: 'source-map',
     context: monorepoRoot,
-    entry: join(__dirname, 'src', 'client-bootstrap'),
+    entry: join(__dirname, 'src', 'client-main'),
     output: {
         path: join(__dirname, 'umd')
     },

@@ -5,17 +5,21 @@ import React from 'react';
 import ReactDOMServer from 'react-dom/server';
 import { App } from '@sample/app';
 
-const app = express();
-const port = 3000;
-
 const appRootDirectory = dirname(require.resolve('@sample/app/package.json'));
 const appBundleDirectory = join(appRootDirectory, 'umd');
 
-app.use(compression());
-app.use(express.static(appBundleDirectory));
+export function createHttpServer() {
+    const app = express();
 
-app.get('/server', (_req, res) => {
-    res.send(
+    app.use(compression());
+    app.use(express.static(appBundleDirectory));
+    app.get('/server', ssrHandler);
+
+    return app;
+}
+
+function ssrHandler(_req: express.Request, res: express.Response) {
+    res.end(
         `<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -28,19 +32,10 @@ app.get('/server', (_req, res) => {
 </head>
 <body>
     <div id="SITE_MAIN" data-ssr>
-      ${ReactDOMServer.renderToString(<App text="Hello World (SSR!)" />)}
+        ${ReactDOMServer.renderToString(<App text="Hello World (SSR!)" />)}
     </div>
     <script type="text/javascript" src="main.js"></script>
 </body>
 </html>`
     );
-    res.end();
-});
-
-app.listen(port, () => {
-    /* eslint-disable no-console */
-    console.log(`Listening on:`);
-    console.log(`  http://localhost:${port}/ - client only rendering`);
-    console.log(`  http://localhost:${port}/server - ssr with hydration`);
-    /* eslint-enable no-console */
-});
+}
