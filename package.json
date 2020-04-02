@@ -14,7 +14,7 @@
     "start:client": "yarn workspace @sample/app start",
     "start:server": "yarn workspace @sample/server start",
     "typecheck": "tsc --noEmit",
-    "prettify": "npx prettier \"packages/**/*.{js,ts,tsx}\" --write"
+    "prettify": "npx prettier \"./**/*.{js,ts,tsx}\" --write"
   },
   "devDependencies": {
     "@ts-tools/node": "^1.1.3",
