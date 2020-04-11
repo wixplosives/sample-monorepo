@@ -9,18 +9,18 @@ const appRootDirectory = dirname(require.resolve('@sample/app/package.json'));
 const appBundleDirectory = join(appRootDirectory, 'umd');
 
 export function createHttpServer() {
-    const app = express();
+  const app = express();
 
-    app.use(compression());
-    app.use(express.static(appBundleDirectory));
-    app.get('/server', ssrHandler);
+  app.use(compression());
+  app.use(express.static(appBundleDirectory));
+  app.get('/server', ssrHandler);
 
-    return app;
+  return app;
 }
 
 function ssrHandler(_req: express.Request, res: express.Response) {
-    res.end(
-        `<!DOCTYPE html>
+  res.end(
+    `<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -37,5 +37,5 @@ function ssrHandler(_req: express.Request, res: express.Response) {
     <script type="text/javascript" src="main.js"></script>
 </body>
 </html>`
-    );
+  );
 }

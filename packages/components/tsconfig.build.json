@@ -1,9 +1,9 @@
 {
-    "extends": "../../tsconfig.json",
-    "compilerOptions": {
-        "paths": {
-            "@sample/*": ["node_modules/@sample/*/src"]
-        }
-    },
-    "include": ["src"]
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "paths": {
+      "@sample/*": ["node_modules/@sample/*/src"]
+    }
+  },
+  "include": ["src"]
 }
