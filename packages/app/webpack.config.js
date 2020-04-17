@@ -10,6 +10,7 @@ module.exports = {
   },
   output: {
     path: path.join(__dirname, 'umd'),
+    libraryTarget: 'umd',
   },
   plugins: [...rootWebpackConfig.plugins, new HtmlWebpackPlugin({ title: 'Sample Monorepo App' })],
 };
