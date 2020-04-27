@@ -68,7 +68,6 @@ packages/
 .eslintrc                // eslint (linter) configuration
 .gitignore               // github's default node gitignore with customizations
 .mocharc.js              // mocha (test runner) configuration
-.prettierrc.js           // prettier (formatter) configuration
 lerna.json               // lerna configuration
 LICENSE                  // root license file. picked up by github
 package.json             // common dev deps and workspace-wide scripts

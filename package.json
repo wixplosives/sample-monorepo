@@ -50,6 +50,10 @@
     "webpack-cli": "^3.3.11",
     "webpack-dev-server": "^3.10.3"
   },
+  "prettier": {
+    "printWidth": 120,
+    "singleQuote": true
+  },
   "license": "MIT",
   "private": true
 }
