@@ -8,7 +8,7 @@ import { App } from '@sample/app';
 const appRootDirectory = dirname(require.resolve('@sample/app/package.json'));
 const appBundleDirectory = join(appRootDirectory, 'umd');
 
-export function createHttpServer() {
+export function createHttpServer(): express.Express {
   const app = express();
 
   app.use(compression());
