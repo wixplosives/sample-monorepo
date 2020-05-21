@@ -21,7 +21,7 @@
   },
   "dependencies": {
     "@sample/components": "^1.0.0",
-    "sanitize.css": "^11.0.0"
+    "sanitize.css": "^11.0.1"
   },
   "files": [
     "cjs",
