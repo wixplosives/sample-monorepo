@@ -4,8 +4,14 @@
     "es2020": true,
     "node": true
   },
-  "extends": ["eslint:recommended", "plugin:react/recommended", "prettier", "prettier/react"],
-  "plugins": ["react-hooks", "no-only-tests"],
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:jsx-a11y/recommended",
+    "prettier",
+    "prettier/react"
+  ],
+  "plugins": ["react-hooks", "jsx-a11y", "no-only-tests"],
   "settings": {
     "react": {
       "version": "detect"
