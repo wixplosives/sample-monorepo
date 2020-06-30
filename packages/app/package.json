@@ -7,7 +7,7 @@
     "clean": "rimraf ./cjs ./umd",
     "prebuild": "yarn clean",
     "build": "yarn build:cjs && yarn build:umd",
-    "build:cjs": "tsc -p tsconfig.build.json",
+    "build:cjs": "ts-build ./src --cjs",
     "build:umd": "yarn bundle:prod",
     "bundle:prod": "webpack --mode production",
     "bundle:dev": "webpack --mode development --devtool source-map",

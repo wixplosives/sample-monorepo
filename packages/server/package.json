@@ -6,7 +6,7 @@
   "scripts": {
     "clean": "rimraf ./cjs",
     "prebuild": "yarn clean",
-    "build": "tsc -p tsconfig.build.json",
+    "build": "ts-build ./src --cjs",
     "test": "mocha \"test/**/*.spec.ts?(x)\"",
     "prestart": "yarn workspace @sample/app build:umd",
     "start": "node -r @ts-tools/node/r -r tsconfig-paths/register ./src/server-main.ts",

@@ -62,7 +62,6 @@ packages/
     LICENSE              // license file. included in npm artifact
     package.json         // package-specific deps and scripts
     README.md            // shown in npmjs.com. included in npm artifact
-    tsconfig.build.json  // config used to build for publishing
 
 .eslintignore            // eslint (linter) ignored directories/files
 .eslintrc                // eslint (linter) configuration

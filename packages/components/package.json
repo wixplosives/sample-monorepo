@@ -7,9 +7,7 @@
   "scripts": {
     "clean": "rimraf ./cjs ./esm",
     "prebuild": "yarn clean",
-    "build": "yarn build:cjs && yarn build:esm",
-    "build:cjs": "tsc -p tsconfig.build.json --module commonjs --outDir cjs",
-    "build:esm": "tsc -p tsconfig.build.json --module esnext --outDir esm",
+    "build": "ts-build ./src --cjs --esm",
     "test": "mocha \"test/**/*.spec.ts?(x)\"",
     "prepack": "yarn build"
   },
