@@ -20,7 +20,7 @@
     "@ts-tools/build": "^2.0.0",
     "@ts-tools/node": "^2.0.0",
     "@ts-tools/webpack-loader": "^2.0.0",
-    "@types/chai": "^4.2.11",
+    "@types/chai": "^4.2.12",
     "@types/compression": "^1.7.0",
     "@types/express": "^4.17.7",
     "@types/mocha": "^8.0.0",
