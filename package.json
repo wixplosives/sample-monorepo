@@ -1,5 +1,5 @@
 {
-  "name": "sample",
+  "name": "sample-monorepo",
   "workspaces": [
     "packages/*"
   ],
