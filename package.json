@@ -41,7 +41,7 @@
     "html-webpack-plugin": "^4.5.0",
     "lerna": "^3.22.1",
     "mini-css-extract-plugin": "^1.2.1",
-    "mocha": "^8.2.0",
+    "mocha": "^8.2.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "rimraf": "^3.0.2",
