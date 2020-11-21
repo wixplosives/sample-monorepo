@@ -1,6 +1,7 @@
 const TsconfigPathsPlugin = require('tsconfig-paths-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
+/** @type import('webpack').Configuration */
 module.exports = {
   devtool: 'source-map',
   context: __dirname,

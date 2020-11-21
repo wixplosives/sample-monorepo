@@ -3,6 +3,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 const rootWebpackConfig = require('../../webpack.config');
 
+/** @type import('webpack').Configuration */
 module.exports = {
   ...rootWebpackConfig,
   entry: {
