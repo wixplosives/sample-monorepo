@@ -1,7 +1,6 @@
 import { dirname, join } from 'path';
 import express from 'express';
 import compression from 'compression';
-import React from 'react';
 import ReactDOMServer from 'react-dom/server';
 import { App } from '@sample/app';
 
