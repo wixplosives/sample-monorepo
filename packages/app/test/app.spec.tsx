@@ -1,6 +1,6 @@
 import { expect } from 'chai';
-import { App } from '@sample/app';
 import { renderToString } from 'react-dom/server';
+import { App } from '@sample/app';
 
 describe('<App />', () => {
   it('renders without throwing on the server', () => {
