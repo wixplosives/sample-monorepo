@@ -20,7 +20,7 @@
     "src"
   ],
   "license": "MIT",
-  "repository": "git@github.com:wixplosives/sample.git",
+  "repository": "git@github.com:wixplosives/sample-monorepo.git",
   "sideEffects": false,
   "private": true,
   "publishConfig": {
