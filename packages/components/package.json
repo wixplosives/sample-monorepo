@@ -12,7 +12,7 @@
     "prepack": "yarn build"
   },
   "peerDependencies": {
-    "react": ">=16"
+    "react": ">=17"
   },
   "files": [
     "cjs",
