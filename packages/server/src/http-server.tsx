@@ -1,11 +1,11 @@
-import { dirname, join } from 'path';
+import path from 'path';
 import express from 'express';
 import compression from 'compression';
 import ReactDOMServer from 'react-dom/server';
 import { App } from '@sample/app';
 
-const appRootDirectory = dirname(require.resolve('@sample/app/package.json'));
-const appBundleDirectory = join(appRootDirectory, 'umd');
+const appRootDirectory = path.dirname(require.resolve('@sample/app/package.json'));
+const appBundleDirectory = path.join(appRootDirectory, 'umd');
 
 export function createHttpServer(): express.Express {
   const app = express();
