@@ -34,19 +34,16 @@ Sample monorepo setup with yarn workspaces, typescript, and lerna.
 - **@sample/components**
 
   - [React](https://github.com/facebook/react) components library.
-  - Built as `cjs` (Node consumption) and `esm` (bundler consumption).
 
 - **@sample/app**
 
   - [React](https://github.com/facebook/react) application.
   - Uses the `@sample/components` package (also inside monorepo).
-  - Built as `cjs` (Node consumption) and `umd` (browser consumption).
 
 - **@sample/server**
   - [Express](https://github.com/expressjs/express) application.
   - Uses the `@sample/app` package (also inside monorepo).
   - Listens on http://localhost:3000 (client only rendering) http://localhost:3000/server (SSR rendering).
-  - Built as `cjs` (Node consumption).
 
 ### Basic structure and configurations
 
