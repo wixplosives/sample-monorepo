@@ -23,8 +23,7 @@ Sample monorepo setup with yarn workspaces, typescript, and lerna.
 
 - Sources and tests are written in strict [TypeScript](https://github.com/Microsoft/TypeScript).
 
-  - Common base `tsconfig.json`.
-  - [@ts-tools/node](https://github.com/AviVahl/ts-tools) is used to run code directly from sources.
+  - Common base `tsconfig.base.json`.
 
 - Testing is done using [mocha](https://github.com/mochajs/mocha) and [chai](https://github.com/chaijs/chai).
   - Light, battle-tested, projects with few dependencies.
@@ -57,8 +56,10 @@ packages/
   some-package/
     src/
       index.ts
+      tsconfig.json      // folder specific config, built to "dist
     test/
       test.spec.ts
+      tsconfig.json      // folder specific config, built to "dist/test"
     LICENSE              // license file. included in npm artifact
     package.json         // package-specific deps and scripts
     README.md            // shown in npmjs.com. included in npm artifact
@@ -71,7 +72,8 @@ lerna.json               // lerna configuration
 LICENSE                  // root license file. picked up by github
 package.json             // common dev deps and workspace-wide scripts
 README.md                // workspace-wide information. shown in github
-tsconfig.json            // common typescript configuration
+tsconfig.base.json       // common typescript configuration
+tsconfig.json            // solution-style root typescript configuration
 yarn.lock                // the only lock file in the repo. all packages combined
 ```
 

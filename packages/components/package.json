@@ -1,23 +1,19 @@
 {
   "name": "@sample/components",
   "version": "1.0.0",
-  "main": "cjs/index.js",
-  "module": "esm/index.js",
-  "types": "esm/index.d.ts",
+  "main": "dist/index.js",
   "scripts": {
-    "clean": "rimraf ./cjs ./esm",
-    "prebuild": "yarn clean",
-    "build": "ts-build ./src --cjs --esm",
-    "test": "mocha \"test/**/*.spec.ts?(x)\"",
+    "test": "mocha \"dist/test/**/*.spec.js\" --enable-source-maps",
     "prepack": "yarn build"
   },
   "peerDependencies": {
     "react": ">=17"
   },
   "files": [
-    "cjs",
-    "esm",
-    "src"
+    "dist",
+    "src",
+    "!dist/test",
+    "!dist/tsconfig.tsbuildinfo"
   ],
   "license": "MIT",
   "repository": "git@github.com:wixplosives/sample-monorepo.git",

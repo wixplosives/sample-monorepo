@@ -4,22 +4,18 @@
     "packages/*"
   ],
   "scripts": {
-    "clean": "lerna run clean --stream --parallel",
-    "build": "lerna run build --stream --parallel",
+    "clean": "rimraf ./packages/*/dist",
+    "build": "tsc --build",
     "lint": "eslint . -f codeframe",
-    "pretest": "yarn typecheck && yarn lint",
+    "pretest": "yarn build && yarn lint",
     "test": "yarn test:unit",
-    "test:unit": "mocha \"packages/**/test/**/*.spec.ts?(x)\"",
+    "test:unit": "mocha \"packages/*/dist/test/**/*.spec.js\" --enable-source-maps",
     "start": "yarn start:client",
     "start:client": "yarn workspace @sample/app start",
     "start:server": "yarn workspace @sample/server start",
-    "typecheck": "tsc --noEmit",
-    "prettify": "npx prettier \"./**/*.{js,ts,tsx}\" --write"
+    "prettify": "npx prettier . --write"
   },
   "devDependencies": {
-    "@ts-tools/build": "^2.1.1",
-    "@ts-tools/node": "^2.1.1",
-    "@ts-tools/webpack-loader": "^2.1.1",
     "@types/chai": "^4.2.14",
     "@types/compression": "^1.7.0",
     "@types/express": "^4.17.9",
@@ -45,8 +41,8 @@
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "rimraf": "^3.0.2",
-    "tsconfig-paths": "^3.9.0",
-    "tsconfig-paths-webpack-plugin": "^3.3.0",
+    "source-map-loader": "^1.1.2",
+    "ts-loader": "^8.0.11",
     "typescript": "~4.1.2",
     "webpack": "^4.44.2",
     "webpack-cli": "^3.3.12",

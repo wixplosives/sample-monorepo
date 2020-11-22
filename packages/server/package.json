@@ -1,16 +1,11 @@
 {
   "name": "@sample/server",
   "version": "1.0.0",
-  "main": "cjs/index.js",
-  "types": "cjs/index.d.ts",
+  "main": "dist/index.js",
   "scripts": {
-    "clean": "rimraf ./cjs",
-    "prebuild": "yarn clean",
-    "build": "ts-build ./src --cjs",
-    "test": "mocha \"test/**/*.spec.ts?(x)\"",
-    "prestart": "yarn workspace @sample/app build:umd",
-    "start": "node -r @ts-tools/node/r -r tsconfig-paths/register ./src/server-main.ts",
-    "prepack": "yarn build"
+    "test": "mocha \"dist/test/**/*.spec.js\" --enable-source-maps",
+    "prestart": "yarn workspace @sample/app bundle:prod",
+    "start": "node --enable-source-maps ./dist/server-main.js"
   },
   "peerDependencies": {
     "react": ">=17",
@@ -22,8 +17,10 @@
     "express": "^4.17.1"
   },
   "files": [
-    "cjs",
-    "src"
+    "dist",
+    "src",
+    "!dist/test",
+    "!dist/tsconfig.tsbuildinfo"
   ],
   "license": "MIT",
   "repository": "git@github.com:wixplosives/sample-monorepo.git",

@@ -1,14 +1,6 @@
-# build artifact folders
-cjs
-esm
-umd
-
 # IDEs
 .idea
 .vscode
-
-# OS-specific
-.DS_Store
 
 # Below is a copy of https://github.com/github/gitignore/blob/master/Node.gitignore
 
