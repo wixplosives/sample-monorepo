@@ -1,17 +1,12 @@
 {
   "name": "@sample/app",
   "version": "1.0.0",
-  "main": "cjs/index.js",
-  "types": "cjs/index.d.ts",
+  "main": "dist/index.js",
   "scripts": {
-    "clean": "rimraf ./cjs ./umd",
-    "prebuild": "yarn clean",
-    "build": "yarn build:cjs && yarn build:umd",
-    "build:cjs": "ts-build ./src --cjs",
-    "build:umd": "yarn bundle:prod",
+    "build": "yarn bundle:prod",
     "bundle:prod": "webpack --mode production",
     "bundle:dev": "webpack --mode development --devtool source-map",
-    "test": "mocha \"test/**/*.spec.ts?(x)\"",
+    "test": "mocha \"dist/test/**/*.spec.js\" --enable-source-maps",
     "start": "webpack-dev-server --mode development --progress --open",
     "prepack": "yarn build"
   },
@@ -24,9 +19,10 @@
     "sanitize.css": "^12.0.1"
   },
   "files": [
-    "cjs",
-    "umd",
-    "src"
+    "dist",
+    "src",
+    "!dist/test",
+    "!dist/tsconfig.tsbuildinfo"
   ],
   "license": "MIT",
   "repository": "git@github.com:wixplosives/sample-monorepo.git",

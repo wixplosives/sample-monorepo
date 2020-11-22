@@ -1,4 +1,3 @@
-const TsconfigPathsPlugin = require('tsconfig-paths-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
 /** @type import('webpack').Configuration */
@@ -8,8 +7,17 @@ module.exports = {
   module: {
     rules: [
       {
+        test: /\.js$/,
+        enforce: 'pre',
+        loader: 'source-map-loader',
+      },
+      {
         test: /\.tsx?$/,
-        loader: '@ts-tools/webpack-loader',
+        loader: 'ts-loader',
+        options: {
+          projectReferences: true,
+          configFile: require.resolve('./tsconfig.json'),
+        },
       },
       {
         test: /\.css$/,
@@ -23,7 +31,6 @@ module.exports = {
   },
   resolve: {
     extensions: ['.ts', '.tsx', '.mjs', '.js', '.json'],
-    plugins: [new TsconfigPathsPlugin({ configFile: require.resolve('./tsconfig.json') })],
   },
   plugins: [
     new MiniCssExtractPlugin({

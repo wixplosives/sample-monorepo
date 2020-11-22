@@ -5,7 +5,7 @@ import ReactDOMServer from 'react-dom/server';
 import { App } from '@sample/app';
 
 const appRootDirectory = path.dirname(require.resolve('@sample/app/package.json'));
-const appBundleDirectory = path.join(appRootDirectory, 'umd');
+const appBundleDirectory = path.join(appRootDirectory, 'dist/umd');
 
 export function createHttpServer(): express.Express {
   const app = express();

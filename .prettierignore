@@ -1,4 +1,2 @@
 dist
-cjs
-esm
-tsconfig.json
+/tsconfig.base.json
