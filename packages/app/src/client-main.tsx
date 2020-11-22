@@ -16,6 +16,5 @@ if (container.hasAttribute('data-ssr')) {
 function createContainer(targetParent: Element) {
   const newContainer = document.createElement('div');
   newContainer.id = rootContainerId;
-  targetParent.appendChild(newContainer);
-  return newContainer;
+  return targetParent.appendChild(newContainer);
 }
