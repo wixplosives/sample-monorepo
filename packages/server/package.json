@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "dist/index.js",
   "scripts": {
-    "test": "mocha \"dist/test/**/*.spec.js\" --enable-source-maps",
+    "test": "mocha \"dist/test/**/*.spec.js\"",
     "prestart": "yarn workspace @sample/app bundle:prod",
     "start": "node --enable-source-maps ./dist/server-main.js"
   },
