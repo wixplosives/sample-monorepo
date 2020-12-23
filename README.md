@@ -4,6 +4,12 @@
 
 Sample monorepo setup with yarn workspaces, typescript, and lerna.
 
+## Webpack 5 (early 2021 note)
+
+This repository uses the latest `webpack@5`.
+
+If your infrastructure (loaders/plugins) still requires `webpack@4`, you can downgrade `webpack` to `^4.44.2` and `html-webpack-plugin` to `^4.5.0`.
+
 ## Setup explained
 
 ### Tooling
