@@ -7,7 +7,7 @@
     "bundle:prod": "webpack --mode production",
     "bundle:dev": "webpack --mode development --devtool source-map",
     "test": "mocha \"dist/test/**/*.spec.js\"",
-    "start": "webpack serve --mode development --progress --open",
+    "start": "webpack serve --mode development --open",
     "prepack": "yarn build"
   },
   "peerDependencies": {
