@@ -43,4 +43,5 @@ module.exports = {
       chunkFilename: '[name].css',
     }),
   ],
+  devServer: { host: 'localhost' }, // workaround webpack-dev-server#2943
 };
