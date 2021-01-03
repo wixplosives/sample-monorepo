@@ -4016,7 +4016,7 @@ html-minifier-terser@^5.0.1:
     relateurl "^0.2.7"
     terser "^4.6.3"
 
-html-webpack-plugin@^5.0.0-beta.1:
+html-webpack-plugin@^5.0.0-beta.2:
   version "5.0.0-beta.2"
   resolved "https://registry.yarnpkg.com/html-webpack-plugin/-/html-webpack-plugin-5.0.0-beta.2.tgz#181a067f196b386089c7b0b3aa94b494eee9dfb4"
   integrity sha512-gJVHcS9O3cTB4mjkeVYPuPRLXJv+W+Sze4Z3FEr9eZUuUlQPhaZxh53/nGM3700tUVSpNvXHhNLnDfQy5zrygw==
