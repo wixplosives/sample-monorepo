@@ -28,7 +28,7 @@
     "chai": "^4.3.0",
     "css-loader": "^5.0.2",
     "eslint": "^7.20.0",
-    "eslint-config-prettier": "^7.2.0",
+    "eslint-config-prettier": "^8.0.0",
     "eslint-plugin-no-only-tests": "^2.4.0",
     "eslint-plugin-react": "^7.22.0",
     "eslint-plugin-react-hooks": "^4.2.0",
