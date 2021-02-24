@@ -24,7 +24,8 @@
       "files": ["*.ts", "*.tsx"],
       "parserOptions": {
         "project": "packages/*/{src,test}/tsconfig.json",
-        "EXPERIMENTAL_useSourceOfProjectReferenceRedirect": true
+        "EXPERIMENTAL_useSourceOfProjectReferenceRedirect": true,
+        "warnOnUnsupportedTypeScriptVersion": false
       },
       "extends": [
         "plugin:@typescript-eslint/recommended",
