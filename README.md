@@ -84,6 +84,20 @@ tsconfig.json            // solution-style root typescript configuration
 yarn.lock                // the only lock file in the repo. all packages combined
 ```
 
+### Styling solutions
+
+This repository aims to _avoid_ showcasing styling solutions in-depth.
+
+There is a naive `css-loader`/`mini-css-extract-plugin` setup for the `sanitize.css` library being used, but the infrastructure doesn't contain any asset copying (into `dist` folder) and so doesn't support _local_ css assets.
+
+Each styling solution has its own set of infrastructure requirements.
+
+CSS-in-JS based solutions, for example, probably won't need to worry about it at all, and work without additional setup.
+
+Within Wix, we use [Stylable](https://github.com/wix/stylable), which has its own CLI ([stc](https://github.com/wix/stylable/tree/master/packages/cli)) to build and/or copy `.st.css` files into `dist`.
+
+Full support for source code importing `.css/.scss/.less/.whatever` would require additional building. It would have to be addressed for Node as well, if one wants to execute mocha on tests importing these source files.
+
 ### Dependency management
 
 Traditionally, working with projects in separate repositories makes it difficult to keep versions of `devDependencies` aligned, as each project can specify its own `devDependency` versions.
