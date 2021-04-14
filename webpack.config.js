@@ -29,8 +29,8 @@ module.exports = {
         use: [MiniCssExtractPlugin.loader, 'css-loader'],
       },
       {
-        test: /\.(png|jpe?g|gif|svg)$/,
-        loader: 'file-loader',
+        test: /\.(png|jpg|jpeg|gif|svg)$/,
+        type: 'asset',
       },
     ],
   },
@@ -42,5 +42,5 @@ module.exports = {
       filename: '[name].css',
       chunkFilename: '[name].css',
     }),
-  ]
+  ],
 };
