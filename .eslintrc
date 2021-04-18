@@ -6,6 +6,9 @@
   },
   "extends": ["eslint:recommended", "plugin:react/recommended", "prettier"],
   "plugins": ["react-hooks", "no-only-tests"],
+  "parserOptions": {
+    "sourceType": "module"
+  },
   "settings": {
     "react": {
       "version": "detect"
