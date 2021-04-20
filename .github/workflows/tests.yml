@@ -1,14 +1,12 @@
 name: tests
-
 on: [push, pull_request]
-
 jobs:
   tests:
     name: node ${{ matrix.node-version }} / ${{ matrix.os }}
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
-        node-version: [15, 14, 12]
+        node-version: [16, 14, 12]
         os: [ubuntu-latest, windows-latest, macOS-latest]
     steps:
       - uses: actions/checkout@v2
