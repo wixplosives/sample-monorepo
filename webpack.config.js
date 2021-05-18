@@ -1,3 +1,5 @@
+// @ts-check
+
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
 /** @type import('webpack').Configuration */
