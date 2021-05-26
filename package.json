@@ -16,6 +16,7 @@
     "prettify": "npx prettier . --write"
   },
   "devDependencies": {
+    "@stylable/webpack-plugin": "^4.2.4",
     "@types/chai": "^4.2.18",
     "@types/compression": "^1.7.0",
     "@types/express": "^4.17.11",
@@ -40,6 +41,7 @@
     "react-dom": "^17.0.2",
     "rimraf": "^3.0.2",
     "source-map-loader": "^3.0.0",
+    "stylable": "^5.4.11",
     "ts-loader": "^9.2.2",
     "typescript": "~4.2.4",
     "webpack": "^5.37.1",
