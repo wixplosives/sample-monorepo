@@ -16,7 +16,7 @@
     "prettify": "npx prettier . --write"
   },
   "devDependencies": {
-    "@types/chai": "^4.2.18",
+    "@types/chai": "^4.2.19",
     "@types/compression": "^1.7.0",
     "@types/express": "^4.17.12",
     "@types/mocha": "^8.2.2",
