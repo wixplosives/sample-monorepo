@@ -2201,10 +2201,10 @@ cross-spawn@^7.0.2, cross-spawn@^7.0.3:
     shebang-command "^2.0.0"
     which "^2.0.1"
 
-css-loader@^6.0.0:
-  version "6.0.0"
-  resolved "https://registry.yarnpkg.com/css-loader/-/css-loader-6.0.0.tgz#e3f9131229df43e081876f434dc2f4605be9d5ae"
-  integrity sha512-xi3iTbHekvk5dWWdqfQKNsEm2g3Vr20uRwHzfXF+pHsaFGMuxTrqR1y8PY+st5G7wqid4/pBSiaqZsO6iaGN5g==
+css-loader@^6.1.0:
+  version "6.1.0"
+  resolved "https://registry.yarnpkg.com/css-loader/-/css-loader-6.1.0.tgz#9f49a414103d3a43a7a5a0a0468ac71ab5132788"
+  integrity sha512-AcCb6ire7NgkrxJCtwEDa/y+xxBrPNXYWdlSpXNr+YwW2wTahSowSIxD9cHc9Uvc8Dbq+NQ/NQ6aDvJWik44vg==
   dependencies:
     icss-utils "^5.1.0"
     postcss "^8.2.15"
@@ -2550,9 +2550,9 @@ ee-first@1.1.1:
   integrity sha1-WQxhFWsK4vTwJVcyoViyZrxWsh0=
 
 electron-to-chromium@^1.3.723:
-  version "1.3.778"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.778.tgz#bf01048736c95b78f2988e88005e0ebb385942a4"
-  integrity sha512-Lw04qJaPtWdq0d7qKHJTgkam+FhFi3hm/scf1EyqJWdjO3ZIGUJhNmZJRXWb7yb/bRYXQyVGSpa9RqVpjjWMQw==
+  version "1.3.779"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.779.tgz#de55492a756deec63424f89fbe62aec9776f0e6d"
+  integrity sha512-nreave0y/1Qhmo8XtO6C/LpawNyC6U26+q7d814/e+tIqUK073pM+4xW7WUXyqCRa5K4wdxHmNMBAi8ap9nEew==
 
 emoji-regex@^8.0.0:
   version "8.0.0"
