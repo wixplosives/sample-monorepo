@@ -24,7 +24,7 @@
     "@types/react": "^17.0.18",
     "@types/react-dom": "^17.0.9",
     "@typescript-eslint/eslint-plugin": "^4.29.1",
-    "@typescript-eslint/parser": "^4.29.1",
+    "@typescript-eslint/parser": "^4.29.2",
     "chai": "^4.3.4",
     "css-loader": "^6.2.0",
     "eslint": "^7.32.0",
