@@ -861,9 +861,9 @@
     universal-user-agent "^6.0.0"
 
 "@octokit/graphql@^4.5.8":
-  version "4.6.4"
-  resolved "https://registry.yarnpkg.com/@octokit/graphql/-/graphql-4.6.4.tgz#0c3f5bed440822182e972317122acb65d311a5ed"
-  integrity sha512-SWTdXsVheRmlotWNjKzPOb6Js6tjSqA2a8z9+glDJng0Aqjzti8MEWOtuT8ZSu6wHnci7LZNuarE87+WJBG4vg==
+  version "4.7.0"
+  resolved "https://registry.yarnpkg.com/@octokit/graphql/-/graphql-4.7.0.tgz#cbe12edc2bc61e9eaa5f9e5d092644c92b6fcb74"
+  integrity sha512-diY0qMPyQjfu4rDu3kDhJ9qIZadIm4IISO3RJSv9ajYUWJUCO0AykbgzLcg1xclxtXgzY583u3gAv66M6zz5SA==
   dependencies:
     "@octokit/request" "^5.6.0"
     "@octokit/types" "^6.0.3"
@@ -1047,9 +1047,9 @@
   integrity sha512-scN0hAWyLVAvLR9AyW7HoFF5sJZglyBsbPuHO4fv7JRvfmPBMfp1ozWqOf/e4wwPNxezBZXRfWzMb6iFLgEVRA==
 
 "@types/node@*":
-  version "16.7.2"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-16.7.2.tgz#0465a39b5456b61a04d98bd5545f8b34be340cb7"
-  integrity sha512-TbG4TOx9hng8FKxaVrCisdaxKxqEwJ3zwHoCWXZ0Jw6mnvTInpaB99/2Cy4+XxpXtjNv9/TgfGSvZFyfV/t8Fw==
+  version "16.7.4"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-16.7.4.tgz#68a9384694af63ceab8848e95d76d9a3519e84b6"
+  integrity sha512-25QXpDsTiDnl2rZGUenagVMwO46way8dOUdvoC3R3p+6TrbpxeJBo/v87BEG1IHI31Jhaa8lPeSHcqwxsVBeYQ==
 
 "@types/node@12":
   version "12.20.21"
@@ -2524,9 +2524,9 @@ domhandler@^4.0.0, domhandler@^4.2.0:
     domelementtype "^2.2.0"
 
 domutils@^2.5.2, domutils@^2.6.0:
-  version "2.7.0"
-  resolved "https://registry.yarnpkg.com/domutils/-/domutils-2.7.0.tgz#8ebaf0c41ebafcf55b0b72ec31c56323712c5442"
-  integrity sha512-8eaHa17IwJUPAiB+SoTYBo5mCdeMgdcAoXJ59m6DT1vw+5iLS3gNoqYaRowaBKtGVrOF1Jz4yDTgYKLK2kvfJg==
+  version "2.8.0"
+  resolved "https://registry.yarnpkg.com/domutils/-/domutils-2.8.0.tgz#4437def5db6e2d1f5d6ee859bd95ca7d02048135"
+  integrity sha512-w96Cjofp72M5IIhpjgobBimYEfoPjx1Vx0BSX9P30WBdZW2WIKU0T1Bd0kz2eNZ9ikjKgHbEyKx8BB6H1L3h3A==
   dependencies:
     dom-serializer "^1.0.1"
     domelementtype "^2.2.0"
@@ -2573,9 +2573,9 @@ ee-first@1.1.1:
   integrity sha1-WQxhFWsK4vTwJVcyoViyZrxWsh0=
 
 electron-to-chromium@^1.3.811:
-  version "1.3.819"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.819.tgz#b0a93075a4d4d3c364d058bbefe3ea3c7aa6fa73"
-  integrity sha512-vH3jJLd+tMwrQcYlZJUSjUMlq2JacHuIKl4rT0ZEAdY1Lxk95dBg+rc69ahIPGdKPPWgaN4wjt2f0BopFF3wjQ==
+  version "1.3.822"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.822.tgz#7036edc7f669b0aa79e9801dc5f56866c6ddc0b2"
+  integrity sha512-k7jG5oYYHxF4jx6PcqwHX3JVME/OjzolqOZiIogi9xtsfsmTjTdie4x88OakYFPEa8euciTgCCzvVNwvmjHb1Q==
 
 emoji-regex@^8.0.0:
   version "8.0.0"
@@ -3959,9 +3959,9 @@ isstream@~0.1.2:
   integrity sha1-R+Y/evVa+m+S4VAOaQ64uFKcCZo=
 
 jest-worker@^27.0.2:
-  version "27.0.6"
-  resolved "https://registry.yarnpkg.com/jest-worker/-/jest-worker-27.0.6.tgz#a5fdb1e14ad34eb228cfe162d9f729cdbfa28aed"
-  integrity sha512-qupxcj/dRuA3xHPMUd40gr2EaAurFbkwzOh7wfPaeE9id7hyjURRQoqNfHifHK3XjJU6YJJUQKILGUnwGPEOCA==
+  version "27.1.0"
+  resolved "https://registry.yarnpkg.com/jest-worker/-/jest-worker-27.1.0.tgz#65f4a88e37148ed984ba8ca8492d6b376938c0aa"
+  integrity sha512-mO4PHb2QWLn9yRXGp7rkvXLAYuxwhq1ZYUo0LoDhg8wqvv4QizP1ZWEJOeolgbEgAWZLIEU0wsku8J+lGWfBhg==
   dependencies:
     "@types/node" "*"
     merge-stream "^2.0.0"
@@ -4563,10 +4563,10 @@ mkdirp@^1.0.3, mkdirp@^1.0.4:
   resolved "https://registry.yarnpkg.com/mkdirp/-/mkdirp-1.0.4.tgz#3eb5ed62622756d79a5f0e2a221dfebad75c2f7e"
   integrity sha512-vVqVZQyf3WLx2Shd0qJ9xuvqgAyKPLAiqITEtqW0oIUjzo3PePDd6fW9iFz30ef7Ysp/oiWqbhszeGWW2T6Gzw==
 
-mocha@^9.1.0:
-  version "9.1.0"
-  resolved "https://registry.yarnpkg.com/mocha/-/mocha-9.1.0.tgz#0a7aa6fc4f59d1015d4e11747d9104b752553c67"
-  integrity sha512-Kjg/XxYOFFUi0h/FwMOeb6RoroiZ+P1yOfya6NK7h3dNhahrJx1r2XIT3ge4ZQvJM86mdjNA+W5phqRQh7DwCg==
+mocha@^9.1.1:
+  version "9.1.1"
+  resolved "https://registry.yarnpkg.com/mocha/-/mocha-9.1.1.tgz#33df2eb9c6262434630510c5f4283b36efda9b61"
+  integrity sha512-0wE74YMgOkCgBUj8VyIDwmLUjTsS13WV1Pg7l0SHea2qzZzlq7MDnfbPsHKcELBRk3+izEVkRofjmClpycudCA==
   dependencies:
     "@ungap/promise-all-settled" "1.1.2"
     ansi-colors "4.1.1"
@@ -7090,9 +7090,9 @@ write-pkg@^4.0.0:
     write-json-file "^3.2.0"
 
 ws@^8.1.0:
-  version "8.2.0"
-  resolved "https://registry.yarnpkg.com/ws/-/ws-8.2.0.tgz#0b738cd484bfc9303421914b11bb4011e07615bb"
-  integrity sha512-uYhVJ/m9oXwEI04iIVmgLmugh2qrZihkywG9y5FfZV2ATeLIzHf93qs+tUNqlttbQK957/VX3mtwAS+UfIwA4g==
+  version "8.2.1"
+  resolved "https://registry.yarnpkg.com/ws/-/ws-8.2.1.tgz#bdd92b3c56fdb47d2379b5ae534281922cc5bd12"
+  integrity sha512-XkgWpJU3sHU7gX8f13NqTn6KQ85bd1WU7noBHTT8fSohx7OS1TPY8k+cyRPCzFkia7C4mM229yeHr1qK9sM4JQ==
 
 xtend@~4.0.1:
   version "4.0.2"
