@@ -7,12 +7,13 @@
     "clean": "rimraf ./packages/*/dist",
     "build": "tsc --build",
     "lint": "eslint .",
-    "pretest": "yarn build && yarn lint",
-    "test": "yarn test:only",
+    "pretest": "npm run build && npm run lint",
+    "test": "npm run test:only",
     "test:only": "mocha \"packages/*/dist/test/**/*.spec.js\"",
-    "start": "yarn start:client",
-    "start:client": "yarn workspace @sample/app start",
-    "start:server": "yarn workspace @sample/server start",
+    "start": "npm run start:client",
+    "start:client": "npm run -w @sample/app start",
+    "prestart:server": "npm run -w @sample/app bundle:prod",
+    "start:server": "npm run -w @sample/server start",
     "prettify": "npx prettier . --write"
   },
   "devDependencies": {
