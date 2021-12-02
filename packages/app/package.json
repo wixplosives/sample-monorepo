@@ -3,12 +3,12 @@
   "version": "1.0.0",
   "main": "dist/index.js",
   "scripts": {
-    "build": "yarn bundle:prod",
+    "build": "npm run bundle:prod",
     "bundle:prod": "webpack --mode production",
     "bundle:dev": "webpack --mode development --devtool source-map",
     "test": "mocha \"dist/test/**/*.spec.js\"",
     "start": "webpack serve --mode development --open",
-    "prepack": "yarn build"
+    "prepack": "npm run build"
   },
   "peerDependencies": {
     "react": ">=17",
