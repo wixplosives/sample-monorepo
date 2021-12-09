@@ -12,7 +12,8 @@
     "dist",
     "src",
     "!dist/test",
-    "!dist/tsconfig.tsbuildinfo"
+    "!dist/tsconfig.tsbuildinfo",
+    "!src/tsconfig.json"
   ],
   "license": "MIT",
   "repository": "git@github.com:wixplosives/sample-monorepo.git",
