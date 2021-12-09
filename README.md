@@ -52,11 +52,10 @@ Sample monorepo setup with npm workspaces, typescript, and lerna.
 packages/
   some-package/
     src/
+      test/              // package-specific test folder
+        test.spec.ts
       index.ts
-      tsconfig.json      // folder specific config, built to "dist
-    test/
-      test.spec.ts
-      tsconfig.json      // folder specific config, built to "dist/test"
+      tsconfig.json      // package-specific config, built to "some-package/dist"
     LICENSE              // license file. included in npm artifact
     package.json         // package-specific deps and scripts
     README.md            // shown in npmjs.com. included in npm artifact
@@ -65,6 +64,8 @@ packages/
 .eslintrc                // eslint (linter) configuration
 .gitignore               // github's default node gitignore with customizations
 .mocharc.js              // mocha (test runner) configuration
+.prettierignore          // prettier (formatter) ignored directories/files
+.prettierrc              // prettier (formatter) configuration
 lerna.json               // lerna configuration
 LICENSE                  // root license file. picked up by github
 package-lock.json        // the only lock file in the repo. all packages combined
@@ -72,6 +73,7 @@ package.json             // common dev deps and workspace-wide scripts
 README.md                // workspace-wide information. shown in github
 tsconfig.base.json       // common typescript configuration
 tsconfig.json            // solution-style root typescript configuration
+webpack.config.js        // root webpack configuration. inherited by app's webpack config
 ```
 
 ### Styling solutions

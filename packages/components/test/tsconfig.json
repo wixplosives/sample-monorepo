@@ -1,8 +1,0 @@
-{
-  "extends": "../../../tsconfig.base.json",
-  "compilerOptions": {
-    "outDir": "../dist/test",
-    "types": ["mocha"]
-  },
-  "references": [{ "path": "../src" }]
-}

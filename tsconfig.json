@@ -2,12 +2,7 @@
   "files": [],
   "references": [
     { "path": "./packages/app/src" },
-    { "path": "./packages/app/test" },
-
     { "path": "./packages/components/src" },
-    { "path": "./packages/components/test" },
-
-    { "path": "./packages/server/src" },
-    { "path": "./packages/server/test" }
+    { "path": "./packages/server/src" }
   ]
 }

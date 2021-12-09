@@ -9,7 +9,7 @@
     "lint": "eslint .",
     "pretest": "npm run build && npm run lint",
     "test": "npm run test:only",
-    "test:only": "mocha \"packages/*/dist/test/**/*.spec.js\"",
+    "test:only": "mocha \"packages/*/dist/test/**/*.spec.js\" --parallel",
     "start": "npm run start:client",
     "start:client": "npm run -w @sample/app start",
     "prestart:server": "npm run -w @sample/app bundle:prod",
