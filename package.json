@@ -47,6 +47,10 @@
     "webpack-cli": "^4.9.1",
     "webpack-dev-server": "^4.6.0"
   },
+  "engines": {
+    "node": ">=16",
+    "npm": ">=8"
+  },
   "license": "MIT",
   "private": true
 }
