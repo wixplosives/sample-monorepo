@@ -2,7 +2,7 @@
 
 [![Build Status](https://github.com/wixplosives/sample-monorepo/workflows/tests/badge.svg)](https://github.com/wixplosives/sample-monorepo/actions)
 
-Sample monorepo setup with npm workspaces, typescript, and lerna.
+Sample monorepo setup with npm workspaces and typescript project references.
 
 ## Setup explained
 
@@ -14,12 +14,6 @@ Sample monorepo setup with npm workspaces, typescript, and lerna.
   - `devDependencies` are common, and only appear in the root `package.json`. Easier to manage and upgrade.
   - Each package has its own `scripts` and `dependencies`. They are being installed in the root `node_modules`, using the same deduping mechanism `npm` uses for single packages.
   - Adding new packages is as simple as dropping an existing package in the `packages` folder, and re-running `npm i`.
-
-- Monorepo scripts are being executed using [lerna](https://github.com/lerna/lerna).
-
-  - `lerna publish` - multi-package publishing.
-  - `lerna run` - running package scripts.
-  - `lerna updated` - shows changed packages (since last tag).
 
 - Sources and tests are written in strict [TypeScript](https://github.com/Microsoft/TypeScript).
 
@@ -66,7 +60,7 @@ packages/
 .mocharc.js              // mocha (test runner) configuration
 .prettierignore          // prettier (formatter) ignored directories/files
 .prettierrc              // prettier (formatter) configuration
-lerna.json               // lerna configuration
+lerna.json               // lerna configuration (needed for deployment below)
 LICENSE                  // root license file. picked up by github
 package-lock.json        // the only lock file in the repo. all packages combined
 package.json             // common dev deps and workspace-wide scripts
