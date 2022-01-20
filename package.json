@@ -20,7 +20,7 @@
     "@types/chai": "^4.3.0",
     "@types/compression": "^1.7.2",
     "@types/express": "^4.17.13",
-    "@types/mocha": "^9.0.0",
+    "@types/mocha": "^9.1.0",
     "@types/node": "16",
     "@types/react": "^17.0.38",
     "@types/react-dom": "^17.0.11",
