@@ -30,9 +30,7 @@ function ssrHandler(_req: express.Request, res: express.Response) {
     <link href="main.css" rel="stylesheet">
 </head>
 <body>
-    <div id="SITE_MAIN" data-ssr>
-        ${ReactDOMServer.renderToString(<App text="Hello World (SSR!)" />)}
-    </div>
+    <div id="SITE_MAIN" data-ssr>${ReactDOMServer.renderToString(<App text="Hello World (SSR)" />)}</div>
     <script type="text/javascript" src="main.js"></script>
 </body>
 </html>`

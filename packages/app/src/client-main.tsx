@@ -1,4 +1,4 @@
-import ReactDOM from 'react-dom';
+import { createRoot, hydrateRoot } from 'react-dom/client';
 import { App } from './app';
 import 'sanitize.css';
 import 'sanitize.css/typography.css';
@@ -8,9 +8,9 @@ const rootContainerId = 'SITE_MAIN';
 const container = document.getElementById(rootContainerId) ?? createContainer(document.body);
 
 if (container.hasAttribute('data-ssr')) {
-  ReactDOM.hydrate(<App text="Hello World (hydrated)" />, container);
+  hydrateRoot(container, <App text="Hello World (SSR)" />);
 } else {
-  ReactDOM.render(<App text="Hello World (client-only)" />, container);
+  createRoot(container).render(<App text="Hello World (client-only)" />);
 }
 
 function createContainer(targetParent: Element) {
