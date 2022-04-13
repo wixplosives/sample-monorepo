@@ -4,4 +4,4 @@ export interface MainProps {
   text: string;
 }
 
-export const Main: React.VFC<MainProps> = ({ text }) => <main>{text}</main>;
+export const Main: React.FC<MainProps> = ({ text }) => <main>{text}</main>;

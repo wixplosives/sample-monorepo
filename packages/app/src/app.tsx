@@ -5,4 +5,4 @@ export interface AppProps {
   text: string;
 }
 
-export const App: React.VFC<AppProps> = ({ text }) => <Main text={text} />;
+export const App: React.FC<AppProps> = ({ text }) => <Main text={text} />;
