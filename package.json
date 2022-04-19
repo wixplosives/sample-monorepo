@@ -7,7 +7,7 @@
     "clean": "rimraf ./packages/*/dist",
     "build": "tsc --build",
     "lint": "eslint .",
-    "pretest": "npm run build && npm run lint",
+    "pretest": "npm run lint && npm run build",
     "test": "npm run test:only",
     "test:only": "mocha \"packages/*/dist/test/**/*.spec.js\" --parallel",
     "start": "npm run start:client",
