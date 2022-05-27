@@ -57,7 +57,7 @@ packages/
 .eslintignore            // eslint (linter) ignored directories/files
 .eslintrc                // eslint (linter) configuration
 .gitignore               // github's default node gitignore with customizations
-.mocharc.js              // mocha (test runner) configuration
+.mocharc.json            // mocha (test runner) configuration
 .prettierignore          // prettier (formatter) ignored directories/files
 .prettierrc              // prettier (formatter) configuration
 lerna.json               // lerna configuration (needed for deployment below)
@@ -67,7 +67,7 @@ package.json             // common dev deps and workspace-wide scripts
 README.md                // workspace-wide information. shown in github
 tsconfig.base.json       // common typescript configuration
 tsconfig.json            // solution-style root typescript configuration
-webpack.config.js        // root webpack configuration. inherited by app's webpack config
+webpack.config.cjs       // root webpack configuration. inherited by app's webpack config
 ```
 
 ### Styling solutions

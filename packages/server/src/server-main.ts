@@ -1,4 +1,4 @@
-import { createHttpServer } from './http-server';
+import { createHttpServer } from './http-server.js';
 
 const PORT = 3000;
 
