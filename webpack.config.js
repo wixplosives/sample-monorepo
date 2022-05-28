@@ -39,10 +39,5 @@ module.exports = {
   resolve: {
     extensions: ['.ts', '.tsx', '.js', '.json'],
   },
-  plugins: [
-    new MiniCssExtractPlugin({
-      filename: '[name].css',
-      chunkFilename: '[name].css',
-    }),
-  ],
+  plugins: [new MiniCssExtractPlugin()],
 };
