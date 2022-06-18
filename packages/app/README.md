@@ -1,6 +1,6 @@
 # @sample/app
 
-Exposes the `App` React components itself, and contains client entry-point.
+Exposes the `App` React component itself, and contains the client's entry-point.
 
 ## License
 
