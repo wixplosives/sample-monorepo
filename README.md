@@ -25,16 +25,16 @@ Sample monorepo setup with npm workspaces and typescript project references.
 
 ### Included sample packages
 
-- **@sample/components**
+- **[@sample/components](./packages/components)**
 
   - [React](https://github.com/facebook/react) components library.
 
-- **@sample/app**
+- **[@sample/app](./packages/app)**
 
   - [React](https://github.com/facebook/react) application.
   - Uses the `@sample/components` package (also inside monorepo).
 
-- **@sample/server**
+- **[@sample/server](./packages/server)**
   - [Express](https://github.com/expressjs/express) application.
   - Uses the `@sample/app` package (also inside monorepo).
   - Listens on http://localhost:3000 (client only rendering) http://localhost:3000/server (SSR rendering).
