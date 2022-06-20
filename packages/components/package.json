@@ -10,7 +10,7 @@
     "test": "mocha \"dist/test/**/*.spec.js\""
   },
   "peerDependencies": {
-    "react": ">=17"
+    "react": ">=18"
   },
   "files": [
     "dist",
