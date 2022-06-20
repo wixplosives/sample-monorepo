@@ -24,7 +24,7 @@
   },
   "overrides": [
     {
-      "files": ["*.ts", "*.tsx"],
+      "files": ["*.ts", "*.tsx", "*.mts", "*.cts"],
       "parserOptions": {
         "project": "packages/*/src/tsconfig.json",
         "EXPERIMENTAL_useSourceOfProjectReferenceRedirect": true
