@@ -6,7 +6,7 @@ Sample monorepo setup with npm workspaces and typescript project references.
 
 ## Getting started
 
-Clone repository and run the following command in the root:
+Clone repository and execute the following commands in the root:
 - `npm i`
 - `npm run build`
 - `npm start` - to see the client running in dev-mode (non-minified; with source-maps)
