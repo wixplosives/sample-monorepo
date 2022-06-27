@@ -1,11 +1,15 @@
 // @ts-check
 
-const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+import { dirname } from 'node:path';
+import { fileURLToPath } from 'node:url';
+import MiniCssExtractPlugin from 'mini-css-extract-plugin';
+
+export const plugins = [new MiniCssExtractPlugin()];
 
 /** @type import('webpack').Configuration */
-module.exports = {
+export default {
   devtool: 'source-map',
-  context: __dirname,
+  context: dirname(fileURLToPath(import.meta.url)),
   module: {
     rules: [
       {
@@ -23,5 +27,5 @@ module.exports = {
       },
     ],
   },
-  plugins: [new MiniCssExtractPlugin()],
+  plugins,
 };
