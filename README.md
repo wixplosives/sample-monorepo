@@ -75,7 +75,7 @@ package.json             // common dev deps and workspace-wide scripts
 README.md                // workspace-wide information. shown in github
 tsconfig.base.json       // common typescript configuration
 tsconfig.json            // solution-style root typescript configuration
-webpack.config.cjs       // root webpack configuration. inherited by app's webpack config
+webpack.config.js        // root webpack configuration. inherited by app's webpack config
 ```
 
 ### Styling solutions
