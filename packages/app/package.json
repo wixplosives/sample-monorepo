@@ -30,7 +30,11 @@
     "!src/tsconfig.json"
   ],
   "license": "MIT",
-  "repository": "git@github.com:wixplosives/sample-monorepo.git",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:wixplosives/sample-monorepo.git",
+    "directory": "packages/app"
+  },
   "private": true,
   "publishConfig": {
     "access": "public"
