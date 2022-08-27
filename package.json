@@ -29,7 +29,7 @@
     "@typescript-eslint/parser": "^5.35.1",
     "chai": "^4.3.6",
     "css-loader": "^6.7.1",
-    "eslint": "^8.22.0",
+    "eslint": "^8.23.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-no-only-tests": "^3.0.0",
     "eslint-plugin-react": "^7.31.1",
