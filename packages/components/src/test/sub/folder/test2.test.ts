@@ -1,8 +1,8 @@
-import { describe, it } from 'node:test';
-import assert from 'node:assert/strict';
+import { describe, it } from "node:test";
+import assert from "node:assert/strict";
 
-describe('sub folder test', () => {
-  it('simply works', () => {
+describe("sub folder test", () => {
+  it("simply works", () => {
     assert.ok(true);
   });
 });

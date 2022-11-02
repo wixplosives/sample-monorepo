@@ -1,20 +1,20 @@
-import path from 'node:path';
-import { createRequire } from 'node:module';
-import express from 'express';
-import compression from 'compression';
-import ReactDOMServer from 'react-dom/server';
-import { App } from '@sample/app';
+import path from "node:path";
+import { createRequire } from "node:module";
+import express from "express";
+import compression from "compression";
+import ReactDOMServer from "react-dom/server";
+import { App } from "@sample/app";
 
 const require = createRequire(import.meta.url);
-const appRootDirectory = path.dirname(require.resolve('@sample/app/package.json'));
-const appBundleDirectory = path.join(appRootDirectory, 'dist/umd');
+const appRootDirectory = path.dirname(require.resolve("@sample/app/package.json"));
+const appBundleDirectory = path.join(appRootDirectory, "dist/umd");
 
 export function createHttpServer(): express.Express {
   const app = express();
 
   app.use(compression());
   app.use(express.static(appBundleDirectory));
-  app.get('/server', ssrHandler);
+  app.get("/server", ssrHandler);
 
   return app;
 }
