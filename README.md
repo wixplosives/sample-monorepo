@@ -27,10 +27,6 @@ Clone repository and execute the following commands in the root:
 
   - Common base `tsconfig.base.json`.
 
-- Testing is done using [mocha](https://github.com/mochajs/mocha) and [chai](https://github.com/chaijs/chai).
-  - Light, battle-tested, projects with few dependencies.
-  - Can be bundled and used in the browser.
-
 ### Included sample packages
 
 - **[@sample/components](./packages/components)**
@@ -65,7 +61,6 @@ packages/
 .eslintignore            // eslint (linter) ignored directories/files
 .eslintrc                // eslint (linter) configuration
 .gitignore               // github's default node gitignore with customizations
-.mocharc.json            // mocha (test runner) configuration
 .prettierignore          // prettier (formatter) ignored directories/files
 .prettierrc              // prettier (formatter) configuration
 lerna.json               // lerna configuration (needed for deployment below)
@@ -90,7 +85,7 @@ CSS-in-JS based solutions, for example, probably won't need to worry about it at
 
 Within Wix, we use [Stylable](https://github.com/wix/stylable), which has its own CLI ([stc](https://github.com/wix/stylable/tree/master/packages/cli)) to build and/or copy `.st.css` files into `dist`.
 
-Full support for source code importing `.css/.scss/.less/.whatever` would require additional building. It would have to be addressed for Node as well, if one wants to execute mocha on tests importing these source files.
+Full support for source code importing `.css/.scss/.less/.whatever` would require additional building. It would have to be addressed for Node as well, if one wants to execute tests importing these source files.
 
 ### Dependency management
 

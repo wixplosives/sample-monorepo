@@ -1,13 +1,14 @@
-import { expect } from 'chai';
+import { describe, it } from 'node:test';
+import assert from 'node:assert/strict';
 import { renderToString } from 'react-dom/server';
 import { App } from '@sample/app';
 
 describe('<App />', () => {
   it('renders without throwing on the server', () => {
-    expect(() => renderToString(<App text="" />)).to.not.throw();
+    assert.doesNotThrow(() => renderToString(<App text="" />));
   });
 
   it('renders provided text', () => {
-    expect(renderToString(<App text="It works" />)).to.contain('It works');
+    assert.match(renderToString(<App text="It works" />), /It works/);
   });
 });

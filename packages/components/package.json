@@ -7,7 +7,7 @@
     "./package.json": "./package.json"
   },
   "scripts": {
-    "test": "mocha \"dist/test/**/*.spec.js\""
+    "test": "node --test --enable-source-maps"
   },
   "peerDependencies": {
     "react": ">=18"
