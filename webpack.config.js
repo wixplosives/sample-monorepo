@@ -22,7 +22,7 @@ export default {
         use: [MiniCssExtractPlugin.loader, "css-loader"],
       },
       {
-        test: /\.(png|jpg|jpeg|gif|svg)$/,
+        test: /\.(png|jpg|jpeg|gif|svg|eot|ttf|woff|woff2)$/,
         type: "asset",
       },
     ],
