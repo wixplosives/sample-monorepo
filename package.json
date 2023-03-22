@@ -37,7 +37,7 @@
     "rimraf": "^4.4.0",
     "source-map-loader": "^4.0.1",
     "typescript": "~5.0.2",
-    "webpack": "^5.76.2",
+    "webpack": "^5.76.3",
     "webpack-cli": "^5.0.1",
     "webpack-dev-server": "^4.13.1"
   },
