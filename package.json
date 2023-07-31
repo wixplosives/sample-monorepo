@@ -23,7 +23,7 @@
     "@types/node": "18",
     "@types/react": "^18.2.18",
     "@types/react-dom": "^18.2.7",
-    "@typescript-eslint/eslint-plugin": "^6.2.0",
+    "@typescript-eslint/eslint-plugin": "^6.2.1",
     "css-loader": "^6.8.1",
     "eslint": "^8.46.0",
     "eslint-config-prettier": "^8.9.0",
