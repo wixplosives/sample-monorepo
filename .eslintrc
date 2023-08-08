@@ -27,8 +27,7 @@
     {
       "files": ["*.ts", "*.tsx", "*.mts", "*.cts"],
       "parserOptions": {
-        "project": "packages/*/src/tsconfig.json",
-        "EXPERIMENTAL_useSourceOfProjectReferenceRedirect": true
+        "EXPERIMENTAL_useProjectService": true
       },
       "extends": [
         "plugin:@typescript-eslint/recommended",
