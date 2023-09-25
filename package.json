@@ -35,7 +35,7 @@
     "prettier": "^3.0.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "rimraf": "^5.0.1",
+    "rimraf": "^5.0.2",
     "source-map-loader": "^4.0.1",
     "typescript": "~5.2.2",
     "webpack": "^5.88.2",
