@@ -21,7 +21,7 @@
     "@types/compression": "^1.7.3",
     "@types/express": "^4.17.18",
     "@types/node": "18",
-    "@types/react": "^18.2.23",
+    "@types/react": "^18.2.24",
     "@types/react-dom": "^18.2.8",
     "@typescript-eslint/eslint-plugin": "^6.7.3",
     "css-loader": "^6.8.1",
