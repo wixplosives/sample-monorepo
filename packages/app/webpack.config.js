@@ -2,7 +2,7 @@
 
 import { fileURLToPath } from "node:url";
 import HtmlWebpackPlugin from "html-webpack-plugin";
-import rootWebpackConfig, { plugins as rootPlugins } from "../../webpack.config.js";
+import rootWebpackConfig from "../../webpack.config.js";
 
 /** @type import('webpack').Configuration */
 export default {
@@ -14,5 +14,5 @@ export default {
     path: fileURLToPath(new URL("dist/umd", import.meta.url)),
     libraryTarget: "umd",
   },
-  plugins: [...rootPlugins, new HtmlWebpackPlugin({ title: "Sample Monorepo App" })],
+  plugins: [new HtmlWebpackPlugin({ title: "Sample Monorepo App" })],
 };

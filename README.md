@@ -78,7 +78,7 @@ webpack.config.js        // root webpack configuration. inherited by app's webpa
 
 This repository aims to _avoid_ showcasing styling solutions in-depth.
 
-There is a naive `css-loader`/`mini-css-extract-plugin` setup for the `sanitize.css` library being used, but the infrastructure doesn't contain any asset copying (into `dist` folder) and so doesn't support _local_ css assets.
+Webpack's experimental CSS handling is turned on for the `sanitize.css` library being used, but the infrastructure doesn't contain any asset copying (into `dist` folder) and so doesn't support _local_ css assets.
 
 Each styling solution has its own set of infrastructure requirements.
 
