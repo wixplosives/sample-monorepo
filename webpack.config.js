@@ -8,7 +8,7 @@ export default {
   devtool: "source-map",
   context: dirname(fileURLToPath(import.meta.url)),
   experiments: {
-    css: true
+    css: true,
   },
   module: {
     rules: [
