@@ -35,7 +35,7 @@
     "react-dom": "^18.3.1",
     "rimraf": "^5.0.7",
     "source-map-loader": "^5.0.0",
-    "typescript": "~5.4.5",
+    "typescript": "~5.5.2",
     "webpack": "^5.92.1",
     "webpack-cli": "^5.1.4",
     "webpack-dev-server": "^5.0.4"
