@@ -29,9 +29,11 @@ export default [
   {
     rules: {
       "no-console": "error",
+      "react/prop-types": "off",
       "react-hooks/rules-of-hooks": "error",
       "react-hooks/exhaustive-deps": "error",
       "no-only-tests/no-only-tests": "error",
+      "@typescript-eslint/no-unused-vars": ["error", { argsIgnorePattern: "^_", varsIgnorePattern: "^_" }], // allow unused _ variables
     },
   },
 
