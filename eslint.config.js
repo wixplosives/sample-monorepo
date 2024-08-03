@@ -38,6 +38,7 @@ export default [
   {
     files: ["**/*.test.{ts,tsx}"],
     rules: {
+      // native node test runner types for describe() and it() return a promise, so disable this rule in tests
       "@typescript-eslint/no-floating-promises": "off",
     },
   },
