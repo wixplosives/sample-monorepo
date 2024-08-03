@@ -29,7 +29,7 @@
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-no-only-tests": "^3.1.0",
     "eslint-plugin-react": "^7.35.0",
-    "eslint-plugin-react-hooks": "^4.6.2",
+    "eslint-plugin-react-hooks": "5.1.0-rc-8269d55d-20240802",
     "html-webpack-plugin": "^5.6.0",
     "prettier": "^3.3.3",
     "react": "^18.3.1",
@@ -45,11 +45,6 @@
   "engines": {
     "node": ">=20",
     "npm": ">=8"
-  },
-  "overrides": {
-    "eslint-plugin-react-hooks": {
-      "eslint": ">=9"
-    }
   },
   "license": "MIT",
   "private": true

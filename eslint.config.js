@@ -20,7 +20,7 @@ export default [
 
   {
     plugins: {
-      "react-hooks": fixupPluginRules(pluginReactHooks),
+      "react-hooks": pluginReactHooks,
       "no-only-tests": fixupPluginRules(pluginNoOnlyTests),
     },
   },
