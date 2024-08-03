@@ -7,7 +7,7 @@
   "scripts": {
     "clean": "rimraf -g \"./packages/*/dist\"",
     "build": "tsc --build",
-    "lint": "eslint .",
+    "lint": "eslint",
     "pretest": "npm run lint && npm run build",
     "test": "npm run test:only",
     "test:only": "node --test --enable-source-maps",
@@ -18,13 +18,14 @@
     "prettify": "prettier . --write"
   },
   "devDependencies": {
+    "@eslint/compat": "^1.1.1",
+    "@eslint/js": "^9.8.0",
     "@types/compression": "^1.7.5",
     "@types/express": "^4.17.21",
     "@types/node": "20",
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
-    "@typescript-eslint/eslint-plugin": "^8.0.0",
-    "eslint": "^8.57.0",
+    "eslint": "^9.8.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-no-only-tests": "^3.1.0",
     "eslint-plugin-react": "^7.35.0",
@@ -36,6 +37,7 @@
     "rimraf": "^6.0.1",
     "source-map-loader": "^5.0.0",
     "typescript": "~5.5.4",
+    "typescript-eslint": "^8.0.0",
     "webpack": "^5.93.0",
     "webpack-cli": "^5.1.4",
     "webpack-dev-server": "^5.0.4"
@@ -43,6 +45,11 @@
   "engines": {
     "node": ">=20",
     "npm": ">=8"
+  },
+  "overrides": {
+    "eslint-plugin-react-hooks": {
+      "eslint": ">=9"
+    }
   },
   "license": "MIT",
   "private": true
