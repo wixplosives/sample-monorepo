@@ -10,7 +10,6 @@ import pluginTypescript from "typescript-eslint";
 export default [
   { ignores: ["**/dist/", "**/*.{js,mjs,cjs}"] },
   pluginJs.configs.recommended,
-  configPrettier,
 
   ...pluginTypescript.configs.recommendedTypeChecked,
   { languageOptions: { parserOptions: { projectService: true } } },
@@ -25,6 +24,7 @@ export default [
       "no-only-tests": fixupPluginRules(pluginNoOnlyTests),
     },
   },
+  configPrettier,
 
   {
     rules: {
