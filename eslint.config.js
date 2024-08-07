@@ -38,7 +38,6 @@ export default [
   { languageOptions: { parserOptions: { projectService: true } } },
   {
     files: ["**/*.{ts,tsx,mts,cts}"],
-    languageOptions: { parserOptions: { projectService: true } },
     rules: {
       "@typescript-eslint/no-unused-vars": ["error", { argsIgnorePattern: "^_", varsIgnorePattern: "^_" }],
     },
