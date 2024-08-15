@@ -1,4 +1,3 @@
-import { fixupPluginRules } from "@eslint/compat";
 import pluginJs from "@eslint/js";
 import configPrettier from "eslint-config-prettier";
 import pluginNoOnlyTests from "eslint-plugin-no-only-tests";
@@ -20,7 +19,7 @@ export default [
   {
     plugins: {
       "react-hooks": pluginReactHooks,
-      "no-only-tests": fixupPluginRules(pluginNoOnlyTests),
+      "no-only-tests": pluginNoOnlyTests,
     },
   },
   {
