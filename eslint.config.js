@@ -16,12 +16,7 @@ export default [
   pluginReact.configs.flat.recommended,
   pluginReact.configs.flat["jsx-runtime"],
   { settings: { react: { version: "detect" } } },
-  {
-    plugins: {
-      "react-hooks": pluginReactHooks,
-      "no-only-tests": pluginNoOnlyTests,
-    },
-  },
+  { plugins: { "no-only-tests": pluginNoOnlyTests, "react-hooks": pluginReactHooks } },
   {
     rules: {
       "no-console": "error",
