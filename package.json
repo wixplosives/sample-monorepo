@@ -18,13 +18,12 @@
     "prettify": "prettier . --write"
   },
   "devDependencies": {
-    "@eslint/js": "^9.11.0",
     "@types/compression": "^1.7.5",
     "@types/express": "^4.17.21",
     "@types/node": "20",
     "@types/react": "^18.3.8",
     "@types/react-dom": "^18.3.0",
-    "eslint": "^9.11.0",
+    "eslint": "^9.11.1",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-no-only-tests": "^3.3.0",
     "eslint-plugin-react": "^7.36.1",
