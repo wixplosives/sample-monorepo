@@ -29,7 +29,7 @@ export default [
     },
   },
   ...pluginTypescript.configs.recommendedTypeChecked,
-  { languageOptions: { parserOptions: { projectService: true, warnOnUnsupportedTypeScriptVersion: false } } },
+  { languageOptions: { parserOptions: { projectService: true } } },
   {
     files: ["**/*.{ts,tsx,mts,cts}"],
     rules: {
