@@ -22,7 +22,7 @@
     "@types/express": "^5.0.1",
     "@types/node": "22",
     "@types/react": "^19.1.0",
-    "@types/react-dom": "^19.1.1",
+    "@types/react-dom": "^19.1.2",
     "eslint": "^9.24.0",
     "eslint-config-prettier": "^10.1.1",
     "eslint-plugin-no-only-tests": "^3.3.0",
@@ -35,7 +35,7 @@
     "source-map-loader": "^5.0.0",
     "typescript": "~5.8.3",
     "typescript-eslint": "^8.29.1",
-    "webpack": "^5.99.4",
+    "webpack": "^5.99.5",
     "webpack-cli": "^6.0.1",
     "webpack-dev-server": "^5.2.1"
   },
