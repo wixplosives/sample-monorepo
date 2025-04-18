@@ -23,7 +23,7 @@
     "@types/node": "22",
     "@types/react": "^19.1.2",
     "@types/react-dom": "^19.1.2",
-    "eslint": "^9.24.0",
+    "eslint": "^9.25.0",
     "eslint-config-prettier": "^10.1.2",
     "eslint-plugin-no-only-tests": "^3.3.0",
     "eslint-plugin-react-hooks": "^5.2.0",
