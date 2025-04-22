@@ -12,14 +12,14 @@ for (const config of pluginTypescript.configs.recommendedTypeChecked) {
 export default [
   { ignores: ["**/dist/"] },
   pluginJs.configs.recommended,
-  pluginReactHooks.configs.recommended,
-  { plugins: { "no-only-tests": pluginNoOnlyTests } },
+  { plugins: { "no-only-tests": pluginNoOnlyTests, "react-hooks": pluginReactHooks } },
   {
     rules: {
       "no-console": "error",
       "no-only-tests/no-only-tests": "error",
       "no-undef": "off",
       "no-unused-vars": ["error", { argsIgnorePattern: "^_", varsIgnorePattern: "^_" }],
+      "react-hooks/rules-of-hooks": "error",
       "react-hooks/exhaustive-deps": "error",
     },
   },
