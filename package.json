@@ -21,7 +21,7 @@
     "@types/compression": "^1.8.0",
     "@types/express": "^5.0.2",
     "@types/node": "^22.15.21",
-    "@types/react": "^19.1.4",
+    "@types/react": "^19.1.5",
     "@types/react-dom": "^19.1.5",
     "eslint": "^9.27.0",
     "eslint-config-prettier": "^10.1.5",
