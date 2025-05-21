@@ -18,7 +18,7 @@
     "prettify": "prettier . --write"
   },
   "devDependencies": {
-    "@types/compression": "^1.7.5",
+    "@types/compression": "^1.8.0",
     "@types/express": "^5.0.2",
     "@types/node": "^22.15.20",
     "@types/react": "^19.1.4",
