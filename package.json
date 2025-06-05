@@ -20,7 +20,7 @@
   "devDependencies": {
     "@types/compression": "^1.8.0",
     "@types/express": "^5.0.2",
-    "@types/node": "^22.15.29",
+    "@types/node": "^22.15.30",
     "@types/react": "^19.1.6",
     "@types/react-dom": "^19.1.6",
     "eslint": "^9.28.0",
