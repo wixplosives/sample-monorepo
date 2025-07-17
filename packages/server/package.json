@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "@sample/app": "^1.0.0",
-    "compression": "^1.8.0",
+    "compression": "^1.8.1",
     "express": "^5.1.0"
   },
   "files": [
