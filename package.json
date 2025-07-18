@@ -10,7 +10,7 @@
     "lint": "eslint",
     "pretest": "npm run lint && npm run build",
     "test": "npm run test:only",
-    "test:only": "node --test --enable-source-maps",
+    "test:only": "node --test --enable-source-maps \"packages/*/dist/test/**/*.js\"",
     "start": "npm run start:client",
     "start:client": "npm run -w @sample/app start",
     "prestart:server": "npm run -w @sample/app bundle:prod",
