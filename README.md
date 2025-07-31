@@ -1,7 +1,5 @@
 # sample-monorepo
 
-[![Build Status](https://github.com/wixplosives/sample-monorepo/workflows/tests/badge.svg)](https://github.com/wixplosives/sample-monorepo/actions)
-
 Sample monorepo setup with npm workspaces and typescript project references.
 
 ## Getting started
